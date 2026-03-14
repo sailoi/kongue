@@ -1,0 +1,224 @@
+[
+  {
+    "title": "Lesson 1:\nHobbies",
+    "description": "Hobbies vocabulary: nadar (swim), correr (run), bailar (dance), cantar (sing), pintar (paint), cocinar (cook).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué te gusta hacer?",
+        "english": "What do you like to do?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Me gusta nadar. ¿Y a ti?",
+        "english": "I like to swim. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "A mí me gusta bailar.",
+        "english": "I like to dance."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "También me gusta cocinar.",
+        "english": "I also like to cook."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo play (sports)",
+    "description": "'Jugar' (to play): 'juego' = I play, 'juegas' = you play. Irregular (u→ue). Use 'jugar a' + sport.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Juegas fútbol?",
+        "english": "Do you play soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, juego fútbol los sábados.",
+        "english": "Yes, I play soccer on Saturdays."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo juego tenis.",
+        "english": "I play tennis."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te gusta el tenis?",
+        "english": "Do you like tennis?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDaily routine",
+    "description": "Routine verbs: levantarse (get up), ducharse (shower), desayunar (have breakfast), acostarse (go to bed).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A qué hora te levantas?",
+        "english": "What time do you get up?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Me levanto a las siete.",
+        "english": "I get up at seven."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo me levanto a las seis.",
+        "english": "I get up at six."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te duchas por la mañana?",
+        "english": "Do you shower in the morning?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nTalking about abilities",
+    "description": "'Saber' + infinitive = to know how to do something. Talking about skills and abilities.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Sabes cocinar?",
+        "english": "Do you know how to cook?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, sé cocinar bien.",
+        "english": "Yes, I know how to cook well."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Sabes tocar un instrumento?",
+        "english": "Do you know how to play an instrument?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no sé tocar ningún instrumento.",
+        "english": "No, I don't know how to play any instrument."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nTalking about experience",
+    "description": "Using 'ya' (already), 'todavía no' (not yet), 'nunca' (never) to talk about experiences.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Ya comiste?",
+        "english": "Did you already eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, todavía no.",
+        "english": "No, not yet."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Has visitado España?",
+        "english": "Have you visited Spain?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, nunca he visitado España.",
+        "english": "No, I have never visited Spain."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nSequencing events",
+    "description": "Sequence words: primero (first), después (then/after), luego (later), finalmente (finally), por último (lastly).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué hiciste hoy?",
+        "english": "What did you do today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Primero fui al gimnasio.",
+        "english": "First I went to the gym."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y después?",
+        "english": "And then?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Después fui al supermercado.",
+        "english": "Then I went to the supermarket."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y finalmente?",
+        "english": "And finally?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Finalmente volví a casa.",
+        "english": "Finally I returned home."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nTalking about duration",
+    "description": "Duration: 'desde' (since), 'hace' (for/ago), 'durante' (during). How long something has been happening.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuánto tiempo estudias español?",
+        "english": "How long have you been studying Spanish?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estudio español desde hace un año.",
+        "english": "I've been studying Spanish for a year."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo estudio desde hace seis meses.",
+        "english": "I've been studying for six months."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Estudias todos los días?",
+        "english": "Do you study every day?"
+      }
+    ]
+  }
+]

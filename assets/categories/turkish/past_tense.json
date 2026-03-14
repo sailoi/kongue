@@ -1,0 +1,368 @@
+[
+  {
+    "title": "Lesson 1:\nIntroducing the past",
+    "description": "Simple past (-di/-dı/-du/-dü): konuştum (I spoke), konuştun (you spoke). Past tense endings.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün Ayşe ile konuştum.",
+        "english": "Yesterday I spoke with Ayşe."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ne hakkında konuştunuz?",
+        "english": "What did you talk about?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Okul hakkında konuştuk.",
+        "english": "We talked about school."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben de onunla konuştum.",
+        "english": "I also spoke with her."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nPast tense verbs",
+    "description": "Past tense: yedim (I ate), yedin (you ate), gitti (he/she went). Regular past endings.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün ne yedin?",
+        "english": "What did you eat yesterday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Pizza yedim.",
+        "english": "I ate pizza."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben makarna yedim.",
+        "english": "I ate pasta."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Nerede yedin?",
+        "english": "Where did you eat?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nYesterday activities",
+    "description": "Using past tense with 'dün' (yesterday), 'dün gece' (last night), 'geçen hafta' (last week).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün ne yaptın?",
+        "english": "What did you do yesterday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Dün bütün gün çalıştım.",
+        "english": "Yesterday I worked all day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün gece çok çalıştım.",
+        "english": "Last night I studied a lot."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Geçen hafta seyahat ettim.",
+        "english": "Last week I traveled."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nPast tense: to go",
+    "description": "'Gitmek' in past tense: gittim (I went), gittin (you went), gitti (he/she went).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün nereye gittin?",
+        "english": "Where did you go yesterday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Süpermarkete gittim.",
+        "english": "I went to the supermarket."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben parka gittim.",
+        "english": "I went to the park."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kiminle gittin?",
+        "english": "Who did you go with?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nPast tense: to do",
+    "description": "'Yapmak' in past: yaptım (I did), yaptın (you did), yaptı (he/she did).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hafta sonu ne yaptın?",
+        "english": "What did you do on the weekend?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Egzersiz yaptım.",
+        "english": "I exercised."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben ödevimi yaptım.",
+        "english": "I did homework."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Eğlenceli bir şey yaptın mı?",
+        "english": "Did you do anything fun?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nPast tense: to have",
+    "description": "Past with 'var': 'vardı' (there was/had). 'İyi bir günüm vardı' = I had a good day.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İyi bir günün oldu mu?",
+        "english": "Did you have a good day?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, mükemmel bir günüm oldu.",
+        "english": "Yes, I had an excellent day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Zor bir günüm oldu.",
+        "english": "I had a difficult day."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ne oldu?",
+        "english": "What happened?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nPast tense: location",
+    "description": "'-deydi/-daydı' (was at): evdeydim (I was at home), işteydim (I was at work).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün neredeydin?",
+        "english": "Where were you yesterday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evdeydim.",
+        "english": "I was at home."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben işteydim.",
+        "english": "I was at work."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Meşgul müydün?",
+        "english": "Were you busy?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nTalking about the past",
+    "description": "Combining different past tense verbs to describe what happened. Building narrative skills.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün sinemaya gittim.",
+        "english": "Yesterday I went to the movies."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hangi filmi izledin?",
+        "english": "What movie did you see?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Aksiyon filmi izledim.",
+        "english": "I saw an action movie."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Beğendin mi?",
+        "english": "Did you like it?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, çok beğendim.",
+        "english": "Yes, I liked it a lot."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nReflexive verbs intro",
+    "description": "Reflexive actions with 'kendi': kendimi yıkıyorum (I wash myself). Action done to oneself.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Saat kaçta uyanıyorsun?",
+        "english": "What time do you wake up?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Saat yedide uyanıyorum.",
+        "english": "I wake up at seven."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sabahları yüzünü yıkar mısın?",
+        "english": "Do you wash your face in the morning?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, yüzümü yıkarım.",
+        "english": "Yes, I wash my face."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nDirect object pronouns",
+    "description": "Direct object: -i/-ı/-u/-ü suffixes. 'Onu görüyorum' = I see him/her/it. Replace nouns.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ayşe'yi görüyor musun?",
+        "english": "Do you see Ayşe?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, onu görüyorum.",
+        "english": "Yes, I see her."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kitabın var mı?",
+        "english": "Do you have the book?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, var.",
+        "english": "Yes, I have it."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nIndirect object pronouns",
+    "description": "Indirect object: -e/-a suffixes. 'Ona verdim' = I gave to him/her. Show who receives action.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Mehmet'e kitabı verdin mi?",
+        "english": "Did you give the book to Mehmet?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, ona kitabı verdim.",
+        "english": "Yes, I gave him the book."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kalemini bana ödünç verir misin?",
+        "english": "Will you lend me your pencil?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, sana kalemimi ödünç veririm.",
+        "english": "Yes, I'll lend you my pencil."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 12:\nWeather past tense",
+    "description": "Talking about weather in the past: 'Hava sıcaktı' (It was hot), 'Yağmur yağdı' (It rained), 'Kar yağdı' (It snowed).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün hava nasıldı?",
+        "english": "What was the weather like yesterday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Dün çok sıcaktı.",
+        "english": "Yesterday it was very hot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün gece yağmur yağdı.",
+        "english": "Last night it rained."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok yağdı.",
+        "english": "Yes, it rained a lot."
+      }
+    ]
+  }
+]

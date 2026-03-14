@@ -1,0 +1,188 @@
+[
+  {
+    "title": "Lesson 1:\nAt the doctor",
+    "description": "Medical vocabulary: hasta (sick), ağrı (pain), ilaç (medicine), doktor (doctor), hastane (hospital).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İyi hissetmiyorum.",
+        "english": "I don't feel well."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Neren ağrıyor?",
+        "english": "What hurts?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Midem ağrıyor.",
+        "english": "My stomach hurts."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Doktora gitmelisin.",
+        "english": "You should go to the doctor."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFeeling words",
+    "description": "Emotions: yorgun (tired), mutlu (happy), üzgün (sad), kızgın (angry), sinirli (nervous).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Nasıl hissediyorsun?",
+        "english": "How do you feel?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bugün çok mutluyum.",
+        "english": "I am very happy today."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben biraz yorgunum.",
+        "english": "I am a little tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Neden yorgunsun?",
+        "english": "Why are you tired?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDescribing things",
+    "description": "Adjectives for things: büyük (big), küçük (small), yeni (new), eski (old), güzel (pretty), çirkin (ugly).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evin çok büyük.",
+        "english": "Your house is very big."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, büyük ve yeni.",
+        "english": "Yes, it's big and new."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Benim dairem küçük.",
+        "english": "My apartment is small."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ama güzel.",
+        "english": "But it's pretty."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nExpressing necessity",
+    "description": "'-meli/-malı' = have to/must. 'Gitmeliyim' = I have to go. Expressing obligations.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün ne yapmalısın?",
+        "english": "What do you have to do today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çalışmalıyım.",
+        "english": "I have to work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben ders çalışmalıyım.",
+        "english": "I have to study."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bir projeyi bitirmeliyim.",
+        "english": "I need to finish a project."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nExpressing doubt",
+    "description": "Expressing uncertainty: 'Emin değilim' (I'm not sure), 'Belki' (Maybe), 'Muhtemelen' (Probably).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın yağmur yağacak mı?",
+        "english": "Is it going to rain tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Emin değilim. Belki.",
+        "english": "I'm not sure. Maybe."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Partiye gidecek misin?",
+        "english": "Are you going to the party?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Muhtemelen evet.",
+        "english": "Probably yes."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nReview and celebration",
+    "description": "Congratulations on reaching lesson 73! Review key concepts: greetings, verbs, time, daily life, past tense. Keep practicing!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Başardık! Yetmiş üç dersi bitirdik.",
+        "english": "We did it! We finished seventy-three lessons."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, artık daha fazla Türkçe konuşuyorum.",
+        "english": "Yes, now I speak more Turkish."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çok şey öğrendik.",
+        "english": "We learned a lot."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Doğru. Çok mutluyum.",
+        "english": "It's true. I am very happy."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tebrikler! Pratik yapmaya devam et!",
+        "english": "Congratulations! Keep practicing!"
+      }
+    ]
+  }
+]

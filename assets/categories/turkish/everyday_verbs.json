@@ -1,0 +1,428 @@
+[
+  {
+    "title": "Lesson 1:\nI have, You have",
+    "description": "'Var' means 'there is/have'. 'Bende var' = I have, 'Sende var mı?' = Do you have? Turkish doesn't use 'to have' the same way as English.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Benim bir köpeğim var.",
+        "english": "I have a dog."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Gerçekten mi? Benim bir kedim var.",
+        "english": "Really? I have a cat."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kardeşin var mı?",
+        "english": "Do you have siblings?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, iki kardeşim var.",
+        "english": "Yes, I have two siblings."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nI like",
+    "description": "'Sevmek' = to like/love. 'Ben futbolu severim' = I like soccer. 'Hoşlanmak' is also used for 'to like'.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Futbolu sever misin?",
+        "english": "Do you like soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok severim.",
+        "english": "Yes, I like it a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de severim.",
+        "english": "I like it too."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sporları sever misin?",
+        "english": "Do you like sports?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, sporları severim.",
+        "english": "Yes, I like sports."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nCommon Actions",
+    "description": "Present tense verbs. 'Konuşmak' (to speak): 'konuşurum' = I speak, 'konuşursun' = you speak. 'Çalışmak' (to study/work).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Türkçe konuşurum.",
+        "english": "I speak Turkish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İngilizce konuşur musun?",
+        "english": "Do you speak English?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, İngilizce ve Türkçe konuşurum.",
+        "english": "Yes, I speak English and Turkish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben Türkçe çalışıyorum.",
+        "english": "I study Turkish."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nTo need",
+    "description": "'İhtiyacı olmak' / 'Lazım olmak' (to need): 'İhtiyacım var' = I need, 'İhtiyacın var' = you need.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Neye ihtiyacın var?",
+        "english": "What do you need?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bir kitaba ihtiyacım var.",
+        "english": "I need a book."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Suya ihtiyacım var.",
+        "english": "I need water."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yardıma ihtiyacın var mı?",
+        "english": "Do you need help?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nTo want",
+    "description": "'İstemek' (to want): 'istiyorum' = I want, 'istiyorsun' = you want. Very common!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne yemek istiyorsun?",
+        "english": "What do you want to eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Pizza istiyorum.",
+        "english": "I want pizza."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben makarna istiyorum.",
+        "english": "I want pasta."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Su ister misin?",
+        "english": "Do you want water?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nTo go",
+    "description": "'Gitmek' (to go): 'gidiyorum' = I go/I'm going, 'gidiyorsun' = you go/you're going.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Nereye gidiyorsun?",
+        "english": "Where are you going?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Okula gidiyorum.",
+        "english": "I'm going to school."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben işe gidiyorum.",
+        "english": "I'm going to work."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Otobüsle mi gidiyorsun?",
+        "english": "Do you go by bus?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nTo do/make",
+    "description": "'Yapmak' (to do/make): 'yapıyorum' = I do/make, 'yapıyorsun' = you do/make. Very common!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün ne yapıyorsun?",
+        "english": "What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ödevimi yapıyorum.",
+        "english": "I'm doing homework."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben egzersiz yapıyorum.",
+        "english": "I exercise (do exercise)."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hafta sonları ne yaparsın?",
+        "english": "What do you do on weekends?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nTo see/watch",
+    "description": "'Görmek' (to see), 'İzlemek' (to watch): 'görüyorum' = I see, 'izliyorum' = I watch. Used for watching TV, movies, etc.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Televizyon izler misin?",
+        "english": "Do you watch television?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, her gün televizyon izlerim.",
+        "english": "Yes, I watch television every day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne izlersin?",
+        "english": "What do you watch?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Film ve dizi izlerim.",
+        "english": "I watch movies and series."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nTo open/close",
+    "description": "'Açmak' (to open): 'açıyorum' = I open. 'Kapamak' (to close): 'kapatıyorum' = I close.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dükkan saat kaçta açılıyor?",
+        "english": "What time do they open the store?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Dokuzda açılıyor.",
+        "english": "They open at nine."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne zaman kapanıyor?",
+        "english": "And when do they close?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sekizde kapanıyor.",
+        "english": "They close at eight."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nTo listen",
+    "description": "'Dinlemek' (to listen): 'dinliyorum' = I listen, 'dinliyorsun' = you listen.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne tür müzik dinlersin?",
+        "english": "What music do you listen to?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Pop müzik dinlerim.",
+        "english": "I listen to pop music."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben rock dinlerim.",
+        "english": "I listen to rock."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Her gün müzik dinler misin?",
+        "english": "Do you listen to music every day?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nTo understand",
+    "description": "'Anlamak' (to understand): 'anlıyorum' = I understand, 'anlıyorsun' = you understand.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Türkçe anlıyor musun?",
+        "english": "Do you understand Turkish?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, biraz anlıyorum.",
+        "english": "Yes, I understand a little."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben her şeyi anlamıyorum.",
+        "english": "I don't understand everything."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Normal. Zor.",
+        "english": "It's normal. It's difficult."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 12:\nTo know (facts)",
+    "description": "'Bilmek' (to know facts/information): 'biliyorum' = I know, 'biliyorsun' = you know.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bankanın nerede olduğunu biliyor musun?",
+        "english": "Do you know where the bank is?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, bilmiyorum.",
+        "english": "No, I don't know."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İngilizce biliyor musun?",
+        "english": "Do you know how to speak English?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, İngilizce biliyorum.",
+        "english": "Yes, I know how to speak English."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 13:\nTo know (people/places)",
+    "description": "'Tanımak' (to know people/be familiar with): 'tanıyorum' = I know, 'tanıyorsun' = you know. Different from 'bilmek'!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ayşe'yi tanıyor musun?",
+        "english": "Do you know Ayşe?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, Ayşe'yi tanıyorum.",
+        "english": "Yes, I know Ayşe."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İstanbul'u tanıyor musun?",
+        "english": "Do you know Istanbul?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, İstanbul'u tanımıyorum.",
+        "english": "No, I don't know Istanbul."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 14:\nTo be able/can",
+    "description": "'Abilmek/ebilmek' (can/to be able): 'yapabilirim' = I can do. Suffix added to verb stems.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bana yardım edebilir misin?",
+        "english": "Can you help me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, sana yardım edebilirim.",
+        "english": "Yes, I can help you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın gelebilir misin?",
+        "english": "Can you come tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, yarın gelemem.",
+        "english": "No, I can't tomorrow."
+      }
+    ]
+  }
+]

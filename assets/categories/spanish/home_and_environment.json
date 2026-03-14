@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Lesson 1:\nColors",
+    "description": "Basic colors with gender agreement. 'Rojo/roja' (red), 'azul' (blue), 'verde' (green). Adjectives must match the gender of the noun.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿De qué color es tu carro?",
+        "english": "What color is your car?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi carro es rojo.",
+        "english": "My car is red."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi casa es azul.",
+        "english": "My house is blue."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Qué bonito! El azul es bonito.",
+        "english": "How beautiful! Blue is beautiful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nThe weather",
+    "description": "Weather expressions: 'Hace calor' = It's hot, 'Hace frío' = It's cold, 'Llueve' = It rains, 'Nieva' = It snows.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué tiempo hace hoy?",
+        "english": "What's the weather like today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hace calor.",
+        "english": "It's hot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Ayer hizo frío.",
+        "english": "Yesterday it was cold."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mañana va a llover.",
+        "english": "Tomorrow it will rain."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nClothing",
+    "description": "Clothing vocabulary: camisa (shirt), pantalones (pants), zapatos (shoes), vestido (dress). 'Llevar' = to wear.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué llevas hoy?",
+        "english": "What are you wearing today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Llevo una camisa azul.",
+        "english": "I'm wearing a blue shirt."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo llevo pantalones negros.",
+        "english": "I'm wearing black pants."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tus zapatos son bonitos.",
+        "english": "Your shoes are beautiful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nBody parts",
+    "description": "Basic body parts: cabeza (head), ojos (eyes), manos (hands), pies (feet). 'Me duele' = It hurts me.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo estás?",
+        "english": "How are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No estoy bien. Me duele la cabeza.",
+        "english": "I'm not well. My head hurts."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te duelen los ojos?",
+        "english": "Do your eyes hurt?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, solo la cabeza.",
+        "english": "No, just the head."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nThe house",
+    "description": "House vocabulary: casa (house), habitación (room), cocina (kitchen), baño (bathroom), sala (living room).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tu casa es grande.",
+        "english": "Your house is big."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, tiene cuatro habitaciones.",
+        "english": "Yes, it has four rooms."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde está el baño?",
+        "english": "Where is the bathroom?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "El baño está a la derecha.",
+        "english": "The bathroom is to the right."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nAnimals",
+    "description": "Common animals: perro (dog), gato (cat), pájaro (bird), pez (fish), caballo (horse).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Tienes mascotas?",
+        "english": "Do you have pets?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, tengo dos perros.",
+        "english": "Yes, I have two dogs."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo tengo un gato.",
+        "english": "I have a cat."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te gustan los animales?",
+        "english": "Do you like animals?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, me gustan mucho.",
+        "english": "Yes, I like them a lot."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nSeasonal expressions",
+    "description": "Seasons: primavera (spring), verano (summer), otoño (fall), invierno (winter). Weather in each season.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Me gusta la primavera.",
+        "english": "I like spring."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "A mí me gusta el verano.",
+        "english": "I like summer."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "En verano hace mucho calor.",
+        "english": "In summer it's very hot."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "En invierno hace frío.",
+        "english": "In winter it's cold."
+      }
+    ]
+  }
+]

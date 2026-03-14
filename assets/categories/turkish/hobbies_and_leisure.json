@@ -1,0 +1,224 @@
+[
+  {
+    "title": "Lesson 1:\nHobbies",
+    "description": "Hobbies vocabulary: yüzmek (swim), koşmak (run), dans etmek (dance), şarkı söylemek (sing), resim yapmak (paint), yemek yapmak (cook).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne yapmayı seversin?",
+        "english": "What do you like to do?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yüzmeyi severim. Ya sen?",
+        "english": "I like to swim. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben dans etmeyi severim.",
+        "english": "I like to dance."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yemek yapmayı da severim.",
+        "english": "I also like to cook."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo play (sports)",
+    "description": "'Oynamak' (to play): 'oynuyorum' = I play, 'oynuyorsun' = you play. Use for sports and games.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Futbol oynar mısın?",
+        "english": "Do you play soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, cumartesi günleri futbol oynarım.",
+        "english": "Yes, I play soccer on Saturdays."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben tenis oynarım.",
+        "english": "I play tennis."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tenisi sever misin?",
+        "english": "Do you like tennis?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDaily routine",
+    "description": "Routine verbs: kalkmak (get up), duş almak (shower), kahvaltı etmek (have breakfast), yatmak (go to bed).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Saat kaçta kalkıyorsun?",
+        "english": "What time do you get up?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Saat yedide kalkıyorum.",
+        "english": "I get up at seven."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben saat altıda kalkıyorum.",
+        "english": "I get up at six."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sabahları duş alıyor musun?",
+        "english": "Do you shower in the morning?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nTalking about abilities",
+    "description": "'Bilmek' + verb = to know how to do something. Talking about skills and abilities.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yemek yapmayı biliyor musun?",
+        "english": "Do you know how to cook?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, iyi yemek yapmayı biliyorum.",
+        "english": "Yes, I know how to cook well."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bir enstrüman çalmayı biliyor musun?",
+        "english": "Do you know how to play an instrument?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, hiçbir enstrüman çalmayı bilmiyorum.",
+        "english": "No, I don't know how to play any instrument."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nTalking about experience",
+    "description": "Using 'zaten/artık' (already), 'henüz' (not yet), 'hiç' (never) to talk about experiences.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yemek yedin mi?",
+        "english": "Did you already eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, henüz yemedim.",
+        "english": "No, not yet."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İspanya'yı ziyaret ettin mi?",
+        "english": "Have you visited Spain?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, hiç İspanya'yı ziyaret etmedim.",
+        "english": "No, I have never visited Spain."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nSequencing events",
+    "description": "Sequence words: önce (first), sonra (then/after), daha sonra (later), sonunda (finally), en son (lastly).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün ne yaptın?",
+        "english": "What did you do today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Önce spor salonuna gittim.",
+        "english": "First I went to the gym."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sonra?",
+        "english": "And then?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sonra süpermarkete gittim.",
+        "english": "Then I went to the supermarket."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sonunda?",
+        "english": "And finally?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sonunda eve döndüm.",
+        "english": "Finally I returned home."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nTalking about duration",
+    "description": "Duration: 'beri' (since/for), '-dir/-dır' (for), 'sırasında' (during). How long something has been happening.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne zamandır Türkçe çalışıyorsun?",
+        "english": "How long have you been studying Turkish?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bir yıldır Türkçe çalışıyorum.",
+        "english": "I've been studying Turkish for a year."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben altı aydır çalışıyorum.",
+        "english": "I've been studying for six months."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Her gün çalışıyor musun?",
+        "english": "Do you study every day?"
+      }
+    ]
+  }
+]

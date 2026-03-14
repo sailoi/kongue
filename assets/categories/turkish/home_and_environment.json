@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Lesson 1:\nColors",
+    "description": "Basic colors: 'kırmızı' (red), 'mavi' (blue), 'yeşil' (green). Turkish adjectives don't change with gender.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Arabanın rengi ne?",
+        "english": "What color is your car?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Arabam kırmızı.",
+        "english": "My car is red."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Benim evim mavi.",
+        "english": "My house is blue."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ne güzel! Mavi güzel.",
+        "english": "How beautiful! Blue is beautiful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nThe weather",
+    "description": "Weather expressions: 'Hava sıcak' = It's hot, 'Hava soğuk' = It's cold, 'Yağmur yağıyor' = It's raining, 'Kar yağıyor' = It's snowing.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün hava nasıl?",
+        "english": "What's the weather like today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hava sıcak.",
+        "english": "It's hot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dün hava soğuktu.",
+        "english": "Yesterday it was cold."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yarın yağmur yağacak.",
+        "english": "Tomorrow it will rain."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nClothing",
+    "description": "Clothing vocabulary: gömlek (shirt), pantolon (pants), ayakkabı (shoes), elbise (dress). 'Giymek' = to wear.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün ne giyiyorsun?",
+        "english": "What are you wearing today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Mavi bir gömlek giyiyorum.",
+        "english": "I'm wearing a blue shirt."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben siyah pantolon giyiyorum.",
+        "english": "I'm wearing black pants."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ayakkabıların güzel.",
+        "english": "Your shoes are beautiful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nBody parts",
+    "description": "Basic body parts: baş (head), gözler (eyes), eller (hands), ayaklar (feet). 'Ağrımak' = to hurt.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Nasılsın?",
+        "english": "How are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İyi değilim. Başım ağrıyor.",
+        "english": "I'm not well. My head hurts."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Gözlerin ağrıyor mu?",
+        "english": "Do your eyes hurt?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, sadece başım.",
+        "english": "No, just the head."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nThe house",
+    "description": "House vocabulary: ev (house), oda (room), mutfak (kitchen), banyo (bathroom), oturma odası (living room).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evin büyük.",
+        "english": "Your house is big."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, dört odası var.",
+        "english": "Yes, it has four rooms."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Banyo nerede?",
+        "english": "Where is the bathroom?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Banyo sağda.",
+        "english": "The bathroom is to the right."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nAnimals",
+    "description": "Common animals: köpek (dog), kedi (cat), kuş (bird), balık (fish), at (horse).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evcil hayvanın var mı?",
+        "english": "Do you have pets?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, iki köpeğim var.",
+        "english": "Yes, I have two dogs."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Benim bir kedim var.",
+        "english": "I have a cat."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayvanları sever misin?",
+        "english": "Do you like animals?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, çok severim.",
+        "english": "Yes, I like them a lot."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nSeasonal expressions",
+    "description": "Seasons: ilkbahar (spring), yaz (summer), sonbahar (fall), kış (winter). Weather in each season.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İlkbaharı severim.",
+        "english": "I like spring."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben yazı severim.",
+        "english": "I like summer."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yazın çok sıcak oluyor.",
+        "english": "In summer it's very hot."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kışın soğuk oluyor.",
+        "english": "In winter it's cold."
+      }
+    ]
+  }
+]

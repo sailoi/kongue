@@ -1,0 +1,188 @@
+[
+  {
+    "title": "Lesson 1:\nAt the doctor",
+    "description": "Medical vocabulary: enfermo/enferma (sick), dolor (pain), medicina (medicine), doctor/doctora, hospital.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No me siento bien.",
+        "english": "I don't feel well."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Qué te duele?",
+        "english": "What hurts?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Me duele el estómago.",
+        "english": "My stomach hurts."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Debes ir al doctor.",
+        "english": "You should go to the doctor."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFeeling words",
+    "description": "Emotions with estar: cansado (tired), feliz (happy), triste (sad), enojado (angry), nervioso (nervous).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo te sientes?",
+        "english": "How do you feel?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estoy muy feliz hoy.",
+        "english": "I am very happy today."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo estoy un poco cansado.",
+        "english": "I am a little tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Por qué estás cansado?",
+        "english": "Why are you tired?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDescribing things",
+    "description": "Adjectives for things: grande (big), pequeño (small), nuevo (new), viejo (old), bonito (pretty), feo (ugly).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tu casa es muy grande.",
+        "english": "Your house is very big."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, es grande y nueva.",
+        "english": "Yes, it's big and new."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi apartamento es pequeño.",
+        "english": "My apartment is small."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Pero es bonito.",
+        "english": "But it's pretty."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nExpressing necessity",
+    "description": "'Tener que' + infinitive = to have to do something. 'Necesitar' = to need. Expressing obligations.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué tienes que hacer hoy?",
+        "english": "What do you have to do today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tengo que trabajar.",
+        "english": "I have to work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo tengo que estudiar.",
+        "english": "I have to study."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Necesito terminar un proyecto.",
+        "english": "I need to finish a project."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nExpressing doubt",
+    "description": "Expressing uncertainty: 'No estoy seguro' (I'm not sure), 'Tal vez' (Maybe), 'Quizás' (Perhaps), 'Probablemente' (Probably).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Va a llover mañana?",
+        "english": "Is it going to rain tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No estoy seguro. Tal vez.",
+        "english": "I'm not sure. Maybe."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Vas a ir a la fiesta?",
+        "english": "Are you going to the party?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Probablemente sí.",
+        "english": "Probably yes."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nReview and celebration",
+    "description": "Congratulations on reaching lesson 100! Review key concepts: greetings, verbs, time, daily life, past tense. Keep practicing!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Lo logramos! Terminamos cien lecciones.",
+        "english": "We did it! We finished one hundred lessons."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, ahora hablo más español.",
+        "english": "Yes, now I speak more Spanish."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Aprendimos mucho.",
+        "english": "We learned a lot."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Es verdad. Estoy muy contento.",
+        "english": "It's true. I am very happy."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Felicitaciones! ¡Sigue practicando!",
+        "english": "Congratulations! Keep practicing!"
+      }
+    ]
+  }
+]

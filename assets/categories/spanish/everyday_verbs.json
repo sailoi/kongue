@@ -1,0 +1,428 @@
+[
+  {
+    "title": "Lesson 1:\nI have, You have",
+    "description": "'Tener' (to have) is crucial. 'Tengo' = I have, 'Tienes' = you have. Also used for age in Spanish (I have 5 years = I am 5 years old).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo tengo un perro.",
+        "english": "I have a dog."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Sí? Yo tengo un gato.",
+        "english": "Really? I have a cat."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Tú tienes hermanos?",
+        "english": "Do you have siblings?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, tengo dos hermanos.",
+        "english": "Yes, I have two brothers."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nI like",
+    "description": "'Me gusta' = I like (literally 'it pleases me'). This verb works differently - 'gusta' for singular, 'gustan' for plural. Very common expression!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gusta el fútbol?",
+        "english": "Do you like soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, me gusta mucho.",
+        "english": "Yes, I like it a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "A mí también me gusta.",
+        "english": "I like it too."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te gustan los deportes?",
+        "english": "Do you like sports?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, me gustan los deportes.",
+        "english": "Yes, I like sports."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nCommon Actions",
+    "description": "Present tense regular -ar verbs. 'Hablar' (to speak): 'hablo' = I speak, 'hablas' = you speak. 'Estudiar' (to study): 'estudio', 'estudias'.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo hablo español.",
+        "english": "I speak Spanish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Tú hablas inglés?",
+        "english": "Do you speak English?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, hablo inglés y español.",
+        "english": "Yes, I speak English and Spanish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Yo estudio español.",
+        "english": "I study Spanish."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nTo need",
+    "description": "'Necesitar' (to need): 'necesito' = I need, 'necesitas' = you need. Very useful verb for expressing needs.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué necesitas?",
+        "english": "What do you need?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Necesito un libro.",
+        "english": "I need a book."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo necesito agua.",
+        "english": "I need water."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Necesitas ayuda?",
+        "english": "Do you need help?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nTo want",
+    "description": "'Querer' (to want): 'quiero' = I want, 'quieres' = you want. Irregular verb. Very common!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué quieres comer?",
+        "english": "What do you want to eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Quiero pizza.",
+        "english": "I want pizza."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo quiero pasta.",
+        "english": "I want pasta."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Quieres agua?",
+        "english": "Do you want water?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nTo go",
+    "description": "'Ir' (to go): 'voy' = I go, 'vas' = you go. Very irregular but essential verb!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A dónde vas?",
+        "english": "Where are you going?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Voy a la escuela.",
+        "english": "I'm going to school."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo voy al trabajo.",
+        "english": "I'm going to work."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Vas en autobús?",
+        "english": "Do you go by bus?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nTo do/make",
+    "description": "'Hacer' (to do/make): 'hago' = I do/make, 'haces' = you do/make. Irregular but very common!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué haces hoy?",
+        "english": "What are you doing today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hago la tarea.",
+        "english": "I'm doing homework."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo hago ejercicio.",
+        "english": "I exercise (do exercise)."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Qué haces los fines de semana?",
+        "english": "What do you do on weekends?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nTo see/watch",
+    "description": "'Ver' (to see/watch): 'veo' = I see, 'ves' = you see. Used for watching TV, movies, etc.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Ves televisión?",
+        "english": "Do you watch television?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, veo televisión todos los días.",
+        "english": "Yes, I watch television every day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué ves?",
+        "english": "What do you watch?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Veo películas y series.",
+        "english": "I watch movies and series."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nTo open/close",
+    "description": "'Abrir' (to open): 'abro' = I open. 'Cerrar' (to close): 'cierro' = I close. Note: cerrar is irregular (e→ie).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A qué hora abren la tienda?",
+        "english": "What time do they open the store?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Abren a las nueve.",
+        "english": "They open at nine."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y cuándo cierran?",
+        "english": "And when do they close?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Cierran a las ocho.",
+        "english": "They close at eight."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nTo listen",
+    "description": "'Escuchar' (to listen): 'escucho' = I listen, 'escuchas' = you listen. Regular -ar verb.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué música escuchas?",
+        "english": "What music do you listen to?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Escucho música pop.",
+        "english": "I listen to pop music."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo escucho rock.",
+        "english": "I listen to rock."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Escuchas música todos los días?",
+        "english": "Do you listen to music every day?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nTo understand",
+    "description": "'Entender' (to understand): 'entiendo' = I understand, 'entiendes' = you understand. Irregular (e→ie).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Entiendes español?",
+        "english": "Do you understand Spanish?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, entiendo un poco.",
+        "english": "Yes, I understand a little."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo no entiendo todo.",
+        "english": "I don't understand everything."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Es normal. Es difícil.",
+        "english": "It's normal. It's difficult."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 12:\nTo know (facts)",
+    "description": "'Saber' (to know facts/how to): 'sé' = I know, 'sabes' = you know. Irregular first person.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Sabes dónde está el banco?",
+        "english": "Do you know where the bank is?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no sé.",
+        "english": "No, I don't know."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Sabes hablar inglés?",
+        "english": "Do you know how to speak English?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, sé hablar inglés.",
+        "english": "Yes, I know how to speak English."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 13:\nTo know (people/places)",
+    "description": "'Conocer' (to know people/be familiar with): 'conozco' = I know, 'conoces' = you know. Different from 'saber'!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Conoces a María?",
+        "english": "Do you know María?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, conozco a María.",
+        "english": "Yes, I know María."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Conoces Madrid?",
+        "english": "Do you know Madrid?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no conozco Madrid.",
+        "english": "No, I don't know Madrid."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 14:\nTo be able/can",
+    "description": "'Poder' (can/to be able): 'puedo' = I can, 'puedes' = you can. Irregular (o→ue). Very useful!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedes ayudarme?",
+        "english": "Can you help me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, puedo ayudarte.",
+        "english": "Yes, I can help you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedes venir mañana?",
+        "english": "Can you come tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no puedo mañana.",
+        "english": "No, I can't tomorrow."
+      }
+    ]
+  }
+]

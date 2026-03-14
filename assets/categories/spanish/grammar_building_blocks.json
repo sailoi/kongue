@@ -1,0 +1,368 @@
+[
+  {
+    "title": "Lesson 1:\nThere is/are",
+    "description": "'Hay' means both 'there is' and 'there are'. Very useful for describing what exists or is available.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Hay un banco cerca?",
+        "english": "Is there a bank nearby?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, hay un banco en la calle.",
+        "english": "Yes, there is a bank on the street."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Hay restaurantes aquí?",
+        "english": "Are there restaurants here?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, hay muchos restaurantes.",
+        "english": "Yes, there are many restaurants."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nQuestion words review",
+    "description": "Key question words: ¿Qué? (what), ¿Quién? (who), ¿Dónde? (where), ¿Cuándo? (when), ¿Por qué? (why), ¿Cómo? (how), ¿Cuánto? (how much).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué haces?",
+        "english": "What are you doing?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estudio. ¿Dónde está María?",
+        "english": "I'm studying. Where is María?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Está en casa. ¿Cuándo vas?",
+        "english": "She's at home. When are you going?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Voy mañana.",
+        "english": "I'm going tomorrow."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nNegation",
+    "description": "To make a sentence negative, put 'no' before the verb. 'No hablo' = I don't speak. Simple and consistent!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Hablas francés?",
+        "english": "Do you speak French?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no hablo francés.",
+        "english": "No, I don't speak French."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Comes carne?",
+        "english": "Do you eat meat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no como carne.",
+        "english": "No, I don't eat meat."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nMy, your, his, her",
+    "description": "Possessive adjectives: mi/mis (my), tu/tus (your), su/sus (his/her/their). Plural forms add -s.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Este es mi libro.",
+        "english": "This is my book."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Dónde está tu mochila?",
+        "english": "Where is your backpack?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi mochila está aquí.",
+        "english": "My backpack is here."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sus libros están en la mesa.",
+        "english": "His/Her books are on the table."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nSer vs Estar review",
+    "description": "'Ser' for identity, characteristics, origin, time. 'Estar' for location, states, feelings, progressive actions.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo soy de México.",
+        "english": "I am from Mexico."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Dónde estás ahora?",
+        "english": "Where are you now?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estoy en España.",
+        "english": "I am in Spain."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "España es bonita.",
+        "english": "Spain is beautiful."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, y estoy muy contento aquí.",
+        "english": "Yes, and I am very happy here."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nFrequency adverbs",
+    "description": "Frequency words: siempre (always), nunca (never), a veces (sometimes), generalmente (generally), todos los días (every day).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Siempre comes desayuno?",
+        "english": "Do you always eat breakfast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, siempre como desayuno.",
+        "english": "Yes, I always eat breakfast."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo a veces no como.",
+        "english": "I sometimes don't eat."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Nunca salto el desayuno.",
+        "english": "I never skip breakfast."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nIntensifiers",
+    "description": "Intensifiers: muy (very), mucho (a lot/much), poco (little/few), bastante (quite/enough), demasiado (too much).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estoy muy cansado.",
+        "english": "I am very tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Yo también. Trabajo mucho.",
+        "english": "Me too. I work a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Duermo poco.",
+        "english": "I sleep little."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Eso es malo.",
+        "english": "That's bad."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nConjunctions",
+    "description": "Common conjunctions: y (and), pero (but), o (or), porque (because), cuando (when).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Me gusta el café pero no el té.",
+        "english": "I like coffee but not tea."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Por qué?",
+        "english": "Why?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Porque el café es fuerte.",
+        "english": "Because coffee is strong."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Yo bebo café o té.",
+        "english": "I drink coffee or tea."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nAdjective agreement",
+    "description": "Adjectives must match noun in gender and number: libro nuevo (m), casa nueva (f), libros nuevos (m pl), casas nuevas (f pl).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tengo un carro nuevo.",
+        "english": "I have a new car."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Yo tengo una bicicleta nueva.",
+        "english": "I have a new bicycle."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mis zapatos son nuevos.",
+        "english": "My shoes are new."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mis camisas son nuevas también.",
+        "english": "My shirts are new too."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nComparisons",
+    "description": "Comparisons: más... que (more... than), menos... que (less... than), tan... como (as... as).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Soy más alto que tú.",
+        "english": "I am taller than you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Pero yo soy más rápido.",
+        "english": "But I am faster."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "El tren es más rápido que el autobús.",
+        "english": "The train is faster than the bus."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, pero es más caro.",
+        "english": "Yes, but it's more expensive."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nThis, that, these, those",
+    "description": "Demonstratives: este/esta/estos/estas (this/these near), ese/esa/esos/esas (that/those medium), aquel/aquella (that far).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gusta este libro?",
+        "english": "Do you like this book?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, pero prefiero ese libro.",
+        "english": "Yes, but I prefer that book."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estas camisas son bonitas.",
+        "english": "These shirts are beautiful."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Aquellas camisas también.",
+        "english": "Those shirts too."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 12:\nNear future",
+    "description": "'Ir a' + infinitive = going to do something. 'Voy a comer' = I'm going to eat. Easy way to talk about future!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué vas a hacer mañana?",
+        "english": "What are you going to do tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Voy a estudiar.",
+        "english": "I'm going to study."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo voy a trabajar.",
+        "english": "I'm going to work."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Vas a comer con nosotros?",
+        "english": "Are you going to eat with us?"
+      }
+    ]
+  }
+]

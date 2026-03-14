@@ -5,7 +5,7 @@ import { ThemedView } from '@/components/themed-view';
 import { Ionicons } from '@expo/vector-icons';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
-import { CATEGORIES } from '@/constants/categories';
+import { CATEGORIES, STAGES } from '@/constants/categories';
 import { LANGUAGES } from '@/constants/languages';
 
 interface SettingsModalProps {
@@ -66,33 +66,41 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
           <View style={styles.section}>
             <ThemedText type="subtitle" style={styles.sectionTitle}>Categories</ThemedText>
             <ScrollView style={styles.categoryScrollView} showsVerticalScrollIndicator={false}>
-              {CATEGORIES.map((category) => {
-                const isSelected = currentCategory === category.id;
+              {STAGES.map((stage) => {
+                const stageCategories = CATEGORIES.filter(c => c.stage === stage.id);
                 return (
-                  <TouchableOpacity
-                    key={category.id}
-                    style={[
-                      styles.categoryButton,
-                      {
-                        backgroundColor: isSelected
-                          ? Colors[colorScheme ?? 'light'].tint
-                          : colorScheme === 'dark'
-                            ? 'rgba(255, 255, 255, 0.1)'
-                            : 'rgba(0, 0, 0, 0.05)',
-                      },
-                    ]}
-                    onPress={() => handleSelectCategory(category.id)}
-                  >
-                    <ThemedText style={[
-                      styles.categoryText,
-                      isSelected && styles.selectedCategoryText,
-                    ]}>
-                      {category.name}
-                    </ThemedText>
-                    {isSelected && (
-                      <Ionicons name="checkmark-circle" size={20} color="#fff" style={styles.checkmark} />
-                    )}
-                  </TouchableOpacity>
+                  <View key={stage.id} style={styles.stageGroup}>
+                    <ThemedText style={styles.stageLabel}>{stage.name}</ThemedText>
+                    {stageCategories.map((category) => {
+                      const isSelected = currentCategory === category.id;
+                      return (
+                        <TouchableOpacity
+                          key={category.id}
+                          style={[
+                            styles.categoryButton,
+                            {
+                              backgroundColor: isSelected
+                                ? Colors[colorScheme ?? 'light'].tint
+                                : colorScheme === 'dark'
+                                  ? 'rgba(255, 255, 255, 0.1)'
+                                  : 'rgba(0, 0, 0, 0.05)',
+                            },
+                          ]}
+                          onPress={() => handleSelectCategory(category.id)}
+                        >
+                          <ThemedText style={[
+                            styles.categoryText,
+                            isSelected && styles.selectedCategoryText,
+                          ]}>
+                            {category.name}
+                          </ThemedText>
+                          {isSelected && (
+                            <Ionicons name="checkmark-circle" size={20} color="#fff" style={styles.checkmark} />
+                          )}
+                        </TouchableOpacity>
+                      );
+                    })}
+                  </View>
                 );
               })}
             </ScrollView>
@@ -172,6 +180,18 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 22,
     opacity: 0.8,
+  },
+  stageGroup: {
+    marginBottom: 12,
+  },
+  stageLabel: {
+    fontSize: 12,
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    letterSpacing: 0.8,
+    opacity: 0.5,
+    marginBottom: 6,
+    marginLeft: 4,
   },
   categoryButton: {
     flexDirection: 'row',

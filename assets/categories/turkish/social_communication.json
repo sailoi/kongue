@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Lesson 1:\nMaking plans",
+    "description": "Using future tense to make plans: '-ecek/-acak', invitations, accepting/declining.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sinemaya gideceğim. Gelmek ister misin?",
+        "english": "I'm going to the movies. Do you want to come?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, ne zaman?",
+        "english": "Yes, when?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Cumartesi gideceğiz.",
+        "english": "We're going to go on Saturday."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Mükemmel. Geleceğim.",
+        "english": "Perfect. I'm going to go."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nAsking permission",
+    "description": "'...abilir miyim?/...ebilir miyim?' = Can I...? / May I...? Polite way to ask for permission.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tuvaleti kullanabilir miyim?",
+        "english": "Can I use the bathroom?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, tabii.",
+        "english": "Yes, of course."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Pencereyi açabilir miyim?",
+        "english": "Can I open the window?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, açabilirsin.",
+        "english": "Yes, you can."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nTelephone phrases",
+    "description": "Phone vocabulary: aramak (to call), telefon (phone), mesaj (message), konuşmak (to speak).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Alo? Ayşe orada mı?",
+        "english": "Hello? Is Ayşe there?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, burada değil. Kim arıyor?",
+        "english": "No, she's not here. Who's speaking?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Mehmet.",
+        "english": "It's Mehmet."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Mesaj bırakmak ister misin?",
+        "english": "Do you want to leave a message?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nExpressing preferences",
+    "description": "'Tercih etmek' (to prefer): 'tercih ediyorum' = I prefer. Use with nouns or infinitives.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kahve mi çay mı tercih edersin?",
+        "english": "Do you prefer coffee or tea?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kahveyi tercih ederim.",
+        "english": "I prefer coffee."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben çayı tercih ederim.",
+        "english": "I prefer tea."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Okumayı mı televizyon izlemeyi mi tercih edersin?",
+        "english": "Do you prefer to read or watch television?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAsking for opinions",
+    "description": "Opinion phrases: 'Ne düşünüyorsun?' (What do you think?), 'Fikrin ne?' (What's your opinion?), 'Bence...' (I think that...).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu film hakkında ne düşünüyorsun?",
+        "english": "What do you think of this movie?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bence çok iyi.",
+        "english": "I think it's very good."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Restoran hakkında fikrin ne?",
+        "english": "What's your opinion of the restaurant?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bence mükemmel.",
+        "english": "I think it's excellent."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nGiving suggestions",
+    "description": "'-meli/-malı' (should): 'gitmelisin' = you should go. Giving advice.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çok yorgunum.",
+        "english": "I am very tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Dinlenmelisin.",
+        "english": "You should rest."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, haklısın.",
+        "english": "Yes, you're right."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Daha fazla uyumalısın.",
+        "english": "You should also sleep more."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nExpressing agreement",
+    "description": "Agreement: 'Katılıyorum' (I agree), 'Haklısın' (You're right), 'Kesinlikle' (Exactly), 'Tabii' (Of course).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Türkçe zor.",
+        "english": "Turkish is difficult."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Katılıyorum.",
+        "english": "I agree."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ama çok faydalı.",
+        "english": "But it's very useful."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Haklısın. Çok faydalı.",
+        "english": "You're right. It's very useful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nExpressing disagreement",
+    "description": "Disagreement: 'Katılmıyorum' (I don't agree), 'Sanmıyorum' (I don't think so), 'Aksine' (On the contrary).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Futbol sıkıcı.",
+        "english": "Soccer is boring."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Katılmıyorum.",
+        "english": "I don't agree."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Futbolu sever misin?",
+        "english": "Do you like soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, aksine, çok heyecan verici.",
+        "english": "Yes, on the contrary, it's very exciting."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nMaking invitations",
+    "description": "Inviting someone: 'İster misin...?' (Do you want to...?), 'Gelmek ister misin?' (Would you like to come?).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Konsere gitmek ister misin?",
+        "english": "Do you want to go to the concert?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, gitmek isterim.",
+        "english": "Yes, I would like to go."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne zaman gitmek istersin?",
+        "english": "When do you want to go?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Cumartesi iyi.",
+        "english": "Saturday is good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nAccepting invitations",
+    "description": "Accepting: 'Tabii!' (Sure!), 'Elbette!' (Of course!), 'Çok isterim' (I would love to), 'Mükemmel!' (Perfect!).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evime gelmek ister misin?",
+        "english": "Do you want to come to my house?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tabii! Ne zaman?",
+        "english": "Sure! When?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın öğleden sonra.",
+        "english": "Tomorrow afternoon."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Mükemmel! Geleceğim.",
+        "english": "Perfect! I'll go."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nDeclining invitations",
+    "description": "Declining politely: 'Üzgünüm' (I'm sorry), 'Gelemem' (I can't), 'Belki başka zaman' (Maybe another day).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu gece sinemaya gitmek ister misin?",
+        "english": "Do you want to go to the movies tonight?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Üzgünüm, gelemem.",
+        "english": "I'm sorry, I can't."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Neden?",
+        "english": "Why not?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çalışmam lazım. Belki başka zaman.",
+        "english": "I have to study. Maybe another day."
+      }
+    ]
+  }
+]

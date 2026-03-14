@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Lesson 1:\nWorking",
+    "description": "'Trabajar' (to work): 'trabajo' = I work, 'trabajas' = you work. Common -ar verb for daily life.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde trabajas?",
+        "english": "Where do you work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Trabajo en una oficina.",
+        "english": "I work in an office."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo trabajo en un hospital.",
+        "english": "I work in a hospital."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te gusta tu trabajo?",
+        "english": "Do you like your job?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, me gusta.",
+        "english": "Yes, I like it."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo read",
+    "description": "'Leer' (to read): 'leo' = I read, 'lees' = you read. Regular -er verb. Talk about reading books, magazines, etc.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gusta leer?",
+        "english": "Do you like to read?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, leo mucho.",
+        "english": "Yes, I read a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué lees?",
+        "english": "What do you read?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Leo libros y revistas.",
+        "english": "I read books and magazines."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nTo write",
+    "description": "'Escribir' (to write): 'escribo' = I write, 'escribes' = you write. Regular -ir verb.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Escribes mucho?",
+        "english": "Do you write a lot?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, escribo todos los días.",
+        "english": "Yes, I write every day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué escribes?",
+        "english": "What do you write?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Escribo correos y mensajes.",
+        "english": "I write emails and messages."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nAt school",
+    "description": "School vocabulary: escuela (school), clase (class), libro (book), lápiz (pencil), maestro/maestra (teacher).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde está tu libro?",
+        "english": "Where is your book?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi libro está en la clase.",
+        "english": "My book is in the class."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Tienes un lápiz?",
+        "english": "Do you have a pencil?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, tengo dos lápices.",
+        "english": "Yes, I have two pencils."
+      }
+    ]
+  }
+]

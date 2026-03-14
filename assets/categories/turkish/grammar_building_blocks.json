@@ -1,0 +1,368 @@
+[
+  {
+    "title": "Lesson 1:\nThere is/are",
+    "description": "'Var' means both 'there is' and 'there are'. Very useful for describing what exists or is available.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yakında banka var mı?",
+        "english": "Is there a bank nearby?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, caddede bir banka var.",
+        "english": "Yes, there is a bank on the street."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Burada restoranlar var mı?",
+        "english": "Are there restaurants here?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok restoran var.",
+        "english": "Yes, there are many restaurants."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nQuestion words review",
+    "description": "Key question words: Ne? (what), Kim? (who), Nerede? (where), Ne zaman? (when), Neden? (why), Nasıl? (how), Ne kadar? (how much).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne yapıyorsun?",
+        "english": "What are you doing?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çalışıyorum. Ayşe nerede?",
+        "english": "I'm studying. Where is Ayşe?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evde. Ne zaman gidiyorsun?",
+        "english": "She's at home. When are you going?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yarın gidiyorum.",
+        "english": "I'm going tomorrow."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nNegation",
+    "description": "To make a sentence negative, add '-me/-ma' or '-mı/-mu' to the verb. 'Konuşmuyorum' = I don't speak.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Fransızca konuşur musun?",
+        "english": "Do you speak French?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, Fransızca konuşmam.",
+        "english": "No, I don't speak French."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Et yer misin?",
+        "english": "Do you eat meat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, et yemem.",
+        "english": "No, I don't eat meat."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nMy, your, his, her",
+    "description": "Possessive suffixes: -im/-ım (my), -in/-ın (your), -i/-ı (his/her/its). 'Kitabım' = my book, 'Kitabın' = your book.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu benim kitabım.",
+        "english": "This is my book."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çantan nerede?",
+        "english": "Where is your backpack?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çantam burada.",
+        "english": "My backpack is here."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kitapları masada.",
+        "english": "His/Her books are on the table."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nBeing review",
+    "description": "Turkish uses suffix '-dir/-dır/-dur/-dür' for permanent states and location words for temporary location.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Türkiye'denim.",
+        "english": "I am from Turkey."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Şimdi neredesin?",
+        "english": "Where are you now?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İspanya'dayım.",
+        "english": "I am in Spain."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İspanya güzel.",
+        "english": "Spain is beautiful."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, burada çok mutluyum.",
+        "english": "Yes, and I am very happy here."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nFrequency adverbs",
+    "description": "Frequency words: her zaman (always), asla (never), bazen (sometimes), genellikle (generally), her gün (every day).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Her zaman kahvaltı eder misin?",
+        "english": "Do you always eat breakfast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, her zaman kahvaltı ederim.",
+        "english": "Yes, I always eat breakfast."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben bazen yemem.",
+        "english": "I sometimes don't eat."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Asla kahvaltıyı atlamam.",
+        "english": "I never skip breakfast."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nIntensifiers",
+    "description": "Intensifiers: çok (very/a lot), az (little/few), oldukça (quite), fazla (too much).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çok yorgunum.",
+        "english": "I am very tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben de. Çok çalışıyorum.",
+        "english": "Me too. I work a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Az uyuyorum.",
+        "english": "I sleep little."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bu kötü.",
+        "english": "That's bad."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nConjunctions",
+    "description": "Common conjunctions: ve (and), ama (but), veya (or), çünkü (because), -ken (when/while).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kahveyi severim ama çayı sevmem.",
+        "english": "I like coffee but not tea."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Neden?",
+        "english": "Why?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çünkü kahve güçlü.",
+        "english": "Because coffee is strong."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben kahve veya çay içerim.",
+        "english": "I drink coffee or tea."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nAdjective agreement",
+    "description": "Turkish adjectives don't change with gender or number. They stay the same: yeni araba, yeni ev, yeni arabalar.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yeni bir arabam var.",
+        "english": "I have a new car."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Benim yeni bir bisikletim var.",
+        "english": "I have a new bicycle."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ayakkabılarım yeni.",
+        "english": "My shoes are new."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Benim gömleklerim de yeni.",
+        "english": "My shirts are new too."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nComparisons",
+    "description": "Comparisons: 'daha... (than)' (more... than), 'daha az... (than)' (less... than), 'kadar' (as... as).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Senden daha uzunum.",
+        "english": "I am taller than you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ama ben daha hızlıyım.",
+        "english": "But I am faster."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tren otobüsten daha hızlı.",
+        "english": "The train is faster than the bus."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, ama daha pahalı.",
+        "english": "Yes, but it's more expensive."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nThis, that, these, those",
+    "description": "Demonstratives: bu (this), şu (that - medium distance), o (that - far), bunlar (these), onlar (those).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu kitabı seviyor musun?",
+        "english": "Do you like this book?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, ama şu kitabı tercih ederim.",
+        "english": "Yes, but I prefer that book."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu gömlekler güzel.",
+        "english": "These shirts are beautiful."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Şu gömlekler de öyle.",
+        "english": "Those shirts too."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 12:\nNear future",
+    "description": "'-ecek/-acak' suffix = going to/will. 'Yiyeceğim' = I'm going to eat. Easy way to talk about future!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın ne yapacaksın?",
+        "english": "What are you going to do tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çalışacağım.",
+        "english": "I'm going to study."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben çalışacağım.",
+        "english": "I'm going to work."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bizimle yemek yiyecek misin?",
+        "english": "Are you going to eat with us?"
+      }
+    ]
+  }
+]

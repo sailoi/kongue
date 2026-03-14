@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Lesson 1:\nWorking",
+    "description": "'Çalışmak' (to work): 'çalışıyorum' = I work, 'çalışıyorsun' = you work. Used for both work and study.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Nerede çalışıyorsun?",
+        "english": "Where do you work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bir ofiste çalışıyorum.",
+        "english": "I work in an office."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben bir hastanede çalışıyorum.",
+        "english": "I work in a hospital."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İşini seviyor musun?",
+        "english": "Do you like your job?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, seviyorum.",
+        "english": "Yes, I like it."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo read",
+    "description": "'Okumak' (to read): 'okuyorum' = I read, 'okuyorsun' = you read. Talk about reading books, magazines, etc.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Okumayı sever misin?",
+        "english": "Do you like to read?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok okurum.",
+        "english": "Yes, I read a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne okursun?",
+        "english": "What do you read?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kitap ve dergi okurum.",
+        "english": "I read books and magazines."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nTo write",
+    "description": "'Yazmak' (to write): 'yazıyorum' = I write, 'yazıyorsun' = you write.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çok yazar mısın?",
+        "english": "Do you write a lot?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, her gün yazarım.",
+        "english": "Yes, I write every day."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne yazarsın?",
+        "english": "What do you write?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "E-posta ve mesaj yazarım.",
+        "english": "I write emails and messages."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nAt school",
+    "description": "School vocabulary: okul (school), sınıf (class), kitap (book), kalem (pencil), öğretmen (teacher).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kitabın nerede?",
+        "english": "Where is your book?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kitabım sınıfta.",
+        "english": "My book is in the class."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kalemin var mı?",
+        "english": "Do you have a pencil?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, iki kalemim var.",
+        "english": "Yes, I have two pencils."
+      }
+    ]
+  }
+]

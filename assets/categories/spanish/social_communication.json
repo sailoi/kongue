@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Lesson 1:\nMaking plans",
+    "description": "Using near future to make plans: 'vamos a' (we're going to), invitations, accepting/declining.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Voy a ir al cine. ¿Quieres venir?",
+        "english": "I'm going to the movies. Do you want to come?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, ¿cuándo?",
+        "english": "Yes, when?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Vamos a ir el sábado.",
+        "english": "We're going to go on Saturday."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Perfecto. Voy a ir.",
+        "english": "Perfect. I'm going to go."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nAsking permission",
+    "description": "'¿Puedo...?' = Can I...? / May I...? Polite way to ask for permission.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedo usar el baño?",
+        "english": "Can I use the bathroom?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, claro.",
+        "english": "Yes, of course."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedo abrir la ventana?",
+        "english": "Can I open the window?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, puedes.",
+        "english": "Yes, you can."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nTelephone phrases",
+    "description": "Phone vocabulary: llamar (to call), teléfono (phone), mensaje (message), hablar (to speak).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Aló? ¿Está María?",
+        "english": "Hello? Is María there?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no está. ¿Quién habla?",
+        "english": "No, she's not here. Who's speaking?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Soy Juan.",
+        "english": "It's Juan."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Quieres dejar un mensaje?",
+        "english": "Do you want to leave a message?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nExpressing preferences",
+    "description": "'Preferir' (to prefer): 'prefiero' = I prefer. Irregular (e→ie). Use with nouns or infinitives.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Prefieres café o té?",
+        "english": "Do you prefer coffee or tea?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Prefiero café.",
+        "english": "I prefer coffee."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo prefiero el té.",
+        "english": "I prefer tea."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Prefieres leer o ver televisión?",
+        "english": "Do you prefer to read or watch television?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAsking for opinions",
+    "description": "Opinion phrases: '¿Qué piensas?' (What do you think?), '¿Qué opinas?' (What's your opinion?), 'Creo que...' (I think that...).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué piensas de esta película?",
+        "english": "What do you think of this movie?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Creo que es muy buena.",
+        "english": "I think it's very good."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué opinas del restaurante?",
+        "english": "What's your opinion of the restaurant?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Creo que es excelente.",
+        "english": "I think it's excellent."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nGiving suggestions",
+    "description": "'Deber' (should): 'debes' = you should. 'Deberías' = you should (conditional). Giving advice.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estoy muy cansado.",
+        "english": "I am very tired."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Debes descansar.",
+        "english": "You should rest."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, tienes razón.",
+        "english": "Yes, you're right."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "También debes dormir más.",
+        "english": "You should also sleep more."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nExpressing agreement",
+    "description": "Agreement: 'Estoy de acuerdo' (I agree), 'Tienes razón' (You're right), 'Exacto' (Exactly), 'Claro' (Of course).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "El español es difícil.",
+        "english": "Spanish is difficult."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estoy de acuerdo.",
+        "english": "I agree."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Pero es muy útil.",
+        "english": "But it's very useful."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tienes razón. Es muy útil.",
+        "english": "You're right. It's very useful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nExpressing disagreement",
+    "description": "Disagreement: 'No estoy de acuerdo' (I don't agree), 'No creo' (I don't think so), 'Al contrario' (On the contrary).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "El fútbol es aburrido.",
+        "english": "Soccer is boring."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No estoy de acuerdo.",
+        "english": "I don't agree."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gusta el fútbol?",
+        "english": "Do you like soccer?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, al contrario, es muy emocionante.",
+        "english": "Yes, on the contrary, it's very exciting."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nMaking invitations",
+    "description": "Inviting someone: '¿Quieres...?' (Do you want to...?), '¿Te gustaría...?' (Would you like to...?).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Quieres ir al concierto?",
+        "english": "Do you want to go to the concert?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, me gustaría ir.",
+        "english": "Yes, I would like to go."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuándo quieres ir?",
+        "english": "When do you want to go?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "El sábado está bien.",
+        "english": "Saturday is good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nAccepting invitations",
+    "description": "Accepting: '¡Claro!' (Sure!), '¡Por supuesto!' (Of course!), 'Me encantaría' (I would love to), '¡Perfecto!' (Perfect!).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Quieres venir a mi casa?",
+        "english": "Do you want to come to my house?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Claro! ¿Cuándo?",
+        "english": "Sure! When?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mañana por la tarde.",
+        "english": "Tomorrow afternoon."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Perfecto! Voy a ir.",
+        "english": "Perfect! I'll go."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 11:\nDeclining invitations",
+    "description": "Declining politely: 'Lo siento' (I'm sorry), 'No puedo' (I can't), 'Tal vez otro día' (Maybe another day).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Quieres ir al cine esta noche?",
+        "english": "Do you want to go to the movies tonight?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Lo siento, no puedo.",
+        "english": "I'm sorry, I can't."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Por qué no?",
+        "english": "Why not?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tengo que estudiar. Tal vez otro día.",
+        "english": "I have to study. Maybe another day."
+      }
+    ]
+  }
+]
