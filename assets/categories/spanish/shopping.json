@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Lesson 1:\nShopping",
+    "description": "Shopping vocabulary: tienda (store), comprar (to buy), vender (to sell), precio (price), barato (cheap), caro (expensive).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuánto cuesta esta camisa?",
+        "english": "How much does this shirt cost?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Cuesta veinte euros.",
+        "english": "It costs twenty euros."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Es barato. La compro.",
+        "english": "It's cheap. I'll buy it."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Muy bien.",
+        "english": "Very good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nAsking for prices",
+    "description": "'¿Cuánto cuesta?' = How much does it cost? (singular), '¿Cuánto cuestan?' = How much do they cost? (plural).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuánto cuestan las manzanas?",
+        "english": "How much do the apples cost?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Cuestan dos euros el kilo.",
+        "english": "They cost two euros per kilo."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y el pan?",
+        "english": "And the bread?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "El pan cuesta un euro.",
+        "english": "The bread costs one euro."
+      }
+    ]
+  }
+]

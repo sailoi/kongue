@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Lesson 1:\nCommon Foods",
+    "description": "Food vocabulary with 'yemek' (to eat): 'Yerim' = I eat, 'Yersin' = you eat. Practice: ekmek (bread), meyve (fruit), su (water).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kahvaltıda ne yersin?",
+        "english": "What do you eat for breakfast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ekmek ve meyve yerim.",
+        "english": "I eat bread and fruit."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Meyveyi seviyor musun?",
+        "english": "Do you like fruit?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok severim.",
+        "english": "Yes, I like it a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben kahvaltı gevreği yerim.",
+        "english": "I eat cereal."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo drink",
+    "description": "'İçmek' (to drink): 'İçerim' = I drink, 'İçersin' = you drink. Common drinks: su (water), çay (tea), kahve (coffee), meyve suyu (juice).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sabahleyin ne içersin?",
+        "english": "What do you drink in the morning?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çay içerim. Ya sen?",
+        "english": "I drink tea. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben kahve içerim.",
+        "english": "I drink coffee."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Meyve suyu seviyor musun?",
+        "english": "Do you like juice?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, meyve suyunu severim.",
+        "english": "Yes, I like juice."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nFruits",
+    "description": "Fruits: elma (apple), portakal (orange), muz (banana), çilek (strawberry), üzüm (grape).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hangi meyveyi seversin?",
+        "english": "What fruit do you like?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Elmaları severim.",
+        "english": "I like apples."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben çilekleri severim.",
+        "english": "I like strawberries."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Portakallar iyidir.",
+        "english": "Oranges are good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nVegetables",
+    "description": "Vegetables: domates (tomato), marul (lettuce), havuç (carrot), patates (potato), soğan (onion).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sebze yer misin?",
+        "english": "Do you eat vegetables?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, domates ve marul yerim.",
+        "english": "Yes, I eat tomatoes and lettuce."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Havuçları seviyor musun?",
+        "english": "Do you like carrots?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, severim.",
+        "english": "Yes, I like them."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAt the restaurant",
+    "description": "Restaurant vocabulary: menü (menu), yemek (dish/food), hesap (bill), garson (waiter).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Günaydın. Menü, lütfen?",
+        "english": "Good morning. The menu, please?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İşte menü.",
+        "english": "Here is the menu."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu yemeği istiyorum.",
+        "english": "I want this dish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tamam. Başka bir şey?",
+        "english": "Okay. Anything else?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hayır, hesap lütfen.",
+        "english": "No, the bill please."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nOrdering food",
+    "description": "Ordering phrases: 'İstiyorum' = I want, 'Alabilir miyim?' = Can I get? (polite), 'Getirin' = Bring (formal).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne içmek istersiniz?",
+        "english": "What would you like to drink?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Su istiyorum, lütfen.",
+        "english": "I would like water, please."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yemek için?",
+        "english": "And to eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bana bir salata.",
+        "english": "A salad for me."
+      }
+    ]
+  }
+]

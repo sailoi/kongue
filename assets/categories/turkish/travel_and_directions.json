@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Lesson 1:\nWhere do you live?",
+    "description": "'Yaşamak' (to live): 'Yaşıyorum' = I live, 'Yaşıyorsun' = you live. 'Nerede?' = Where? Important for location questions.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Nerede yaşıyorsun?",
+        "english": "Where do you live?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İstanbul'da yaşıyorum. Ya sen?",
+        "english": "I live in Istanbul. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Ankara'da yaşıyorum.",
+        "english": "I live in Ankara."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ankara güzel bir şehir.",
+        "english": "Ankara is a beautiful city."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTransportation",
+    "description": "Transportation: otobüs (bus), tren (train), araba (car), bisiklet (bicycle), taksi (taxi), metro (subway).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İşe nasıl gidiyorsun?",
+        "english": "How do you get to work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Otobüsle gidiyorum.",
+        "english": "I go by bus."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben metroyla gidiyorum.",
+        "english": "I go by subway."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Metro hızlı.",
+        "english": "The subway is fast."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDirections",
+    "description": "Direction words: sağ (right), sol (left), düz (straight), yakın (near), uzak (far).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Banka nerede?",
+        "english": "Where is the bank?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Düz git.",
+        "english": "Go straight."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sonra?",
+        "english": "And then?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sağa dön.",
+        "english": "Turn right."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yakın mı?",
+        "english": "Is it near?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, çok yakın.",
+        "english": "Yes, it's very near."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nAsking for help",
+    "description": "'Yardım etmek' (to help): 'Yardım eder misiniz?' = Can you help? 'Yardıma ihtiyacım var' = I need help. Polite phrases.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Affedersiniz, yardıma ihtiyacım var.",
+        "english": "Excuse me, I need help."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tabii, ne lazım?",
+        "english": "Of course, what do you need?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İstasyon nerede?",
+        "english": "Where is the station?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Solda.",
+        "english": "It's on the left."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAt the hotel",
+    "description": "Hotel vocabulary: oda (room), rezervasyon (reservation), anahtar (key), resepsiyon (reception).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Rezervasyonum var.",
+        "english": "I have a reservation."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Adınız nedir?",
+        "english": "What is your name?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Demir.",
+        "english": "Demir."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İşte anahtarınız.",
+        "english": "Here is your key."
+      }
+    ]
+  }
+]

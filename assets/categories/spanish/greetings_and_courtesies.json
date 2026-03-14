@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Lesson 1:\nI am, You are",
+    "description": "The verb 'ser' (to be) is fundamental. 'Soy' = I am, 'Eres' = you are (informal). Used for identity and characteristics.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hola. Yo soy Ana.",
+        "english": "Hello. I am Ana."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hola Ana. Yo soy Carlos.",
+        "english": "Hello Ana. I am Carlos."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tú eres estudiante, ¿no?",
+        "english": "You are a student, right?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, yo soy estudiante.",
+        "english": "Yes, I am a student."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nWhat is your name?",
+    "description": "'¿Cómo te llamas?' literally means 'How do you call yourself?' It's the standard way to ask someone's name. 'Me llamo' = My name is (I call myself).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hola, ¿cómo te llamas?",
+        "english": "Hello, what is your name?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Me llamo María. ¿Y tú?",
+        "english": "My name is María. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Me llamo Juan.",
+        "english": "My name is Juan."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mucho gusto, Juan.",
+        "english": "Nice to meet you, Juan."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mucho gusto, María.",
+        "english": "Nice to meet you, María."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nWhere are you from?",
+    "description": "'¿De dónde eres?' asks where you're from. 'Soy de...' = I am from... This builds on 'ser' from Lesson 1.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hola, me llamo Pedro.",
+        "english": "Hello, my name is Pedro."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hola Pedro. ¿De dónde eres?",
+        "english": "Hello Pedro. Where are you from?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Soy de México. ¿Y tú?",
+        "english": "I am from Mexico. And you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Yo soy de España.",
+        "english": "I am from Spain."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nHow are you?",
+    "description": "'¿Cómo estás?' uses 'estar' (to be) for temporary states/feelings. 'Estoy' = I am. Different from 'ser' which is for permanent traits.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hola, ¿cómo estás?",
+        "english": "Hello, how are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estoy bien, gracias. ¿Y tú?",
+        "english": "I am well, thank you. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo estoy muy bien.",
+        "english": "I am very well."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Qué bueno!",
+        "english": "That's good!"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nThis is...",
+    "description": "'Este es' (masculine) or 'Esta es' (feminine) means 'This is'. Used to introduce people or things. Gender agreement is important in Spanish.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Este es mi amigo, Luis.",
+        "english": "This is my friend, Luis."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hola Luis, mucho gusto.",
+        "english": "Hello Luis, nice to meet you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Y esta es mi amiga, Rosa.",
+        "english": "And this is my friend, Rosa."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mucho gusto, Rosa.",
+        "english": "Nice to meet you, Rosa."
+      }
+    ]
+  }
+]

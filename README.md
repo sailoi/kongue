@@ -1,50 +1,142 @@
-# Welcome to your Expo app 👋
+# 🌍 Kongue
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Learn to speak, naturally**
 
-## Get started
+Open-source dialogue-based language learning app. Practice real conversations and build fluency through natural interactions.
 
-1. Install dependencies
+![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-blue.svg)
+![Expo](https://img.shields.io/badge/Expo-54-blue.svg)
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+### 🆓 Free Features (Forever)
+- 📚 **Complete Lessons** - Learn 20+ languages with hundreds of lessons
+- 📖 **Interactive Dialogues** - Practice reading with real conversations
+- 🎯 **Progress Tracking** - Track your learning journey
+- 🌙 **Dark Mode** - Easy on the eyes
+- 🎨 **Beautiful UI** - Intuitive and modern design
+- 💾 **Offline Support** - Read lessons without internet
 
-   ```bash
-   npx expo start
-   ```
+### 💎 Premium Features ($4.99/month)
+- 🔊 **Native Pronunciation** - Hear every sentence spoken by native speakers
+- 🤖 **AI Conversation Practice** - Chat with AI in your target language
+- 📥 **Offline Audio** - Download pronunciations for offline use
+- ☁️ **Cloud Sync** - Sync progress across devices
+- 🎯 **AI Feedback** - Get pronunciation and grammar feedback (coming soon)
 
-In the output, you'll find options to open the app in a
+## 🚀 Quick Start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### For Users
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Download the App:**
+- 📱 [App Store](#) (Coming Soon)
+- 🤖 [Google Play](#) (Coming Soon)
 
-## Get a fresh project
+### For Developers
 
-When you're ready, run:
+#### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Expo CLI
+- iOS Simulator or Android Emulator (optional)
+
+#### Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/sailoi/kongue.git
+cd kongue
+
+# Install dependencies
+npm install
+
+# Create environment file
+cp .env.example .env
+# Edit .env with your configuration
+
+# Start the app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+#### Self-Hosting (All Features Unlocked)
 
-## Learn more
+Want to run your own instance with your own API keys? See [SELF_HOSTING.md](./SELF_HOSTING.md) for complete instructions.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🛠️ Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Frontend**: React Native + Expo
+- **Backend**: FastAPI (Python)
+- **Text-to-Speech**: Google Cloud TTS
+- **AI Chat**: OpenAI/Anthropic (Coming Soon)
+- **Storage**: Google Cloud Storage
+- **Database**: AsyncStorage (local)
 
-## Join the community
+## 📚 Currently Supported Languages
 
-Join our community of developers creating universal apps.
+- 🇪🇸 Spanish
+- 🇹🇷 Turkish
+- More coming soon!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🗺️ Roadmap
+
+- [ ] AI Conversation Practice
+- [ ] 20+ Languages
+- [ ] Speech Recognition
+- [ ] Flashcard System
+- [ ] Community-Created Lessons
+- [ ] Offline Mode Improvements
+- [ ] Web Version
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+
+Ways to contribute:
+- 🌍 Add new language content
+- 🐛 Report bugs
+- ✨ Suggest features
+- 📝 Improve documentation
+- 🎨 Enhance UI/UX
+- 🔧 Fix issues
+
+## 📝 License
+
+This project is licensed under the GPL-3.0 License - see [LICENSE](./LICENSE) file for details.
+
+This means:
+- ✅ You can use, modify, and distribute this software
+- ✅ You can run it for personal or commercial use
+- ✅ You must keep it open source if you distribute it
+- ✅ You can self-host with your own API keys
+
+## 💰 Premium Subscription
+
+While this code is **free and open source**, our hosted version includes a premium subscription ($4.99/month) to cover:
+- 💸 Text-to-Speech API costs
+- 🤖 AI conversation API costs
+- ☁️ Cloud storage and infrastructure
+- 🔧 Maintenance and development
+
+**Self-hosting is always free!** You just need to provide your own API keys.
+
+## 🙏 Acknowledgments
+
+- Lesson content created by native speakers
+- Built with ❤️ using React Native and Expo
+- Inspired by the language learning community
+
+## 📧 Support
+
+- 🌐 Website: [https://yourwebsite.com](#)
+- 📧 Email: [contact@yourwebsite.com](#)
+- 🐛 Issues: [GitHub Issues](https://github.com/sailoi/kongue/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/sailoi/kongue/discussions)
+
+## ⭐ Star History
+
+If you find this project useful, please consider giving it a star!
+
+---
+
+**Made with ❤️ by the open source community**

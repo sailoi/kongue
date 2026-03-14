@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Lesson 1:\nWhere do you live?",
+    "description": "'Vivir' (to live): 'vivo' = I live, 'vives' = you live. '¿Dónde?' = Where? This introduces -ir verbs and location questions.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde vives?",
+        "english": "Where do you live?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Vivo en Madrid. ¿Y tú?",
+        "english": "I live in Madrid. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo vivo en Barcelona.",
+        "english": "I live in Barcelona."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Barcelona es bonita.",
+        "english": "Barcelona is beautiful."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTransportation",
+    "description": "Transportation: autobús (bus), tren (train), carro/coche (car), bicicleta (bicycle), taxi (taxi), metro (subway).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo vas al trabajo?",
+        "english": "How do you get to work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Voy en autobús.",
+        "english": "I go by bus."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo voy en metro.",
+        "english": "I go by subway."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "El metro es rápido.",
+        "english": "The subway is fast."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDirections",
+    "description": "Direction words: derecha (right), izquierda (left), recto (straight), cerca (near), lejos (far).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde está el banco?",
+        "english": "Where is the bank?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sigue recto.",
+        "english": "Go straight."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y después?",
+        "english": "And then?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Gira a la derecha.",
+        "english": "Turn right."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Está cerca?",
+        "english": "Is it near?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, está muy cerca.",
+        "english": "Yes, it's very near."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nAsking for help",
+    "description": "'Ayudar' (to help): '¿Me ayudas?' = Can you help me? 'Necesito ayuda' = I need help. Polite phrases.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Disculpe, necesito ayuda.",
+        "english": "Excuse me, I need help."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro, ¿qué necesita?",
+        "english": "Of course, what do you need?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde está la estación?",
+        "english": "Where is the station?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Está a la izquierda.",
+        "english": "It's to the left."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAt the hotel",
+    "description": "Hotel vocabulary: habitación (room), reserva (reservation), llave (key), recepción (reception).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tengo una reserva.",
+        "english": "I have a reservation."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿A qué nombre?",
+        "english": "Under what name?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "A nombre de García.",
+        "english": "Under the name García."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Aquí está su llave.",
+        "english": "Here is your key."
+      }
+    ]
+  }
+]

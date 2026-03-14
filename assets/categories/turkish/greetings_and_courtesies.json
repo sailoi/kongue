@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Lesson 1:\nI am, You are",
+    "description": "The verb 'olmak' (to be) is fundamental. 'Ben' = I, 'Sen' = you. Simple present: Ben öğrenciyim = I am a student.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Merhaba. Ben Ayşe.",
+        "english": "Hello. I am Ayşe."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Merhaba Ayşe. Ben Mehmet.",
+        "english": "Hello Ayşe. I am Mehmet."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sen öğrenci misin?",
+        "english": "Are you a student?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, ben öğrenciyim.",
+        "english": "Yes, I am a student."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nWhat is your name?",
+    "description": "'Adın ne?' means 'What is your name?' 'Benim adım' = My name is. A very common and useful phrase.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Merhaba, adın ne?",
+        "english": "Hello, what is your name?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Benim adım Zeynep. Ya senin?",
+        "english": "My name is Zeynep. And yours?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Benim adım Ali.",
+        "english": "My name is Ali."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Memnun oldum, Ali.",
+        "english": "Nice to meet you, Ali."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de memnun oldum, Zeynep.",
+        "english": "Nice to meet you too, Zeynep."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nWhere are you from?",
+    "description": "'Nerelisin?' asks where you're from. 'Ben...lıyım' = I am from... This is a common question when meeting people.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Merhaba, benim adım Fatma.",
+        "english": "Hello, my name is Fatma."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Merhaba Fatma. Nerelisin?",
+        "english": "Hello Fatma. Where are you from?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Ankaralıyım. Ya sen?",
+        "english": "I am from Ankara. And you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ben İstanbulluyum.",
+        "english": "I am from Istanbul."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nHow are you?",
+    "description": "'Nasılsın?' = How are you? 'İyiyim' = I am well. Used for asking about someone's current state or feelings.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Merhaba, nasılsın?",
+        "english": "Hello, how are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İyiyim, teşekkürler. Ya sen?",
+        "english": "I am well, thank you. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de çok iyiyim.",
+        "english": "I am very well too."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ne güzel!",
+        "english": "That's good!"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nThis is...",
+    "description": "'Bu' means 'this'. Used to introduce people or things. 'Arkadaşım' = my friend. Very useful for introductions.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu benim arkadaşım, Ahmet.",
+        "english": "This is my friend, Ahmet."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Merhaba Ahmet, memnun oldum.",
+        "english": "Hello Ahmet, nice to meet you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ve bu benim arkadaşım, Elif.",
+        "english": "And this is my friend, Elif."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Memnun oldum, Elif.",
+        "english": "Nice to meet you, Elif."
+      }
+    ]
+  }
+]

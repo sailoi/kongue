@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Lesson 1:\nMy Family",
+    "description": "Family vocabulary: baba (father), anne (mother), erkek kardeş (brother), kız kardeş (sister). 'Benim' = my.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu benim ailem.",
+        "english": "This is my family."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "O kim?",
+        "english": "Who is she?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "O benim annem.",
+        "english": "She is my mother."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Peki o?",
+        "english": "And him?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "O benim babam.",
+        "english": "He is my father."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nProfessions",
+    "description": "Jobs: doktor (doctor), öğretmen (teacher), öğrenci (student), aşçı (cook). Turkish professions are generally gender-neutral.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne iş yapıyorsun?",
+        "english": "What do you do?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Öğretmenim. Ya sen?",
+        "english": "I'm a teacher. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben doktorum.",
+        "english": "I'm a doctor."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Erkek kardeşim aşçı.",
+        "english": "My brother is a cook."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDescribing people",
+    "description": "Adjectives for people: uzun (tall), kısa (short), genç (young), yaşlı (old), güzel (beautiful), yakışıklı (handsome).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Erkek kardeşim çok uzun.",
+        "english": "My brother is very tall."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kaç yaşında?",
+        "english": "How old is he?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yirmi yaşında. O genç.",
+        "english": "He is twenty years old. He is young."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kız kardeşim kısa.",
+        "english": "My sister is short."
+      }
+    ]
+  }
+]

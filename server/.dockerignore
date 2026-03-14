@@ -1,0 +1,47 @@
+# Prevent secrets from being copied into Docker image
+.env
+.env.*
+*.key
+*.pem
+*credentials*.json
+google-credentials.json
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Scripts (not needed in production container)
+*.sh
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/

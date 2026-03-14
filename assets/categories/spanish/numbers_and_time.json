@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Lesson 1:\nNumbers 1-10",
+    "description": "Basic counting is essential. Practice these numbers: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuántos años tienes?",
+        "english": "How old are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tengo cinco años.",
+        "english": "I am five years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo tengo ocho años.",
+        "english": "I am eight years old."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi hermano tiene diez años.",
+        "english": "My brother is ten years old."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nWhat time is it?",
+    "description": "'¿Qué hora es?' = What time is it? 'Es la una' (1 o'clock), 'Son las dos' (2 o'clock). Use 'la' for one, 'las' for other hours.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué hora es?",
+        "english": "What time is it?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Son las tres.",
+        "english": "It's three o'clock."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A qué hora estudias?",
+        "english": "What time do you study?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estudio a las cuatro.",
+        "english": "I study at four o'clock."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDays of the Week",
+    "description": "Days: lunes, martes, miércoles, jueves, viernes, sábado, domingo. '¿Qué día es hoy?' = What day is today? 'Hoy es...' = Today is...",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué día es hoy?",
+        "english": "What day is today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hoy es lunes.",
+        "english": "Today is Monday."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mañana es martes.",
+        "english": "Tomorrow is Tuesday."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, el martes estudio español.",
+        "english": "Yes, on Tuesday I study Spanish."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nNumbers 11-20",
+    "description": "Numbers 11-20: once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuántos años tiene tu hermana?",
+        "english": "How old is your sister?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tiene quince años.",
+        "english": "She is fifteen years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi hermano tiene dieciocho.",
+        "english": "My brother is eighteen."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Cuántos estudiantes hay?",
+        "english": "How many students are there?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hay veinte estudiantes.",
+        "english": "There are twenty students."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nMonths",
+    "description": "Months: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre. Not capitalized in Spanish!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuándo es tu cumpleaños?",
+        "english": "When is your birthday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi cumpleaños es en mayo.",
+        "english": "My birthday is in May."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿En qué mes estamos?",
+        "english": "What month are we in?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estamos en marzo.",
+        "english": "We are in March."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nNumbers 20-100",
+    "description": "Larger numbers: veinte (20), treinta (30), cuarenta (40), cincuenta (50), sesenta (60), setenta (70), ochenta (80), noventa (90), cien (100).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuántos años tiene tu padre?",
+        "english": "How old is your father?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tiene cincuenta años.",
+        "english": "He is fifty years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi madre tiene cuarenta y cinco.",
+        "english": "My mother is forty-five."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Cuánto cuesta?",
+        "english": "How much does it cost?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Cuesta treinta euros.",
+        "english": "It costs thirty euros."
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Lesson 1:\nShopping",
+    "description": "Shopping vocabulary: mağaza (store), satın almak (to buy), satmak (to sell), fiyat (price), ucuz (cheap), pahalı (expensive).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu gömlek kaç lira?",
+        "english": "How much is this shirt?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yirmi lira.",
+        "english": "Twenty lira."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ucuz. Alıyorum.",
+        "english": "It's cheap. I'll buy it."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çok iyi.",
+        "english": "Very good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nAsking for prices",
+    "description": "'Kaç lira?' = How much? (singular), 'Kaç liralar?' or 'Ne kadar?' = How much do they cost? Common shopping phrases.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Elmalar kaç lira?",
+        "english": "How much are the apples?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kilosu iki lira.",
+        "english": "Two lira per kilo."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ekmek ne kadar?",
+        "english": "How much is the bread?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ekmek bir lira.",
+        "english": "The bread is one lira."
+      }
+    ]
+  }
+]

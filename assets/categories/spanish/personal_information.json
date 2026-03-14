@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Lesson 1:\nMy Family",
+    "description": "Family vocabulary: padre (father), madre (mother), hermano (brother), hermana (sister). 'Mi' = my. Notice masculine/feminine forms.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Esta es mi familia.",
+        "english": "This is my family."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Quién es ella?",
+        "english": "Who is she?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Ella es mi madre.",
+        "english": "She is my mother."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Y él?",
+        "english": "And him?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Él es mi padre.",
+        "english": "He is my father."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nProfessions",
+    "description": "Jobs: doctor/doctora, profesor/profesora, estudiante, cocinero/cocinera. Notice masculine/feminine forms.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué haces?",
+        "english": "What do you do?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Soy profesora. ¿Y tú?",
+        "english": "I'm a teacher. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo soy doctor.",
+        "english": "I'm a doctor."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi hermano es cocinero.",
+        "english": "My brother is a cook."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDescribing people",
+    "description": "Adjectives for people: alto/alta (tall), bajo/baja (short), joven (young), viejo/vieja (old), guapo/guapa (handsome/beautiful).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Mi hermano es muy alto.",
+        "english": "My brother is very tall."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Cuántos años tiene?",
+        "english": "How old is he?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tiene veinte años. Es joven.",
+        "english": "He is twenty years old. He is young."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mi hermana es baja.",
+        "english": "My sister is short."
+      }
+    ]
+  }
+]

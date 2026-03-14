@@ -1,5 +1,22 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+# Secrets & Environment Variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*credentials*.json
+google-credentials.json
+service-account.json
+GoogleService-Info.plist
+google-services.json
+
+# Deployment Scripts (contain environment-specific config)
+server/deploy.sh
+server/check-permissions.sh
+server/fix-permissions.sh
+
 # dependencies
 node_modules/
 
@@ -15,7 +32,6 @@ expo-env.d.ts
 *.jks
 *.p8
 *.p12
-*.key
 *.mobileprovision
 
 # Metro
@@ -28,13 +44,41 @@ yarn-error.*
 
 # macOS
 .DS_Store
-*.pem
 
 # local env files
 .env*.local
 
 # typescript
 *.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS
+Thumbs.db
+
+# Build outputs
+*.apk
+*.ipa
+*.aab
 
 app-example
 

@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Lesson 1:\nCommon Foods",
+    "description": "Food vocabulary with 'comer' (to eat): 'como' = I eat, 'comes' = you eat. Practice: pan (bread), fruta (fruit), agua (water).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué comes en el desayuno?",
+        "english": "What do you eat for breakfast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Como pan y fruta.",
+        "english": "I eat bread and fruit."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gusta la fruta?",
+        "english": "Do you like fruit?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, me gusta mucho.",
+        "english": "Yes, I like it a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo como cereal.",
+        "english": "I eat cereal."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTo drink",
+    "description": "'Beber' (to drink): 'bebo' = I drink, 'bebes' = you drink. Regular -er verb. Common drinks: agua, café, té, jugo.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué bebes por la mañana?",
+        "english": "What do you drink in the morning?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Bebo café. ¿Y tú?",
+        "english": "I drink coffee. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo bebo té.",
+        "english": "I drink tea."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Te gusta el jugo?",
+        "english": "Do you like juice?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, me gusta el jugo.",
+        "english": "Yes, I like juice."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nFruits",
+    "description": "Fruits: manzana (apple), naranja (orange), plátano (banana), fresa (strawberry), uva (grape).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué fruta te gusta?",
+        "english": "What fruit do you like?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Me gustan las manzanas.",
+        "english": "I like apples."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "A mí me gustan las fresas.",
+        "english": "I like strawberries."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Las naranjas son buenas.",
+        "english": "Oranges are good."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nVegetables",
+    "description": "Vegetables: tomate (tomato), lechuga (lettuce), zanahoria (carrot), papa (potato), cebolla (onion).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Comes verduras?",
+        "english": "Do you eat vegetables?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, como tomates y lechugas.",
+        "english": "Yes, I eat tomatoes and lettuce."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gustan las zanahorias?",
+        "english": "Do you like carrots?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, me gustan.",
+        "english": "Yes, I like them."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nAt the restaurant",
+    "description": "Restaurant vocabulary: menú (menu), plato (dish), cuenta (bill), camarero/camarera (waiter/waitress).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Buenos días. ¿El menú, por favor?",
+        "english": "Good morning. The menu, please?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Aquí está el menú.",
+        "english": "Here is the menu."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Quiero este plato.",
+        "english": "I want this dish."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Muy bien. ¿Algo más?",
+        "english": "Very good. Anything else?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No, la cuenta por favor.",
+        "english": "No, the bill please."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nOrdering food",
+    "description": "Ordering phrases: 'Para mí' = For me, 'Quisiera' = I would like (polite), 'Traiga' = Bring (formal command).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué quiere tomar?",
+        "english": "What would you like to drink?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Quisiera agua, por favor.",
+        "english": "I would like water, please."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y para comer?",
+        "english": "And to eat?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Para mí, una ensalada.",
+        "english": "For me, a salad."
+      }
+    ]
+  }
+]

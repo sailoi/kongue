@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Lesson 1:\nNumbers 1-10",
+    "description": "Basic counting is essential. Practice these numbers: bir, iki, üç, dört, beş, altı, yedi, sekiz, dokuz, on.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kaç yaşındasın?",
+        "english": "How old are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Beş yaşındayım.",
+        "english": "I am five years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben sekiz yaşındayım.",
+        "english": "I am eight years old."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kardeşim on yaşında.",
+        "english": "My sibling is ten years old."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nWhat time is it?",
+    "description": "'Saat kaç?' = What time is it? 'Saat bir' (1 o'clock), 'Saat iki' (2 o'clock). Turkish uses 'saat' (hour/clock) for time.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Saat kaç?",
+        "english": "What time is it?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Saat üç.",
+        "english": "It's three o'clock."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Saat kaçta çalışıyorsun?",
+        "english": "What time do you study?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Saat dörtte çalışıyorum.",
+        "english": "I study at four o'clock."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nDays of the Week",
+    "description": "Days: Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi, Pazar. 'Bugün günlerden ne?' = What day is today?",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün günlerden ne?",
+        "english": "What day is today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bugün Pazartesi.",
+        "english": "Today is Monday."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın Salı.",
+        "english": "Tomorrow is Tuesday."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, Salı günü Türkçe çalışıyorum.",
+        "english": "Yes, on Tuesday I study Turkish."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 4:\nNumbers 11-20",
+    "description": "Numbers 11-20: on bir, on iki, on üç, on dört, on beş, on altı, on yedi, on sekiz, on dokuz, yirmi.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kız kardeşin kaç yaşında?",
+        "english": "How old is your sister?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "On beş yaşında.",
+        "english": "She is fifteen years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Erkek kardeşim on sekiz yaşında.",
+        "english": "My brother is eighteen."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kaç öğrenci var?",
+        "english": "How many students are there?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yirmi öğrenci var.",
+        "english": "There are twenty students."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nMonths",
+    "description": "Months: Ocak, Şubat, Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık. Not capitalized in Turkish!",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Doğum günün ne zaman?",
+        "english": "When is your birthday?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Doğum günüm Mayıs ayında.",
+        "english": "My birthday is in May."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hangi aydayız?",
+        "english": "What month are we in?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Mart ayındayız.",
+        "english": "We are in March."
+      }
+    ]
+  },
+  {
+    "title": "Lesson 6:\nNumbers 20-100",
+    "description": "Larger numbers: yirmi (20), otuz (30), kırk (40), elli (50), altmış (60), yetmiş (70), seksen (80), doksan (90), yüz (100).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Baban kaç yaşında?",
+        "english": "How old is your father?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Elli yaşında.",
+        "english": "He is fifty years old."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Annem kırk beş yaşında.",
+        "english": "My mother is forty-five."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Kaç lira?",
+        "english": "How much is it?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Otuz lira.",
+        "english": "It's thirty lira."
+      }
+    ]
+  }
+]
