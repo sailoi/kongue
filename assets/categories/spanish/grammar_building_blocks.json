@@ -27,6 +27,28 @@
         "spanish": "Sí, hay muchos restaurantes.",
         "english": "Yes, there are many restaurants."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "hay",
+        "english": "there is / there are"
+      },
+      {
+        "spanish": "cerca",
+        "english": "nearby"
+      },
+      {
+        "spanish": "calle",
+        "english": "street"
+      },
+      {
+        "spanish": "restaurante",
+        "english": "restaurant"
+      },
+      {
+        "spanish": "muchos",
+        "english": "many"
+      }
     ]
   },
   {
@@ -56,6 +78,28 @@
         "gender": "male",
         "spanish": "Voy mañana.",
         "english": "I'm going tomorrow."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "qué",
+        "english": "what"
+      },
+      {
+        "spanish": "dónde",
+        "english": "where"
+      },
+      {
+        "spanish": "cuándo",
+        "english": "when"
+      },
+      {
+        "spanish": "cuánto",
+        "english": "how much / how many"
+      },
+      {
+        "spanish": "quién",
+        "english": "who"
       }
     ]
   },
@@ -87,6 +131,24 @@
         "spanish": "No, no como carne.",
         "english": "No, I don't eat meat."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "no",
+        "english": "no / not"
+      },
+      {
+        "spanish": "tampoco",
+        "english": "neither / not either"
+      },
+      {
+        "spanish": "francés",
+        "english": "French"
+      },
+      {
+        "spanish": "carne",
+        "english": "meat"
+      }
     ]
   },
   {
@@ -116,6 +178,28 @@
         "gender": "male",
         "spanish": "Sus libros están en la mesa.",
         "english": "His/Her books are on the table."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "mi",
+        "english": "my"
+      },
+      {
+        "spanish": "tu",
+        "english": "your"
+      },
+      {
+        "spanish": "su",
+        "english": "his / her"
+      },
+      {
+        "spanish": "mochila",
+        "english": "backpack"
+      },
+      {
+        "spanish": "mesa",
+        "english": "table"
       }
     ]
   },
@@ -153,6 +237,28 @@
         "spanish": "Sí, y estoy muy contento aquí.",
         "english": "Yes, and I am very happy here."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "ser",
+        "english": "to be (identity/permanent)"
+      },
+      {
+        "spanish": "estar",
+        "english": "to be (state/location)"
+      },
+      {
+        "spanish": "bonita",
+        "english": "beautiful"
+      },
+      {
+        "spanish": "contento",
+        "english": "happy"
+      },
+      {
+        "spanish": "ahora",
+        "english": "now"
+      }
     ]
   },
   {
@@ -182,6 +288,24 @@
         "gender": "male",
         "spanish": "Nunca salto el desayuno.",
         "english": "I never skip breakfast."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "siempre",
+        "english": "always"
+      },
+      {
+        "spanish": "a veces",
+        "english": "sometimes"
+      },
+      {
+        "spanish": "nunca",
+        "english": "never"
+      },
+      {
+        "spanish": "desayuno",
+        "english": "breakfast"
       }
     ]
   },
@@ -213,6 +337,24 @@
         "spanish": "Eso es malo.",
         "english": "That's bad."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "bastante",
+        "english": "quite / enough"
+      },
+      {
+        "spanish": "demasiado",
+        "english": "too much"
+      },
+      {
+        "spanish": "cansado",
+        "english": "tired"
+      },
+      {
+        "spanish": "malo",
+        "english": "bad"
+      }
     ]
   },
   {
@@ -242,6 +384,28 @@
         "gender": "male",
         "spanish": "Yo bebo café o té.",
         "english": "I drink coffee or tea."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "pero",
+        "english": "but"
+      },
+      {
+        "spanish": "porque",
+        "english": "because"
+      },
+      {
+        "spanish": "o",
+        "english": "or"
+      },
+      {
+        "spanish": "café",
+        "english": "coffee"
+      },
+      {
+        "spanish": "té",
+        "english": "tea"
       }
     ]
   },
@@ -273,6 +437,28 @@
         "spanish": "Mis camisas son nuevas también.",
         "english": "My shirts are new too."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "nuevo",
+        "english": "new (masculine)"
+      },
+      {
+        "spanish": "nueva",
+        "english": "new (feminine)"
+      },
+      {
+        "spanish": "carro",
+        "english": "car"
+      },
+      {
+        "spanish": "bicicleta",
+        "english": "bicycle"
+      },
+      {
+        "spanish": "zapatos",
+        "english": "shoes"
+      }
     ]
   },
   {
@@ -302,6 +488,28 @@
         "gender": "male",
         "spanish": "Sí, pero es más caro.",
         "english": "Yes, but it's more expensive."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "más",
+        "english": "more"
+      },
+      {
+        "spanish": "que",
+        "english": "than"
+      },
+      {
+        "spanish": "rápido",
+        "english": "fast"
+      },
+      {
+        "spanish": "caro",
+        "english": "expensive"
+      },
+      {
+        "spanish": "tren",
+        "english": "train"
       }
     ]
   },
@@ -333,6 +541,28 @@
         "spanish": "Aquellas camisas también.",
         "english": "Those shirts too."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "este / esta",
+        "english": "this"
+      },
+      {
+        "spanish": "ese / esa",
+        "english": "that"
+      },
+      {
+        "spanish": "estos / estas",
+        "english": "these"
+      },
+      {
+        "spanish": "aquellos / aquellas",
+        "english": "those (far)"
+      },
+      {
+        "spanish": "prefiero",
+        "english": "I prefer"
+      }
     ]
   },
   {
@@ -362,6 +592,28 @@
         "gender": "male",
         "spanish": "¿Vas a comer con nosotros?",
         "english": "Are you going to eat with us?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "voy a",
+        "english": "I am going to"
+      },
+      {
+        "spanish": "vas a",
+        "english": "you are going to"
+      },
+      {
+        "spanish": "trabajar",
+        "english": "to work"
+      },
+      {
+        "spanish": "estudiar",
+        "english": "to study"
+      },
+      {
+        "spanish": "nosotros",
+        "english": "we"
       }
     ]
   }

@@ -27,6 +27,24 @@
         "spanish": "Sí, tengo dos hermanos.",
         "english": "Yes, I have two brothers."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "tengo",
+        "english": "I have"
+      },
+      {
+        "spanish": "tienes",
+        "english": "you have"
+      },
+      {
+        "spanish": "perro",
+        "english": "dog"
+      },
+      {
+        "spanish": "gato",
+        "english": "cat"
+      }
     ]
   },
   {
@@ -63,6 +81,28 @@
         "spanish": "Sí, me gustan los deportes.",
         "english": "Yes, I like sports."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "me gusta",
+        "english": "I like (singular)"
+      },
+      {
+        "spanish": "me gustan",
+        "english": "I like (plural)"
+      },
+      {
+        "spanish": "fútbol",
+        "english": "soccer"
+      },
+      {
+        "spanish": "deportes",
+        "english": "sports"
+      },
+      {
+        "spanish": "mucho",
+        "english": "a lot"
+      }
     ]
   },
   {
@@ -92,6 +132,24 @@
         "gender": "male",
         "spanish": "Yo estudio español.",
         "english": "I study Spanish."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "hablo",
+        "english": "I speak"
+      },
+      {
+        "spanish": "hablas",
+        "english": "you speak"
+      },
+      {
+        "spanish": "inglés",
+        "english": "English"
+      },
+      {
+        "spanish": "español",
+        "english": "Spanish"
       }
     ]
   },
@@ -123,6 +181,28 @@
         "spanish": "¿Necesitas ayuda?",
         "english": "Do you need help?"
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "necesito",
+        "english": "I need"
+      },
+      {
+        "spanish": "necesitas",
+        "english": "you need"
+      },
+      {
+        "spanish": "libro",
+        "english": "book"
+      },
+      {
+        "spanish": "agua",
+        "english": "water"
+      },
+      {
+        "spanish": "ayuda",
+        "english": "help"
+      }
     ]
   },
   {
@@ -152,6 +232,28 @@
         "gender": "male",
         "spanish": "¿Quieres agua?",
         "english": "Do you want water?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "quiero",
+        "english": "I want"
+      },
+      {
+        "spanish": "quieres",
+        "english": "you want"
+      },
+      {
+        "spanish": "comer",
+        "english": "to eat"
+      },
+      {
+        "spanish": "pizza",
+        "english": "pizza"
+      },
+      {
+        "spanish": "pasta",
+        "english": "pasta"
       }
     ]
   },
@@ -183,6 +285,28 @@
         "spanish": "¿Vas en autobús?",
         "english": "Do you go by bus?"
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "voy",
+        "english": "I go"
+      },
+      {
+        "spanish": "vas",
+        "english": "you go"
+      },
+      {
+        "spanish": "escuela",
+        "english": "school"
+      },
+      {
+        "spanish": "trabajo",
+        "english": "work"
+      },
+      {
+        "spanish": "autobús",
+        "english": "bus"
+      }
     ]
   },
   {
@@ -212,6 +336,28 @@
         "gender": "male",
         "spanish": "¿Qué haces los fines de semana?",
         "english": "What do you do on weekends?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "hago",
+        "english": "I do / make"
+      },
+      {
+        "spanish": "haces",
+        "english": "you do / make"
+      },
+      {
+        "spanish": "tarea",
+        "english": "homework"
+      },
+      {
+        "spanish": "ejercicio",
+        "english": "exercise"
+      },
+      {
+        "spanish": "fines de semana",
+        "english": "weekends"
       }
     ]
   },
@@ -243,6 +389,28 @@
         "spanish": "Veo películas y series.",
         "english": "I watch movies and series."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "veo",
+        "english": "I watch / see"
+      },
+      {
+        "spanish": "ves",
+        "english": "you watch / see"
+      },
+      {
+        "spanish": "televisión",
+        "english": "television"
+      },
+      {
+        "spanish": "películas",
+        "english": "movies"
+      },
+      {
+        "spanish": "series",
+        "english": "TV series"
+      }
     ]
   },
   {
@@ -272,6 +440,24 @@
         "gender": "male",
         "spanish": "Cierran a las ocho.",
         "english": "They close at eight."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "abrir",
+        "english": "to open"
+      },
+      {
+        "spanish": "cerrar",
+        "english": "to close"
+      },
+      {
+        "spanish": "tienda",
+        "english": "store"
+      },
+      {
+        "spanish": "hora",
+        "english": "hour / time"
       }
     ]
   },
@@ -303,6 +489,28 @@
         "spanish": "¿Escuchas música todos los días?",
         "english": "Do you listen to music every day?"
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "escucho",
+        "english": "I listen"
+      },
+      {
+        "spanish": "escuchas",
+        "english": "you listen"
+      },
+      {
+        "spanish": "música",
+        "english": "music"
+      },
+      {
+        "spanish": "pop",
+        "english": "pop"
+      },
+      {
+        "spanish": "rock",
+        "english": "rock"
+      }
     ]
   },
   {
@@ -332,6 +540,28 @@
         "gender": "male",
         "spanish": "Es normal. Es difícil.",
         "english": "It's normal. It's difficult."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "entiendo",
+        "english": "I understand"
+      },
+      {
+        "spanish": "entiendes",
+        "english": "you understand"
+      },
+      {
+        "spanish": "poco",
+        "english": "a little"
+      },
+      {
+        "spanish": "todo",
+        "english": "everything"
+      },
+      {
+        "spanish": "difícil",
+        "english": "difficult"
       }
     ]
   },
@@ -363,6 +593,24 @@
         "spanish": "Sí, sé hablar inglés.",
         "english": "Yes, I know how to speak English."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "sé",
+        "english": "I know (fact)"
+      },
+      {
+        "spanish": "sabes",
+        "english": "you know (fact)"
+      },
+      {
+        "spanish": "banco",
+        "english": "bank"
+      },
+      {
+        "spanish": "hablar",
+        "english": "to speak"
+      }
     ]
   },
   {
@@ -393,6 +641,24 @@
         "spanish": "No, no conozco Madrid.",
         "english": "No, I don't know Madrid."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "conozco",
+        "english": "I know (person/place)"
+      },
+      {
+        "spanish": "conoces",
+        "english": "you know (person/place)"
+      },
+      {
+        "spanish": "Madrid",
+        "english": "Madrid"
+      },
+      {
+        "spanish": "ciudad",
+        "english": "city"
+      }
     ]
   },
   {
@@ -422,6 +688,24 @@
         "gender": "male",
         "spanish": "No, no puedo mañana.",
         "english": "No, I can't tomorrow."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "puedo",
+        "english": "I can"
+      },
+      {
+        "spanish": "puedes",
+        "english": "you can"
+      },
+      {
+        "spanish": "ayudar",
+        "english": "to help"
+      },
+      {
+        "spanish": "venir",
+        "english": "to come"
       }
     ]
   }

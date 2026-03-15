@@ -12,10 +12,11 @@ import { ErrorToast } from '@/components/ErrorToast';
 interface ConversationCardProps {
   conversation: Conversation;
   showTranslation: boolean;
+  showVocabulary: boolean;
   language: string;
 }
 
-export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation, showTranslation, language }) => {
+export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation, showTranslation, showVocabulary, language }) => {
   const colorScheme = useColorScheme();
   const { playSpeech, isLoading, error, clearError } = useTextToSpeech();
   const [loadingLine, setLoadingLine] = React.useState<number | null>(null);
@@ -67,6 +68,33 @@ export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation
           <ThemedText style={styles.description}>{conversation.description}</ThemedText>
         </View>
       )}
+      {showVocabulary && conversation.vocabulary && conversation.vocabulary.length > 0 && (
+        <View style={styles.vocabularyContainer}>
+          <ThemedText style={styles.vocabularyTitle}>Vocabulary</ThemedText>
+          {conversation.vocabulary.map((item, index) => {
+            const targetText = item[language as keyof typeof item] as string || '';
+            return (
+              <View key={index} style={styles.vocabularyRow}>
+                <View style={styles.vocabularyTextContainer}>
+                  <ThemedText style={styles.vocabularyTarget}>{targetText}</ThemedText>
+                  <ThemedText style={styles.vocabularyEnglish}>{item.english}</ThemedText>
+                </View>
+                <TouchableOpacity
+                  onPress={() => speak(targetText, 'A', index + 1000)}
+                  style={styles.speakerIcon}
+                  disabled={isLoading && loadingLine === index + 1000}
+                >
+                  {isLoading && loadingLine === index + 1000 ? (
+                    <ActivityIndicator size="small" color={Colors[colorScheme ?? 'light'].text} />
+                  ) : (
+                    <Ionicons name="volume-medium-outline" size={20} color={Colors[colorScheme ?? 'light'].text} />
+                  )}
+                </TouchableOpacity>
+              </View>
+            );
+          })}
+        </View>
+      )}
     </ThemedView>
   );
 };
@@ -116,6 +144,44 @@ const styles = StyleSheet.create({
   },
   speakerIcon: {
     marginLeft: 16,
+  },
+  vocabularyContainer: {
+    marginTop: 20,
+    paddingTop: 20,
+    borderTopWidth: 1,
+    borderTopColor: '#eee',
+  },
+  vocabularyTitle: {
+    fontSize: 13,
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    letterSpacing: 0.8,
+    opacity: 0.5,
+    marginBottom: 12,
+  },
+  vocabularyRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 6,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: '#eee',
+  },
+  vocabularyTextContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    gap: 12,
+    alignItems: 'center',
+  },
+  vocabularyTarget: {
+    fontSize: 15,
+    fontWeight: '600',
+    minWidth: 100,
+  },
+  vocabularyEnglish: {
+    fontSize: 14,
+    color: '#888',
+    fontStyle: 'italic',
+    flex: 1,
   },
   descriptionContainer: {
     marginTop: 20,

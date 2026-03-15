@@ -27,6 +27,28 @@
         "turkish": "Evet, iki kardeşim var.",
         "english": "Yes, I have two siblings."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "var",
+        "english": "there is / I have"
+      },
+      {
+        "turkish": "köpek",
+        "english": "dog"
+      },
+      {
+        "turkish": "kedi",
+        "english": "cat"
+      },
+      {
+        "turkish": "kardeş",
+        "english": "sibling"
+      },
+      {
+        "turkish": "gerçekten mi?",
+        "english": "really?"
+      }
     ]
   },
   {
@@ -63,6 +85,24 @@
         "turkish": "Evet, sporları severim.",
         "english": "Yes, I like sports."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "severim",
+        "english": "I like"
+      },
+      {
+        "turkish": "sever misin?",
+        "english": "do you like?"
+      },
+      {
+        "turkish": "futbol",
+        "english": "soccer"
+      },
+      {
+        "turkish": "spor",
+        "english": "sports"
+      }
     ]
   },
   {
@@ -92,6 +132,24 @@
         "gender": "male",
         "turkish": "Ben Türkçe çalışıyorum.",
         "english": "I study Turkish."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "konuşurum",
+        "english": "I speak"
+      },
+      {
+        "turkish": "konuşmak",
+        "english": "to speak"
+      },
+      {
+        "turkish": "Türkçe",
+        "english": "Turkish"
+      },
+      {
+        "turkish": "İngilizce",
+        "english": "English"
       }
     ]
   },
@@ -123,6 +181,24 @@
         "turkish": "Yardıma ihtiyacın var mı?",
         "english": "Do you need help?"
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "ihtiyacım var",
+        "english": "I need"
+      },
+      {
+        "turkish": "kitap",
+        "english": "book"
+      },
+      {
+        "turkish": "su",
+        "english": "water"
+      },
+      {
+        "turkish": "yardım",
+        "english": "help"
+      }
     ]
   },
   {
@@ -152,6 +228,28 @@
         "gender": "male",
         "turkish": "Su ister misin?",
         "english": "Do you want water?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "istiyorum",
+        "english": "I want"
+      },
+      {
+        "turkish": "ister misin?",
+        "english": "do you want?"
+      },
+      {
+        "turkish": "yemek",
+        "english": "food / to eat"
+      },
+      {
+        "turkish": "makarna",
+        "english": "pasta"
+      },
+      {
+        "turkish": "pizza",
+        "english": "pizza"
       }
     ]
   },
@@ -183,6 +281,28 @@
         "turkish": "Otobüsle mi gidiyorsun?",
         "english": "Do you go by bus?"
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "gidiyorum",
+        "english": "I am going"
+      },
+      {
+        "turkish": "gidiyorsun",
+        "english": "you are going"
+      },
+      {
+        "turkish": "okul",
+        "english": "school"
+      },
+      {
+        "turkish": "iş",
+        "english": "work"
+      },
+      {
+        "turkish": "otobüs",
+        "english": "bus"
+      }
     ]
   },
   {
@@ -212,6 +332,28 @@
         "gender": "male",
         "turkish": "Hafta sonları ne yaparsın?",
         "english": "What do you do on weekends?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "yapıyorum",
+        "english": "I do / make"
+      },
+      {
+        "turkish": "yapıyorsun",
+        "english": "you do / make"
+      },
+      {
+        "turkish": "ödev",
+        "english": "homework"
+      },
+      {
+        "turkish": "egzersiz",
+        "english": "exercise"
+      },
+      {
+        "turkish": "hafta sonu",
+        "english": "weekend"
       }
     ]
   },
@@ -243,6 +385,24 @@
         "turkish": "Film ve dizi izlerim.",
         "english": "I watch movies and series."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "izlerim",
+        "english": "I watch"
+      },
+      {
+        "turkish": "televizyon",
+        "english": "television"
+      },
+      {
+        "turkish": "film",
+        "english": "movie"
+      },
+      {
+        "turkish": "dizi",
+        "english": "TV series"
+      }
     ]
   },
   {
@@ -272,6 +432,28 @@
         "gender": "male",
         "turkish": "Sekizde kapanıyor.",
         "english": "They close at eight."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "açmak",
+        "english": "to open"
+      },
+      {
+        "turkish": "kapamak",
+        "english": "to close"
+      },
+      {
+        "turkish": "dükkan",
+        "english": "store"
+      },
+      {
+        "turkish": "açılıyor",
+        "english": "it is opening"
+      },
+      {
+        "turkish": "kapanıyor",
+        "english": "it is closing"
       }
     ]
   },
@@ -303,6 +485,28 @@
         "turkish": "Her gün müzik dinler misin?",
         "english": "Do you listen to music every day?"
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "dinlerim",
+        "english": "I listen"
+      },
+      {
+        "turkish": "dinler misin?",
+        "english": "do you listen?"
+      },
+      {
+        "turkish": "müzik",
+        "english": "music"
+      },
+      {
+        "turkish": "pop",
+        "english": "pop"
+      },
+      {
+        "turkish": "rock",
+        "english": "rock"
+      }
     ]
   },
   {
@@ -332,6 +536,24 @@
         "gender": "male",
         "turkish": "Normal. Zor.",
         "english": "It's normal. It's difficult."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "anlıyorum",
+        "english": "I understand"
+      },
+      {
+        "turkish": "biraz",
+        "english": "a little"
+      },
+      {
+        "turkish": "her şey",
+        "english": "everything"
+      },
+      {
+        "turkish": "zor",
+        "english": "difficult"
       }
     ]
   },
@@ -363,6 +585,24 @@
         "turkish": "Evet, İngilizce biliyorum.",
         "english": "Yes, I know how to speak English."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "biliyorum",
+        "english": "I know (fact)"
+      },
+      {
+        "turkish": "bilmiyorum",
+        "english": "I don't know"
+      },
+      {
+        "turkish": "banka",
+        "english": "bank"
+      },
+      {
+        "turkish": "hayır",
+        "english": "no"
+      }
     ]
   },
   {
@@ -393,6 +633,24 @@
         "turkish": "Hayır, İstanbul'u tanımıyorum.",
         "english": "No, I don't know Istanbul."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "tanıyorum",
+        "english": "I know (person/place)"
+      },
+      {
+        "turkish": "tanımıyorum",
+        "english": "I don't know (person/place)"
+      },
+      {
+        "turkish": "şehir",
+        "english": "city"
+      },
+      {
+        "turkish": "tanımak",
+        "english": "to know (people/places)"
+      }
     ]
   },
   {
@@ -422,6 +680,24 @@
         "gender": "male",
         "turkish": "Hayır, yarın gelemem.",
         "english": "No, I can't tomorrow."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "edebilirim",
+        "english": "I can do"
+      },
+      {
+        "turkish": "gelebilir misin?",
+        "english": "can you come?"
+      },
+      {
+        "turkish": "yardım etmek",
+        "english": "to help"
+      },
+      {
+        "turkish": "gelmek",
+        "english": "to come"
       }
     ]
   }

@@ -10,10 +10,17 @@ interface Dialogue {
   english: string;
 }
 
+interface VocabularyItem {
+  spanish?: string;
+  turkish?: string;
+  english: string;
+}
+
 export interface Conversation {
   title: string;
   description: string;
   dialogue: Dialogue[];
+  vocabulary?: VocabularyItem[];
 }
 
 const useDailyConversations = (

@@ -33,6 +33,28 @@
         "turkish": "O benim babam.",
         "english": "He is my father."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "aile",
+        "english": "family"
+      },
+      {
+        "turkish": "anne",
+        "english": "mother"
+      },
+      {
+        "turkish": "baba",
+        "english": "father"
+      },
+      {
+        "turkish": "o",
+        "english": "she / he"
+      },
+      {
+        "turkish": "kim",
+        "english": "who"
+      }
     ]
   },
   {
@@ -63,6 +85,28 @@
         "turkish": "Erkek kardeşim aşçı.",
         "english": "My brother is a cook."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "ne iş yapıyorsun?",
+        "english": "what do you do?"
+      },
+      {
+        "turkish": "öğretmen",
+        "english": "teacher"
+      },
+      {
+        "turkish": "doktor",
+        "english": "doctor"
+      },
+      {
+        "turkish": "aşçı",
+        "english": "cook"
+      },
+      {
+        "turkish": "erkek kardeş",
+        "english": "brother"
+      }
     ]
   },
   {
@@ -92,6 +136,28 @@
         "gender": "male",
         "turkish": "Kız kardeşim kısa.",
         "english": "My sister is short."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "uzun",
+        "english": "tall"
+      },
+      {
+        "turkish": "kısa",
+        "english": "short"
+      },
+      {
+        "turkish": "genç",
+        "english": "young"
+      },
+      {
+        "turkish": "yaşlı",
+        "english": "old"
+      },
+      {
+        "turkish": "kız kardeş",
+        "english": "sister"
       }
     ]
   }

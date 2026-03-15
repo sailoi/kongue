@@ -27,6 +27,48 @@
         "turkish": "Kardeşim on yaşında.",
         "english": "My sibling is ten years old."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "bir",
+        "english": "one"
+      },
+      {
+        "turkish": "iki",
+        "english": "two"
+      },
+      {
+        "turkish": "üç",
+        "english": "three"
+      },
+      {
+        "turkish": "dört",
+        "english": "four"
+      },
+      {
+        "turkish": "beş",
+        "english": "five"
+      },
+      {
+        "turkish": "altı",
+        "english": "six"
+      },
+      {
+        "turkish": "yedi",
+        "english": "seven"
+      },
+      {
+        "turkish": "sekiz",
+        "english": "eight"
+      },
+      {
+        "turkish": "dokuz",
+        "english": "nine"
+      },
+      {
+        "turkish": "on",
+        "english": "ten"
+      }
     ]
   },
   {
@@ -57,6 +99,24 @@
         "turkish": "Saat dörtte çalışıyorum.",
         "english": "I study at four o'clock."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "saat kaç?",
+        "english": "what time is it?"
+      },
+      {
+        "turkish": "saat",
+        "english": "hour / clock"
+      },
+      {
+        "turkish": "çalışıyorum",
+        "english": "I study / work"
+      },
+      {
+        "turkish": "kaçta",
+        "english": "at what time"
+      }
     ]
   },
   {
@@ -86,6 +146,44 @@
         "gender": "male",
         "turkish": "Evet, Salı günü Türkçe çalışıyorum.",
         "english": "Yes, on Tuesday I study Turkish."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "Pazartesi",
+        "english": "Monday"
+      },
+      {
+        "turkish": "Salı",
+        "english": "Tuesday"
+      },
+      {
+        "turkish": "Çarşamba",
+        "english": "Wednesday"
+      },
+      {
+        "turkish": "Perşembe",
+        "english": "Thursday"
+      },
+      {
+        "turkish": "Cuma",
+        "english": "Friday"
+      },
+      {
+        "turkish": "Cumartesi",
+        "english": "Saturday"
+      },
+      {
+        "turkish": "Pazar",
+        "english": "Sunday"
+      },
+      {
+        "turkish": "bugün",
+        "english": "today"
+      },
+      {
+        "turkish": "yarın",
+        "english": "tomorrow"
       }
     ]
   },
@@ -123,6 +221,48 @@
         "turkish": "Yirmi öğrenci var.",
         "english": "There are twenty students."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "on bir",
+        "english": "eleven"
+      },
+      {
+        "turkish": "on iki",
+        "english": "twelve"
+      },
+      {
+        "turkish": "on üç",
+        "english": "thirteen"
+      },
+      {
+        "turkish": "on dört",
+        "english": "fourteen"
+      },
+      {
+        "turkish": "on beş",
+        "english": "fifteen"
+      },
+      {
+        "turkish": "on altı",
+        "english": "sixteen"
+      },
+      {
+        "turkish": "on yedi",
+        "english": "seventeen"
+      },
+      {
+        "turkish": "on sekiz",
+        "english": "eighteen"
+      },
+      {
+        "turkish": "on dokuz",
+        "english": "nineteen"
+      },
+      {
+        "turkish": "yirmi",
+        "english": "twenty"
+      }
     ]
   },
   {
@@ -152,6 +292,60 @@
         "gender": "male",
         "turkish": "Mart ayındayız.",
         "english": "We are in March."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "Ocak",
+        "english": "January"
+      },
+      {
+        "turkish": "Şubat",
+        "english": "February"
+      },
+      {
+        "turkish": "Mart",
+        "english": "March"
+      },
+      {
+        "turkish": "Nisan",
+        "english": "April"
+      },
+      {
+        "turkish": "Mayıs",
+        "english": "May"
+      },
+      {
+        "turkish": "Haziran",
+        "english": "June"
+      },
+      {
+        "turkish": "Temmuz",
+        "english": "July"
+      },
+      {
+        "turkish": "Ağustos",
+        "english": "August"
+      },
+      {
+        "turkish": "Eylül",
+        "english": "September"
+      },
+      {
+        "turkish": "Ekim",
+        "english": "October"
+      },
+      {
+        "turkish": "Kasım",
+        "english": "November"
+      },
+      {
+        "turkish": "Aralık",
+        "english": "December"
+      },
+      {
+        "turkish": "doğum günü",
+        "english": "birthday"
       }
     ]
   },
@@ -188,6 +382,48 @@
         "gender": "female",
         "turkish": "Otuz lira.",
         "english": "It's thirty lira."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "otuz",
+        "english": "thirty"
+      },
+      {
+        "turkish": "kırk",
+        "english": "forty"
+      },
+      {
+        "turkish": "elli",
+        "english": "fifty"
+      },
+      {
+        "turkish": "altmış",
+        "english": "sixty"
+      },
+      {
+        "turkish": "yetmiş",
+        "english": "seventy"
+      },
+      {
+        "turkish": "seksen",
+        "english": "eighty"
+      },
+      {
+        "turkish": "doksan",
+        "english": "ninety"
+      },
+      {
+        "turkish": "yüz",
+        "english": "one hundred"
+      },
+      {
+        "turkish": "lira",
+        "english": "lira"
+      },
+      {
+        "turkish": "kaç lira?",
+        "english": "how much is it?"
       }
     ]
   }

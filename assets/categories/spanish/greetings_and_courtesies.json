@@ -27,6 +27,24 @@
         "spanish": "Sí, yo soy estudiante.",
         "english": "Yes, I am a student."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "soy",
+        "english": "I am"
+      },
+      {
+        "spanish": "eres",
+        "english": "you are"
+      },
+      {
+        "spanish": "hola",
+        "english": "hello"
+      },
+      {
+        "spanish": "estudiante",
+        "english": "student"
+      }
     ]
   },
   {
@@ -63,6 +81,24 @@
         "spanish": "Mucho gusto, María.",
         "english": "Nice to meet you, María."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿cómo te llamas?",
+        "english": "what is your name?"
+      },
+      {
+        "spanish": "me llamo",
+        "english": "my name is"
+      },
+      {
+        "spanish": "mucho gusto",
+        "english": "nice to meet you"
+      },
+      {
+        "spanish": "¿y tú?",
+        "english": "and you?"
+      }
     ]
   },
   {
@@ -92,6 +128,24 @@
         "gender": "male",
         "spanish": "Yo soy de España.",
         "english": "I am from Spain."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿de dónde eres?",
+        "english": "where are you from?"
+      },
+      {
+        "spanish": "soy de",
+        "english": "I am from"
+      },
+      {
+        "spanish": "México",
+        "english": "Mexico"
+      },
+      {
+        "spanish": "España",
+        "english": "Spain"
       }
     ]
   },
@@ -123,6 +177,24 @@
         "spanish": "¡Qué bueno!",
         "english": "That's good!"
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿cómo estás?",
+        "english": "how are you?"
+      },
+      {
+        "spanish": "estoy bien",
+        "english": "I am well"
+      },
+      {
+        "spanish": "gracias",
+        "english": "thank you"
+      },
+      {
+        "spanish": "muy",
+        "english": "very"
+      }
     ]
   },
   {
@@ -152,6 +224,24 @@
         "gender": "male",
         "spanish": "Mucho gusto, Rosa.",
         "english": "Nice to meet you, Rosa."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "este es",
+        "english": "this is (masculine)"
+      },
+      {
+        "spanish": "esta es",
+        "english": "this is (feminine)"
+      },
+      {
+        "spanish": "amigo",
+        "english": "friend (male)"
+      },
+      {
+        "spanish": "amiga",
+        "english": "friend (female)"
       }
     ]
   }

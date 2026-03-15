@@ -33,6 +33,28 @@
         "spanish": "Él es mi padre.",
         "english": "He is my father."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "familia",
+        "english": "family"
+      },
+      {
+        "spanish": "madre",
+        "english": "mother"
+      },
+      {
+        "spanish": "padre",
+        "english": "father"
+      },
+      {
+        "spanish": "ella",
+        "english": "she"
+      },
+      {
+        "spanish": "él",
+        "english": "he"
+      }
     ]
   },
   {
@@ -63,6 +85,28 @@
         "spanish": "Mi hermano es cocinero.",
         "english": "My brother is a cook."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿qué haces?",
+        "english": "what do you do?"
+      },
+      {
+        "spanish": "profesora",
+        "english": "teacher (female)"
+      },
+      {
+        "spanish": "doctor",
+        "english": "doctor"
+      },
+      {
+        "spanish": "cocinero",
+        "english": "cook"
+      },
+      {
+        "spanish": "hermano",
+        "english": "brother"
+      }
     ]
   },
   {
@@ -92,6 +136,28 @@
         "gender": "male",
         "spanish": "Mi hermana es baja.",
         "english": "My sister is short."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "alto",
+        "english": "tall"
+      },
+      {
+        "spanish": "bajo",
+        "english": "short"
+      },
+      {
+        "spanish": "joven",
+        "english": "young"
+      },
+      {
+        "spanish": "viejo",
+        "english": "old"
+      },
+      {
+        "spanish": "hermana",
+        "english": "sister"
       }
     ]
   }

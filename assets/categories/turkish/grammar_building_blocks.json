@@ -27,6 +27,28 @@
         "turkish": "Evet, çok restoran var.",
         "english": "Yes, there are many restaurants."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "yakında",
+        "english": "nearby"
+      },
+      {
+        "turkish": "cadde",
+        "english": "street"
+      },
+      {
+        "turkish": "restoran",
+        "english": "restaurant"
+      },
+      {
+        "turkish": "birkaç",
+        "english": "a few"
+      },
+      {
+        "turkish": "yok",
+        "english": "there is not"
+      }
     ]
   },
   {
@@ -56,6 +78,28 @@
         "gender": "male",
         "turkish": "Yarın gidiyorum.",
         "english": "I'm going tomorrow."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "ne",
+        "english": "what"
+      },
+      {
+        "turkish": "nerede",
+        "english": "where"
+      },
+      {
+        "turkish": "ne zaman",
+        "english": "when"
+      },
+      {
+        "turkish": "kaç",
+        "english": "how many / how much"
+      },
+      {
+        "turkish": "nasıl",
+        "english": "how"
       }
     ]
   },
@@ -87,6 +131,24 @@
         "turkish": "Hayır, et yemem.",
         "english": "No, I don't eat meat."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "değil",
+        "english": "not / is not"
+      },
+      {
+        "turkish": "Fransızca",
+        "english": "French"
+      },
+      {
+        "turkish": "et",
+        "english": "meat"
+      },
+      {
+        "turkish": "yemem",
+        "english": "I don't eat"
+      }
     ]
   },
   {
@@ -116,6 +178,28 @@
         "gender": "male",
         "turkish": "Kitapları masada.",
         "english": "His/Her books are on the table."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "senin",
+        "english": "your"
+      },
+      {
+        "turkish": "onun",
+        "english": "his / her"
+      },
+      {
+        "turkish": "çanta",
+        "english": "bag"
+      },
+      {
+        "turkish": "masa",
+        "english": "table"
+      },
+      {
+        "turkish": "kitabım",
+        "english": "my book"
       }
     ]
   },
@@ -153,6 +237,28 @@
         "turkish": "Evet, burada çok mutluyum.",
         "english": "Yes, and I am very happy here."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "Türkiye",
+        "english": "Turkey"
+      },
+      {
+        "turkish": "İspanya",
+        "english": "Spain"
+      },
+      {
+        "turkish": "güzel",
+        "english": "beautiful"
+      },
+      {
+        "turkish": "mutlu",
+        "english": "happy"
+      },
+      {
+        "turkish": "şimdi",
+        "english": "now"
+      }
     ]
   },
   {
@@ -182,6 +288,24 @@
         "gender": "male",
         "turkish": "Asla kahvaltıyı atlamam.",
         "english": "I never skip breakfast."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "her zaman",
+        "english": "always"
+      },
+      {
+        "turkish": "bazen",
+        "english": "sometimes"
+      },
+      {
+        "turkish": "asla",
+        "english": "never"
+      },
+      {
+        "turkish": "kahvaltı",
+        "english": "breakfast"
       }
     ]
   },
@@ -213,6 +337,24 @@
         "turkish": "Bu kötü.",
         "english": "That's bad."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "yorgun",
+        "english": "tired"
+      },
+      {
+        "turkish": "kötü",
+        "english": "bad"
+      },
+      {
+        "turkish": "az",
+        "english": "a little / few"
+      },
+      {
+        "turkish": "fazla",
+        "english": "too much / too many"
+      }
     ]
   },
   {
@@ -242,6 +384,28 @@
         "gender": "male",
         "turkish": "Ben kahve veya çay içerim.",
         "english": "I drink coffee or tea."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "ama",
+        "english": "but"
+      },
+      {
+        "turkish": "çünkü",
+        "english": "because"
+      },
+      {
+        "turkish": "veya",
+        "english": "or"
+      },
+      {
+        "turkish": "kahve",
+        "english": "coffee"
+      },
+      {
+        "turkish": "çay",
+        "english": "tea"
       }
     ]
   },
@@ -273,6 +437,28 @@
         "turkish": "Benim gömleklerim de yeni.",
         "english": "My shirts are new too."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "yeni",
+        "english": "new"
+      },
+      {
+        "turkish": "araba",
+        "english": "car"
+      },
+      {
+        "turkish": "bisiklet",
+        "english": "bicycle"
+      },
+      {
+        "turkish": "ayakkabı",
+        "english": "shoes"
+      },
+      {
+        "turkish": "gömlek",
+        "english": "shirt"
+      }
     ]
   },
   {
@@ -302,6 +488,28 @@
         "gender": "male",
         "turkish": "Evet, ama daha pahalı.",
         "english": "Yes, but it's more expensive."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "daha",
+        "english": "more"
+      },
+      {
+        "turkish": "hızlı",
+        "english": "fast"
+      },
+      {
+        "turkish": "pahalı",
+        "english": "expensive"
+      },
+      {
+        "turkish": "tren",
+        "english": "train"
+      },
+      {
+        "turkish": "den daha",
+        "english": "more than (suffix)"
       }
     ]
   },
@@ -333,6 +541,24 @@
         "turkish": "Şu gömlekler de öyle.",
         "english": "Those shirts too."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "şu",
+        "english": "that (nearby)"
+      },
+      {
+        "turkish": "bunlar",
+        "english": "these"
+      },
+      {
+        "turkish": "şunlar",
+        "english": "those (nearby)"
+      },
+      {
+        "turkish": "tercih ederim",
+        "english": "I prefer"
+      }
     ]
   },
   {
@@ -362,6 +588,24 @@
         "gender": "male",
         "turkish": "Bizimle yemek yiyecek misin?",
         "english": "Are you going to eat with us?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "yapacağım",
+        "english": "I will do"
+      },
+      {
+        "turkish": "çalışacağım",
+        "english": "I will work"
+      },
+      {
+        "turkish": "yemek yiyecek misin?",
+        "english": "will you eat?"
+      },
+      {
+        "turkish": "gelecek hafta",
+        "english": "next week"
       }
     ]
   }

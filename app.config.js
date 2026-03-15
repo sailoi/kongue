@@ -1,7 +1,7 @@
 module.exports = {
   expo: {
     name: "Kongue",
-    slug: "kongue",
+    slug: "lang_learn_app",
     version: "1.0.0",
     description: "Learn to speak, naturally",
     orientation: "portrait",
@@ -51,7 +51,7 @@ module.exports = {
         projectId: "f9ceaee4-46bb-44a8-a72e-0bccd47e9ec5"
       }
     },
-    owner: "wingchen",
+    owner: "sailoi-labs",
     runtimeVersion: {
       policy: "appVersion"
     },

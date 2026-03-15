@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import useDailyConversations from '@/hooks/useDailySentences';
@@ -28,6 +28,7 @@ export default function HomeScreen() {
     totalLessons,
   } = useDailyConversations(currentLanguage as any, currentCategory as any);
   const [showTranslation, setShowTranslation] = useState(false);
+  const [showVocabulary, setShowVocabulary] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
   const colorScheme = useColorScheme();
   const navigation = useNavigation();
@@ -75,27 +76,32 @@ export default function HomeScreen() {
     );
   }
 
+  const resetCardState = () => {
+    setShowTranslation(false);
+    setShowVocabulary(false);
+  };
+
   const flingNext = Gesture.Fling()
     .direction(1)
     .onEnd(() => {
-      setShowTranslation(false);
+      resetCardState();
       nextConversation();
     });
 
   const flingPrev = Gesture.Fling()
     .direction(2)
     .onEnd(() => {
-      setShowTranslation(false);
+      resetCardState();
       previousConversation();
     });
 
   const handlePrevious = () => {
-    setShowTranslation(false);
+    resetCardState();
     previousConversation();
   };
 
   const handleNext = () => {
-    setShowTranslation(false);
+    resetCardState();
     nextConversation();
   };
 
@@ -103,18 +109,30 @@ export default function HomeScreen() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <GestureDetector gesture={Gesture.Race(flingNext, flingPrev)}>
         <ThemedView style={styles.container}>
-          <ConversationCard conversation={conversation} showTranslation={showTranslation} language={currentLanguage} />
-          <TouchableOpacity onPress={() => setShowTranslation(!showTranslation)} style={styles.translationButton}>
-            <ThemedText style={styles.translationButtonText}>{showTranslation ? 'Hide Details' : 'More Details'}</ThemedText>
-          </TouchableOpacity>
-          <View style={styles.navigationContainer}>
-            <TouchableOpacity onPress={handlePrevious} style={styles.navButton}>
-              <Ionicons name="arrow-back" size={24} color={Colors[colorScheme ?? 'light'].text} />
-            </TouchableOpacity>
-            <TouchableOpacity onPress={handleNext} style={styles.navButton}>
-              <Ionicons name="arrow-forward" size={24} color={Colors[colorScheme ?? 'light'].text} />
-            </TouchableOpacity>
-          </View>
+          <ScrollView
+            contentContainerStyle={styles.scrollContent}
+            showsVerticalScrollIndicator={false}
+          >
+            <ConversationCard conversation={conversation} showTranslation={showTranslation} showVocabulary={showVocabulary} language={currentLanguage} />
+            <View style={styles.buttonRow}>
+              <TouchableOpacity onPress={() => setShowTranslation(!showTranslation)} style={styles.actionButton}>
+                <ThemedText style={styles.actionButtonText}>{showTranslation ? 'Hide Explain' : 'Explain'}</ThemedText>
+              </TouchableOpacity>
+              {conversation.vocabulary && conversation.vocabulary.length > 0 && (
+                <TouchableOpacity onPress={() => setShowVocabulary(!showVocabulary)} style={[styles.actionButton, styles.vocabularyButton]}>
+                  <ThemedText style={styles.actionButtonText}>{showVocabulary ? 'Hide Vocab' : 'Vocabulary'}</ThemedText>
+                </TouchableOpacity>
+              )}
+            </View>
+            <View style={styles.navigationContainer}>
+              <TouchableOpacity onPress={handlePrevious} style={styles.navButton}>
+                <Ionicons name="arrow-back" size={24} color={Colors[colorScheme ?? 'light'].text} />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={handleNext} style={styles.navButton}>
+                <Ionicons name="arrow-forward" size={24} color={Colors[colorScheme ?? 'light'].text} />
+              </TouchableOpacity>
+            </View>
+          </ScrollView>
         </ThemedView>
       </GestureDetector>
 
@@ -136,17 +154,28 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
-  translationButton: {
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 25,
-    backgroundColor: '#4A90E2',
+  scrollContent: {
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 24,
+  },
+  buttonRow: {
+    flexDirection: 'row',
+    gap: 12,
     marginTop: 20,
   },
-  translationButtonText: {
+  actionButton: {
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 25,
+    backgroundColor: '#4A90E2',
+  },
+  vocabularyButton: {
+    backgroundColor: '#7B68EE',
+  },
+  actionButtonText: {
     color: 'white',
     fontSize: 16,
     fontWeight: 'bold',

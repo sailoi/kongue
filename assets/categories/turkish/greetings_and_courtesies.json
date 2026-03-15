@@ -27,6 +27,28 @@
         "turkish": "Evet, ben öğrenciyim.",
         "english": "Yes, I am a student."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "merhaba",
+        "english": "hello"
+      },
+      {
+        "turkish": "ben",
+        "english": "I"
+      },
+      {
+        "turkish": "sen",
+        "english": "you"
+      },
+      {
+        "turkish": "öğrenci",
+        "english": "student"
+      },
+      {
+        "turkish": "evet",
+        "english": "yes"
+      }
     ]
   },
   {
@@ -63,6 +85,24 @@
         "turkish": "Ben de memnun oldum, Zeynep.",
         "english": "Nice to meet you too, Zeynep."
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "adın ne?",
+        "english": "what is your name?"
+      },
+      {
+        "turkish": "benim adım",
+        "english": "my name is"
+      },
+      {
+        "turkish": "memnun oldum",
+        "english": "nice to meet you"
+      },
+      {
+        "turkish": "ya senin?",
+        "english": "and yours?"
+      }
     ]
   },
   {
@@ -92,6 +132,24 @@
         "gender": "male",
         "turkish": "Ben İstanbulluyum.",
         "english": "I am from Istanbul."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "nerelisin?",
+        "english": "where are you from?"
+      },
+      {
+        "turkish": "Ankara",
+        "english": "Ankara"
+      },
+      {
+        "turkish": "İstanbul",
+        "english": "Istanbul"
+      },
+      {
+        "turkish": "lıyım / liyim",
+        "english": "I am from (suffix)"
       }
     ]
   },
@@ -123,6 +181,24 @@
         "turkish": "Ne güzel!",
         "english": "That's good!"
       }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "nasılsın?",
+        "english": "how are you?"
+      },
+      {
+        "turkish": "iyiyim",
+        "english": "I am well"
+      },
+      {
+        "turkish": "teşekkürler",
+        "english": "thank you"
+      },
+      {
+        "turkish": "çok",
+        "english": "very"
+      }
     ]
   },
   {
@@ -152,6 +228,24 @@
         "gender": "male",
         "turkish": "Memnun oldum, Elif.",
         "english": "Nice to meet you, Elif."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "bu",
+        "english": "this"
+      },
+      {
+        "turkish": "arkadaşım",
+        "english": "my friend"
+      },
+      {
+        "turkish": "ve",
+        "english": "and"
+      },
+      {
+        "turkish": "benim",
+        "english": "my"
       }
     ]
   }

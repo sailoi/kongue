@@ -27,6 +27,48 @@
         "spanish": "Mi hermano tiene diez años.",
         "english": "My brother is ten years old."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "uno",
+        "english": "one"
+      },
+      {
+        "spanish": "dos",
+        "english": "two"
+      },
+      {
+        "spanish": "tres",
+        "english": "three"
+      },
+      {
+        "spanish": "cuatro",
+        "english": "four"
+      },
+      {
+        "spanish": "cinco",
+        "english": "five"
+      },
+      {
+        "spanish": "seis",
+        "english": "six"
+      },
+      {
+        "spanish": "siete",
+        "english": "seven"
+      },
+      {
+        "spanish": "ocho",
+        "english": "eight"
+      },
+      {
+        "spanish": "nueve",
+        "english": "nine"
+      },
+      {
+        "spanish": "diez",
+        "english": "ten"
+      }
     ]
   },
   {
@@ -57,6 +99,24 @@
         "spanish": "Estudio a las cuatro.",
         "english": "I study at four o'clock."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿qué hora es?",
+        "english": "what time is it?"
+      },
+      {
+        "spanish": "son las...",
+        "english": "it's ... o'clock"
+      },
+      {
+        "spanish": "la una",
+        "english": "one o'clock"
+      },
+      {
+        "spanish": "estudio",
+        "english": "I study"
+      }
     ]
   },
   {
@@ -86,6 +146,44 @@
         "gender": "male",
         "spanish": "Sí, el martes estudio español.",
         "english": "Yes, on Tuesday I study Spanish."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "lunes",
+        "english": "Monday"
+      },
+      {
+        "spanish": "martes",
+        "english": "Tuesday"
+      },
+      {
+        "spanish": "miércoles",
+        "english": "Wednesday"
+      },
+      {
+        "spanish": "jueves",
+        "english": "Thursday"
+      },
+      {
+        "spanish": "viernes",
+        "english": "Friday"
+      },
+      {
+        "spanish": "sábado",
+        "english": "Saturday"
+      },
+      {
+        "spanish": "domingo",
+        "english": "Sunday"
+      },
+      {
+        "spanish": "hoy",
+        "english": "today"
+      },
+      {
+        "spanish": "mañana",
+        "english": "tomorrow"
       }
     ]
   },
@@ -123,6 +221,48 @@
         "spanish": "Hay veinte estudiantes.",
         "english": "There are twenty students."
       }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "once",
+        "english": "eleven"
+      },
+      {
+        "spanish": "doce",
+        "english": "twelve"
+      },
+      {
+        "spanish": "trece",
+        "english": "thirteen"
+      },
+      {
+        "spanish": "catorce",
+        "english": "fourteen"
+      },
+      {
+        "spanish": "quince",
+        "english": "fifteen"
+      },
+      {
+        "spanish": "dieciséis",
+        "english": "sixteen"
+      },
+      {
+        "spanish": "diecisiete",
+        "english": "seventeen"
+      },
+      {
+        "spanish": "dieciocho",
+        "english": "eighteen"
+      },
+      {
+        "spanish": "diecinueve",
+        "english": "nineteen"
+      },
+      {
+        "spanish": "veinte",
+        "english": "twenty"
+      }
     ]
   },
   {
@@ -152,6 +292,60 @@
         "gender": "male",
         "spanish": "Estamos en marzo.",
         "english": "We are in March."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "enero",
+        "english": "January"
+      },
+      {
+        "spanish": "febrero",
+        "english": "February"
+      },
+      {
+        "spanish": "marzo",
+        "english": "March"
+      },
+      {
+        "spanish": "abril",
+        "english": "April"
+      },
+      {
+        "spanish": "mayo",
+        "english": "May"
+      },
+      {
+        "spanish": "junio",
+        "english": "June"
+      },
+      {
+        "spanish": "julio",
+        "english": "July"
+      },
+      {
+        "spanish": "agosto",
+        "english": "August"
+      },
+      {
+        "spanish": "septiembre",
+        "english": "September"
+      },
+      {
+        "spanish": "octubre",
+        "english": "October"
+      },
+      {
+        "spanish": "noviembre",
+        "english": "November"
+      },
+      {
+        "spanish": "diciembre",
+        "english": "December"
+      },
+      {
+        "spanish": "cumpleaños",
+        "english": "birthday"
       }
     ]
   },
@@ -188,6 +382,48 @@
         "gender": "female",
         "spanish": "Cuesta treinta euros.",
         "english": "It costs thirty euros."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "treinta",
+        "english": "thirty"
+      },
+      {
+        "spanish": "cuarenta",
+        "english": "forty"
+      },
+      {
+        "spanish": "cincuenta",
+        "english": "fifty"
+      },
+      {
+        "spanish": "sesenta",
+        "english": "sixty"
+      },
+      {
+        "spanish": "setenta",
+        "english": "seventy"
+      },
+      {
+        "spanish": "ochenta",
+        "english": "eighty"
+      },
+      {
+        "spanish": "noventa",
+        "english": "ninety"
+      },
+      {
+        "spanish": "cien",
+        "english": "one hundred"
+      },
+      {
+        "spanish": "cuesta",
+        "english": "it costs"
+      },
+      {
+        "spanish": "euros",
+        "english": "euros"
       }
     ]
   }
