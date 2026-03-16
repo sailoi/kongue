@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
 import { CATEGORIES, STAGES } from '@/constants/categories';
+import useProgress from '@/hooks/useProgress';
 import { LANGUAGES } from '@/constants/languages';
 
 interface SettingsModalProps {
@@ -32,6 +33,12 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   currentLanguage,
 }) => {
   const colorScheme = useColorScheme();
+  const [refreshKey, setRefreshKey] = React.useState(0);
+  const { categoryProgress, stageProgress } = useProgress(currentLanguage, refreshKey);
+
+  React.useEffect(() => {
+    if (visible) setRefreshKey(k => k + 1);
+  }, [visible]);
 
   const handleSelectCategory = (category: string) => {
     onSelectCategory(category);
@@ -70,7 +77,12 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                 const stageCategories = CATEGORIES.filter(c => c.stage === stage.id);
                 return (
                   <View key={stage.id} style={styles.stageGroup}>
-                    <ThemedText style={styles.stageLabel}>{stage.name}</ThemedText>
+                    <View style={styles.stageLabelRow}>
+                      <ThemedText style={styles.stageLabel}>{stage.name}</ThemedText>
+                      {stageProgress[stage.id]?.allDone && (
+                        <Ionicons name="checkmark-circle" size={14} color={Colors[colorScheme ?? 'light'].tint} />
+                      )}
+                    </View>
                     {stageCategories.map((category) => {
                       const isSelected = currentCategory === category.id;
                       return (
@@ -94,6 +106,11 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                           ]}>
                             {category.name}
                           </ThemedText>
+                          {!isSelected && categoryProgress[category.id] && (
+                            <ThemedText style={styles.progressCount}>
+                              {categoryProgress[category.id].completed}/{categoryProgress[category.id].total}
+                            </ThemedText>
+                          )}
                           {isSelected && (
                             <Ionicons name="checkmark-circle" size={20} color="#fff" style={styles.checkmark} />
                           )}
@@ -106,15 +123,6 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             </ScrollView>
           </View>
 
-          {/* Info Section */}
-          <View style={styles.section}>
-            <ThemedText type="subtitle" style={styles.sectionTitle}>About</ThemedText>
-            <ThemedText style={styles.infoText}>
-              Swipe left or right to navigate between lessons.{'\n'}
-              Tap the speaker icon to hear pronunciation.{'\n'}
-              Current lesson: {currentLesson + 1} of {totalLessons}
-            </ThemedText>
-          </View>
 
           {/* Language Selector */}
           <View style={styles.languageSection}>
@@ -184,14 +192,25 @@ const styles = StyleSheet.create({
   stageGroup: {
     marginBottom: 12,
   },
+  stageLabelRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 6,
+    marginLeft: 4,
+  },
   stageLabel: {
     fontSize: 12,
     fontWeight: '700',
     textTransform: 'uppercase',
     letterSpacing: 0.8,
     opacity: 0.5,
-    marginBottom: 6,
-    marginLeft: 4,
+  },
+  progressCount: {
+    fontSize: 12,
+    opacity: 0.4,
+    marginLeft: 'auto',
+    marginRight: 4,
   },
   categoryButton: {
     flexDirection: 'row',

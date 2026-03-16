@@ -28,40 +28,44 @@ const useDailyConversations = (
   category: keyof typeof conversationData[typeof language]
 ) => {
   const [conversationIndex, setConversationIndex] = useState(0);
+  const [maxIndex, setMaxIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const conversations = conversationData[language][category];
   const LESSON_INDEX_KEY = `lessonIndex_${language}_${category}`;
+  const MAX_INDEX_KEY = `maxLessonIndex_${language}_${category}`;
 
   useEffect(() => {
     const loadIndex = async () => {
       setIsLoading(true);
       try {
-        const storedIndex = await AsyncStorage.getItem(LESSON_INDEX_KEY);
-        if (storedIndex !== null) {
-          const index = parseInt(storedIndex, 10);
-          if (index < conversations.length) {
-            setConversationIndex(index);
-          } else {
-            setConversationIndex(0);
-          }
-        } else {
-          setConversationIndex(0);
-        }
+        const [storedIndex, storedMax] = await Promise.all([
+          AsyncStorage.getItem(LESSON_INDEX_KEY),
+          AsyncStorage.getItem(MAX_INDEX_KEY),
+        ]);
+        const index = storedIndex !== null ? parseInt(storedIndex, 10) : 0;
+        const max = storedMax !== null ? parseInt(storedMax, 10) : 0;
+        setConversationIndex(index < conversations.length ? index : 0);
+        setMaxIndex(max < conversations.length ? max : 0);
       } catch (error) {
         console.error('Failed to load lesson index.', error);
         setConversationIndex(0);
+        setMaxIndex(0);
       } finally {
         setIsLoading(false);
       }
     };
     loadIndex();
-  }, [language, category, conversations.length, LESSON_INDEX_KEY]);
+  }, [language, category, conversations.length, LESSON_INDEX_KEY, MAX_INDEX_KEY]);
 
   useEffect(() => {
     if (!isLoading) {
       AsyncStorage.setItem(LESSON_INDEX_KEY, conversationIndex.toString());
+      if (conversationIndex > maxIndex) {
+        setMaxIndex(conversationIndex);
+        AsyncStorage.setItem(MAX_INDEX_KEY, conversationIndex.toString());
+      }
     }
-  }, [conversationIndex, isLoading, LESSON_INDEX_KEY]);
+  }, [conversationIndex, isLoading, LESSON_INDEX_KEY, MAX_INDEX_KEY]);
 
   const nextConversation = useCallback(() => {
     setConversationIndex((prevIndex) => (prevIndex + 1) % conversations.length);
@@ -85,6 +89,7 @@ const useDailyConversations = (
     setConversationIndex: setLesson,
     isLoading,
     totalLessons: conversations.length,
+    completedLessons: maxIndex + 1,
   };
 };
 

@@ -14,9 +14,11 @@ interface ConversationCardProps {
   showTranslation: boolean;
   showVocabulary: boolean;
   language: string;
+  currentIndex: number;
+  totalLessons: number;
 }
 
-export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation, showTranslation, showVocabulary, language }) => {
+export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation, showTranslation, showVocabulary, language, currentIndex, totalLessons }) => {
   const colorScheme = useColorScheme();
   const { playSpeech, isLoading, error, clearError } = useTextToSpeech();
   const [loadingLine, setLoadingLine] = React.useState<number | null>(null);
@@ -41,6 +43,7 @@ export const ConversationCard: React.FC<ConversationCardProps> = ({ conversation
     <ThemedView style={styles.card}>
       <ErrorToast message={error} onDismiss={clearError} />
       <ThemedText type="title" style={styles.title}>{conversation.title}</ThemedText>
+      <ThemedText style={styles.lessonPosition}>{currentIndex + 1} / {totalLessons}</ThemedText>
       <View style={styles.dialogueContainer}>
         {conversation.dialogue.map((line, index) => (
           <View key={index} style={styles.line}>
@@ -115,8 +118,14 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   title: {
-    marginBottom: 24,
+    marginBottom: 6,
     textAlign: 'center',
+  },
+  lessonPosition: {
+    fontSize: 12,
+    opacity: 0.4,
+    textAlign: 'center',
+    marginBottom: 20,
   },
   dialogueContainer: {
     gap: 20,

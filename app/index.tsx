@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { Alert, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import useDailyConversations from '@/hooks/useDailySentences';
@@ -113,7 +113,7 @@ export default function HomeScreen() {
             contentContainerStyle={styles.scrollContent}
             showsVerticalScrollIndicator={false}
           >
-            <ConversationCard conversation={conversation} showTranslation={showTranslation} showVocabulary={showVocabulary} language={currentLanguage} />
+            <ConversationCard conversation={conversation} showTranslation={showTranslation} showVocabulary={showVocabulary} language={currentLanguage} currentIndex={currentIndex} totalLessons={totalLessons} />
             <View style={styles.buttonRow}>
               <TouchableOpacity onPress={() => setShowTranslation(!showTranslation)} style={styles.actionButton}>
                 <ThemedText style={styles.actionButtonText}>{showTranslation ? 'Hide Explain' : 'Explain'}</ThemedText>
@@ -124,7 +124,23 @@ export default function HomeScreen() {
                 </TouchableOpacity>
               )}
             </View>
-            <View style={styles.navigationContainer}>
+            <View style={styles.aiButtonRow}>
+            <TouchableOpacity
+              style={styles.aiButton}
+              onPress={() => Alert.alert('Coming Soon', 'AI conversation about this lesson is coming soon.')}
+            >
+              <Ionicons name="chatbubble-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
+              <ThemedText style={styles.aiButtonText}>Lesson Chat</ThemedText>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.aiButton}
+              onPress={() => Alert.alert('Coming Soon', 'AI conversation with your full learning context is coming soon.')}
+            >
+              <Ionicons name="chatbubbles-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
+              <ThemedText style={styles.aiButtonText}>My Progress Chat</ThemedText>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.navigationContainer}>
               <TouchableOpacity onPress={handlePrevious} style={styles.navButton}>
                 <Ionicons name="arrow-back" size={24} color={Colors[colorScheme ?? 'light'].text} />
               </TouchableOpacity>
@@ -179,6 +195,26 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 16,
     fontWeight: 'bold',
+  },
+  aiButtonRow: {
+    flexDirection: 'row',
+    gap: 12,
+    marginTop: 16,
+  },
+  aiButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingVertical: 10,
+    paddingHorizontal: 18,
+    borderRadius: 25,
+    borderWidth: 1.5,
+    borderColor: '#4A90E2',
+  },
+  aiButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#4A90E2',
   },
   navigationContainer: {
     flexDirection: 'row',
