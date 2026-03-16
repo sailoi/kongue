@@ -244,5 +244,115 @@
         "english": "friend (female)"
       }
     ]
+  },
+  {
+    "title": "Lesson 6:\nGoodbye",
+    "description": "Farewells: 'Adiós' is formal goodbye. 'Hasta luego' = see you later, 'hasta pronto' = see you soon. 'Nos vemos' is casual. 'Buenas noches' = good night.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Bueno, me tengo que ir.",
+        "english": "Well, I have to go."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Adiós! Hasta luego.",
+        "english": "Goodbye! See you later."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hasta pronto. Nos vemos.",
+        "english": "See you soon. See you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Buenas noches!",
+        "english": "Good night!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "adiós",
+        "english": "goodbye"
+      },
+      {
+        "spanish": "hasta luego",
+        "english": "see you later"
+      },
+      {
+        "spanish": "hasta pronto",
+        "english": "see you soon"
+      },
+      {
+        "spanish": "nos vemos",
+        "english": "see you"
+      },
+      {
+        "spanish": "buenas noches",
+        "english": "good night"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nPlease & Sorry",
+    "description": "'Por favor' = please. 'De nada' = you're welcome (literally 'for nothing'). 'Perdón' and 'disculpe' both mean excuse me/sorry. 'Con permiso' = with your permission.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Disculpe, ¿puede ayudarme?",
+        "english": "Excuse me, can you help me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro, con mucho gusto.",
+        "english": "Of course, with pleasure."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Muchas gracias.",
+        "english": "Thank you very much."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "De nada. Con permiso.",
+        "english": "You're welcome. Excuse me."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Por favor, espera.",
+        "english": "Please, wait."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "por favor",
+        "english": "please"
+      },
+      {
+        "spanish": "de nada",
+        "english": "you're welcome"
+      },
+      {
+        "spanish": "perdón",
+        "english": "sorry / excuse me"
+      },
+      {
+        "spanish": "disculpe",
+        "english": "excuse me (formal)"
+      },
+      {
+        "spanish": "con permiso",
+        "english": "with your permission / excuse me"
+      }
+    ]
   }
 ]

@@ -426,5 +426,119 @@
         "english": "how much is it?"
       }
     ]
+  },
+  {
+    "title": "Lesson 7:\nTime with minutes",
+    "description": "'Buçuk' = half past. 'Çeyrek' = quarter. 'Geçiyor' = past (after the hour). 'Kala' = to (before the hour). 'Sabah' = morning, 'akşam' = evening.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Saat tam kaç?",
+        "english": "What time is it exactly?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Saat üç buçuk.",
+        "english": "It's half past three."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ders saat kaçta başlıyor?",
+        "english": "What time does class start?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Dört çeyrek geçe.",
+        "english": "At quarter past four."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Beşe çeyrek kala akşam.",
+        "english": "Quarter to five in the evening."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "buçuk",
+        "english": "half past"
+      },
+      {
+        "turkish": "çeyrek",
+        "english": "quarter"
+      },
+      {
+        "turkish": "geçiyor",
+        "english": "past (after the hour)"
+      },
+      {
+        "turkish": "kala",
+        "english": "to (before the hour)"
+      },
+      {
+        "turkish": "sabah",
+        "english": "morning"
+      },
+      {
+        "turkish": "akşam",
+        "english": "evening"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nDates",
+    "description": "'Bugünün tarihi ne?' = What is today's date? 'Tarih' = date. 'Ay' = month. 'Yıl' = year. Ordinal numbers use the suffix '-ıncı/-inci/-uncu/-üncü'.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugünün tarihi ne?",
+        "english": "What is today's date?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bugün on beşinci Nisan.",
+        "english": "Today is the 15th of April."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hangi yıldayız?",
+        "english": "What year are we in?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İki bin yirmi beşindeyiz.",
+        "english": "We are in 2025."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "bugünün tarihi ne?",
+        "english": "what is today's date?"
+      },
+      {
+        "turkish": "tarih",
+        "english": "date"
+      },
+      {
+        "turkish": "ay",
+        "english": "month"
+      },
+      {
+        "turkish": "yıl",
+        "english": "year"
+      },
+      {
+        "turkish": "kaçıncı",
+        "english": "which ordinal / what number"
+      }
+    ]
   }
 ]

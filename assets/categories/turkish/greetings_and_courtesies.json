@@ -248,5 +248,119 @@
         "english": "my"
       }
     ]
+  },
+  {
+    "title": "Lesson 6:\nGoodbye",
+    "description": "'Hoşça kal' is said by the person leaving, 'güle güle' by the person staying. 'Görüşürüz' = see you later. 'İyi günler' = have a good day. 'İyi geceler' = good night.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tamam, gidiyorum.",
+        "english": "Okay, I'm going."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hoşça kal!",
+        "english": "Goodbye! (said by person staying)"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Güle güle. Görüşürüz.",
+        "english": "Goodbye. See you later."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "İyi günler! İyi geceler!",
+        "english": "Have a good day! Good night!"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "hoşça kal",
+        "english": "goodbye (said by person staying)"
+      },
+      {
+        "turkish": "güle güle",
+        "english": "goodbye (said by person leaving)"
+      },
+      {
+        "turkish": "görüşürüz",
+        "english": "see you later"
+      },
+      {
+        "turkish": "iyi günler",
+        "english": "have a good day"
+      },
+      {
+        "turkish": "iyi geceler",
+        "english": "good night"
+      },
+      {
+        "turkish": "tamam",
+        "english": "okay"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nPlease & Sorry",
+    "description": "'Lütfen' = please. 'Rica ederim' = you're welcome. 'Özür dilerim' = I'm sorry. 'Affedersiniz' = excuse me (formal). These polite phrases are essential in everyday Turkish.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Affedersiniz, yardım edebilir misiniz?",
+        "english": "Excuse me, can you help me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tabii ki, buyurun.",
+        "english": "Of course, go ahead."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Çok teşekkür ederim.",
+        "english": "Thank you very much."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Rica ederim.",
+        "english": "You're welcome."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Özür dilerim, lütfen tekrar söyler misiniz?",
+        "english": "I'm sorry, could you say that again please?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "lütfen",
+        "english": "please"
+      },
+      {
+        "turkish": "rica ederim",
+        "english": "you're welcome"
+      },
+      {
+        "turkish": "özür dilerim",
+        "english": "I'm sorry"
+      },
+      {
+        "turkish": "affedersiniz",
+        "english": "excuse me (formal)"
+      },
+      {
+        "turkish": "tabii",
+        "english": "of course"
+      }
+    ]
   }
 ]

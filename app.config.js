@@ -10,9 +10,11 @@ module.exports = {
     userInterfaceStyle: "automatic",
     newArchEnabled: true,
     ios: {
-      supportsTablet: true
+      supportsTablet: true,
+      bundleIdentifier: "com.sailoilabs.kongue"
     },
     android: {
+      package: "com.sailoilabs.kongue",
       adaptiveIcon: {
         backgroundColor: "#E6F4FE",
         foregroundImage: "./assets/images/android-icon-foreground.png",

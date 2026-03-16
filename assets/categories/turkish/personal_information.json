@@ -160,5 +160,115 @@
         "english": "sister"
       }
     ]
+  },
+  {
+    "title": "Lesson 4:\nHow old are you?",
+    "description": "'Kaç yaşındasın?' = How old are you? 'X yaşındayım' = I am X years old. 'Yaş' = age. 'Büyük' = big/older, 'küçük' = small/younger.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kaç yaşındasın?",
+        "english": "How old are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yirmi beş yaşındayım. Ya sen?",
+        "english": "I am twenty-five. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben otuz yaşındayım.",
+        "english": "I am thirty years old."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sen benden büyüksün.",
+        "english": "You are older than me."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "kaç yaşındasın?",
+        "english": "how old are you?"
+      },
+      {
+        "turkish": "yaşındayım",
+        "english": "I am ... years old"
+      },
+      {
+        "turkish": "yaş",
+        "english": "age"
+      },
+      {
+        "turkish": "büyük",
+        "english": "big / older"
+      },
+      {
+        "turkish": "küçük",
+        "english": "small / younger"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nNationality",
+    "description": "'Hangi ülkedensin?' = Which country are you from? 'Türk' = Turkish person. 'Ülke' = country. 'Dil' = language. Turkish nationalities add suffixes to country names.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hangi ülkedensin?",
+        "english": "Which country are you from?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Türkiye'denim. Ya sen?",
+        "english": "I'm from Turkey. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben Amerikalıyım.",
+        "english": "I am American."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hangi dili konuşuyorsun?",
+        "english": "Which language do you speak?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İngilizce konuşuyorum.",
+        "english": "I speak English."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "hangi ülkedensin?",
+        "english": "which country are you from?"
+      },
+      {
+        "turkish": "Türk",
+        "english": "Turkish (person)"
+      },
+      {
+        "turkish": "yabancı",
+        "english": "foreigner"
+      },
+      {
+        "turkish": "ülke",
+        "english": "country"
+      },
+      {
+        "turkish": "dil",
+        "english": "language"
+      }
+    ]
   }
 ]

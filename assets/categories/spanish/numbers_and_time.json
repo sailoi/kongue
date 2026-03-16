@@ -426,5 +426,119 @@
         "english": "euros"
       }
     ]
+  },
+  {
+    "title": "Lesson 7:\nTime with minutes",
+    "description": "'Y media' = half past. 'Y cuarto' = quarter past. 'Menos cuarto' = quarter to. 'En punto' = exactly/o'clock. 'Por la tarde' = in the afternoon.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué hora es exactamente?",
+        "english": "What time is it exactly?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Son las tres y media.",
+        "english": "It's half past three."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A qué hora empieza la clase?",
+        "english": "What time does class start?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "A las cuatro y cuarto en punto.",
+        "english": "At exactly quarter past four."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Son las cinco menos cuarto por la tarde.",
+        "english": "It's quarter to five in the afternoon."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "y media",
+        "english": "half past"
+      },
+      {
+        "spanish": "y cuarto",
+        "english": "quarter past"
+      },
+      {
+        "spanish": "menos cuarto",
+        "english": "quarter to"
+      },
+      {
+        "spanish": "en punto",
+        "english": "exactly / on the dot"
+      },
+      {
+        "spanish": "por la tarde",
+        "english": "in the afternoon"
+      },
+      {
+        "spanish": "por la noche",
+        "english": "in the evening / at night"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nDates",
+    "description": "'¿Cuál es la fecha?' = What is the date? 'Hoy es el quince de marzo' = Today is the 15th of March. In Spanish, dates use cardinal numbers except for the 1st ('primero').",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuál es la fecha de hoy?",
+        "english": "What is today's date?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hoy es el quince de abril.",
+        "english": "Today is the 15th of April."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y en qué año estamos?",
+        "english": "And what year are we in?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estamos en el año dos mil veinticinco.",
+        "english": "We are in the year 2025."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿cuál es la fecha?",
+        "english": "what is the date?"
+      },
+      {
+        "spanish": "el primero",
+        "english": "the first (1st)"
+      },
+      {
+        "spanish": "el día",
+        "english": "the day"
+      },
+      {
+        "spanish": "el mes",
+        "english": "the month"
+      },
+      {
+        "spanish": "el año",
+        "english": "the year"
+      }
+    ]
   }
 ]

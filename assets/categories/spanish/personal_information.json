@@ -160,5 +160,115 @@
         "english": "sister"
       }
     ]
+  },
+  {
+    "title": "Lesson 4:\nHow old are you?",
+    "description": "'¿Cuántos años tienes?' = How old are you? 'Tengo X años' = I am X years old. Literally 'I have X years' — Spanish uses 'tener' (to have) for age.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cuántos años tienes?",
+        "english": "How old are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tengo veinticinco años. ¿Y tú?",
+        "english": "I am twenty-five. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo tengo treinta años.",
+        "english": "I am thirty years old."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Eres mayor que yo.",
+        "english": "You are older than me."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿cuántos años tienes?",
+        "english": "how old are you?"
+      },
+      {
+        "spanish": "tengo...años",
+        "english": "I am ... years old"
+      },
+      {
+        "spanish": "la edad",
+        "english": "age"
+      },
+      {
+        "spanish": "mayor",
+        "english": "older"
+      },
+      {
+        "spanish": "menor",
+        "english": "younger"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 5:\nNationality",
+    "description": "Nationalities match gender: 'mexicano' (male) / 'mexicana' (female). '¿De qué nacionalidad eres?' = What nationality are you? 'Idioma' = language.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿De qué nacionalidad eres?",
+        "english": "What nationality are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Soy mexicano. ¿Y tú?",
+        "english": "I am Mexican. And you?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo soy americana.",
+        "english": "I am American."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Qué idioma hablas?",
+        "english": "What language do you speak?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hablo inglés y un poco de español.",
+        "english": "I speak English and a little Spanish."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "¿de qué nacionalidad eres?",
+        "english": "what nationality are you?"
+      },
+      {
+        "spanish": "mexicano / mexicana",
+        "english": "Mexican"
+      },
+      {
+        "spanish": "americano / americana",
+        "english": "American"
+      },
+      {
+        "spanish": "la nacionalidad",
+        "english": "nationality"
+      },
+      {
+        "spanish": "el idioma",
+        "english": "language"
+      }
+    ]
   }
 ]
