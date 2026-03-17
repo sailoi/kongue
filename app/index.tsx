@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Alert, ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import useDailyConversations from '@/hooks/useDailySentences';
 import { Gesture, GestureDetector, GestureHandlerRootView } from 'react-native-gesture-handler';
 import { ConversationCard } from '@/components/ConversationCard';
 import { SettingsModal } from '@/components/SettingsModal';
+import { VoiceChatModal, ChatMode } from '@/components/VoiceChatModal';
 import { Ionicons } from '@expo/vector-icons';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
@@ -26,10 +27,12 @@ export default function HomeScreen() {
     setConversationIndex,
     isLoading,
     totalLessons,
+    completedLessons,
   } = useDailyConversations(currentLanguage as any, currentCategory as any);
   const [showTranslation, setShowTranslation] = useState(false);
   const [showVocabulary, setShowVocabulary] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
+  const [voiceChatMode, setVoiceChatMode] = useState<ChatMode | null>(null);
   const colorScheme = useColorScheme();
   const navigation = useNavigation();
 
@@ -127,14 +130,14 @@ export default function HomeScreen() {
             <View style={styles.aiButtonRow}>
             <TouchableOpacity
               style={styles.aiButton}
-              onPress={() => Alert.alert('Coming Soon', 'AI conversation about this lesson is coming soon.')}
+              onPress={() => setVoiceChatMode('lesson')}
             >
               <Ionicons name="chatbubble-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
               <ThemedText style={styles.aiButtonText}>Lesson Chat</ThemedText>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.aiButton}
-              onPress={() => Alert.alert('Coming Soon', 'AI conversation with your full learning context is coming soon.')}
+              onPress={() => setVoiceChatMode('progress')}
             >
               <Ionicons name="chatbubbles-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
               <ThemedText style={styles.aiButtonText}>My Progress Chat</ThemedText>
@@ -152,6 +155,25 @@ export default function HomeScreen() {
         </ThemedView>
       </GestureDetector>
 
+      {voiceChatMode && (
+        <VoiceChatModal
+          visible={!!voiceChatMode}
+          mode={voiceChatMode}
+          onClose={() => setVoiceChatMode(null)}
+          language={currentLanguage}
+          lessonContext={{
+            lessonTitle: conversation.title,
+            lessonLines: conversation.dialogue.map(
+              (line: any) => `${line.speaker}: ${line[currentLanguage] || line.spanish || line.turkish || ''}`
+            ),
+          }}
+          progressContext={{
+            completedLessons,
+            totalLessons,
+            currentCategory,
+          }}
+        />
+      )}
       <SettingsModal
         visible={modalVisible}
         onClose={() => setModalVisible(false)}

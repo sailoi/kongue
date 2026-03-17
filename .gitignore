@@ -3,6 +3,10 @@
 # Secrets & Environment Variables
 .env
 .env.local
+
+# Local scripts
+deploy_local.sh
+deploy_expo.sh
 .env.*.local
 *.key
 *.pem
