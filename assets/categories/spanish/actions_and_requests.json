@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Lesson 1:\nFollowing & Waiting",
+    "description": "'¿Me acompañas?' = Will you come with me? 'Sígueme' = Follow me. 'Espérame' = Wait for me. These are common phrases for coordinating movement with someone.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Me acompañas al mercado?",
+        "english": "Will you come with me to the market?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro, voy contigo.",
+        "english": "Sure, I'll go with you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sígueme, sé un atajo.",
+        "english": "Follow me, I know a shortcut."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Espérame, necesito agarrar mis llaves.",
+        "english": "Wait for me, I need to grab my keys."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Está bien, te espero aquí.",
+        "english": "Okay, I'll wait for you here."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "¿Me acompañas?", "english": "Will you come with me?" },
+      { "spanish": "sígueme", "english": "follow me" },
+      { "spanish": "espérame", "english": "wait for me" },
+      { "spanish": "un atajo", "english": "a shortcut" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nHurry Up / Take It Easy",
+    "description": "'Apúrate' = Hurry up. 'Con calma' = Take it easy / calmly. These opposites are very common in everyday speech.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Apúrate! Ya vamos tarde.",
+        "english": "Hurry up! We're already late."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Con calma, todavía hay tiempo.",
+        "english": "Take it easy, there's still time."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No, el autobús sale en cinco minutos.",
+        "english": "No, the bus leaves in five minutes."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Okay, okay! Ya voy.",
+        "english": "Okay, okay! I'm coming."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "apúrate", "english": "hurry up" },
+      { "spanish": "con calma", "english": "take it easy / calmly" },
+      { "spanish": "vamos tarde", "english": "we're late" },
+      { "spanish": "todavía hay tiempo", "english": "there's still time" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nA Moment Please",
+    "description": "'Permíteme un momento' = Excuse me a moment (neutral). 'Permítame' = more formal version. 'Dame un momento' = Give me a moment. 'Haz algo' = Do something.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Permíteme un momento, tengo una llamada.",
+        "english": "Excuse me a moment, I have a call."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro, no hay prisa.",
+        "english": "Of course, there's no rush."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Dame un momento más, por favor.",
+        "english": "Give me one more moment, please."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Está bien. Mientras tanto, haz algo útil.",
+        "english": "That's fine. In the meantime, do something useful."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "permíteme un momento", "english": "excuse me a moment" },
+      { "spanish": "permítame un momento", "english": "excuse me a moment (formal)" },
+      { "spanish": "dame un momento", "english": "give me a moment" },
+      { "spanish": "haz algo", "english": "do something" }
+    ]
+  }
+]

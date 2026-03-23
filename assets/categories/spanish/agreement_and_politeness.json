@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Lesson 1:\nSure / Of Course / With Pleasure",
+    "description": "'Claro' = sure / of course. 'Por supuesto' = of course (stronger). 'Con gusto' = with pleasure. All three express willingness and agreement, from casual to formal.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Me puedes ayudar con esto?", "english": "Can you help me with this?" },
+      { "speaker": "B", "gender": "male", "spanish": "Claro, con gusto.", "english": "Sure, with pleasure." },
+      { "speaker": "A", "gender": "female", "spanish": "¿Estás seguro? No quiero molestarte.", "english": "Are you sure? I don't want to bother you." },
+      { "speaker": "B", "gender": "male", "spanish": "Por supuesto. No es ninguna molestia.", "english": "Of course. It's no bother at all." }
+    ],
+    "vocabulary": [
+      { "spanish": "claro", "english": "sure / of course" },
+      { "spanish": "por supuesto", "english": "of course (emphatic)" },
+      { "spanish": "con gusto", "english": "with pleasure" },
+      { "spanish": "ninguna molestia", "english": "no bother at all" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nPlease / Excuse Me / I'm Sorry",
+    "description": "'Por favor' = please. 'Disculpe' = excuse me (getting attention, formal). 'Lo siento' = I'm sorry (expressing regret). Each has a different use — learning when to use which is key.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "Disculpe, ¿dónde está el baño?", "english": "Excuse me, where is the bathroom?" },
+      { "speaker": "B", "gender": "male", "spanish": "Lo siento, no sé. No soy de aquí.", "english": "I'm sorry, I don't know. I'm not from here." },
+      { "speaker": "A", "gender": "female", "spanish": "No hay problema. Por favor, ¿alguien más sabe?", "english": "No problem. Please, does anyone else know?" },
+      { "speaker": "B", "gender": "male", "spanish": "Lo siento mucho. Espero que lo encuentres.", "english": "I'm very sorry. I hope you find it." }
+    ],
+    "vocabulary": [
+      { "spanish": "por favor", "english": "please" },
+      { "spanish": "disculpe", "english": "excuse me (formal)" },
+      { "spanish": "lo siento", "english": "I'm sorry" },
+      { "spanish": "no soy de aquí", "english": "I'm not from here" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nIt Doesn't Matter",
+    "description": "'No importa' = It doesn't matter / Never mind (casual, dismissing something). 'No es importante' = It's not important (more explanatory). Use 'no importa' to wave something off quickly.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "Llegué tarde. Lo siento mucho.", "english": "I arrived late. I'm very sorry." },
+      { "speaker": "B", "gender": "male", "spanish": "No importa. Todavía estamos esperando al resto.", "english": "It doesn't matter. We're still waiting for the others." },
+      { "speaker": "A", "gender": "female", "spanish": "Olvidé traer los documentos también.", "english": "I also forgot to bring the documents." },
+      { "speaker": "B", "gender": "male", "spanish": "No es importante para hoy. Los traes la próxima vez.", "english": "It's not important for today. Bring them next time." },
+      { "speaker": "A", "gender": "female", "spanish": "Gracias por entender.", "english": "Thanks for understanding." }
+    ],
+    "vocabulary": [
+      { "spanish": "no importa", "english": "it doesn't matter / never mind" },
+      { "spanish": "no es importante", "english": "it's not important" }
+    ]
+  }
+]

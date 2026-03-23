@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Lesson 1:\nNot Yet / On My Way",
+    "description": "'Henüz değil' or 'daha değil' = not yet. 'Geliyorum' = I'm coming. 'Hemen geliyorum' = I'm coming right now. These are essential phrases for everyday scheduling.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hazır mısın?",
+        "english": "Are you ready?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Henüz değil. Bir dakika.",
+        "english": "Not yet. One minute."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hadi, seni bekliyoruz.",
+        "english": "Come on, we're waiting for you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Geliyorum, geliyorum. İki dakika ver.",
+        "english": "I'm coming, I'm coming. Give me two minutes."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "henüz değil",
+        "english": "not yet"
+      },
+      {
+        "turkish": "geliyorum",
+        "english": "I'm coming / on my way"
+      },
+      {
+        "turkish": "bir dakika",
+        "english": "one minute"
+      },
+      {
+        "turkish": "beklemek",
+        "english": "to wait"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nLeaving & Coming Back",
+    "description": "'Artık gidiyorum' = I'm leaving now. 'Döndüm' = I'm back (I returned, speaker). 'Döndü' = he/she is back. 'Artık' signals that something is happening now or has changed.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Artık gidiyorum. Görüşürüz.",
+        "english": "I'm leaving now. See you later."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tamam. Saat kaçta dönersin?",
+        "english": "Okay. What time will you be back?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bilmiyorum. Haber veririm.",
+        "english": "I don't know. I'll let you know."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ahmet döndü mü?",
+        "english": "Is Ahmet back yet?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Evet, döndü. Ben de döndüm zaten.",
+        "english": "Yes, he's back. I'm already back too."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "artık gidiyorum",
+        "english": "I'm leaving now"
+      },
+      {
+        "turkish": "döndüm",
+        "english": "I'm back / I returned"
+      },
+      {
+        "turkish": "döndü",
+        "english": "he/she is back"
+      },
+      {
+        "turkish": "haber vermek",
+        "english": "to let someone know"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nAlmost Done / Almost There",
+    "description": "'Neredeyse' means 'almost'. 'Az kaldı' = just a little left. 'Neredeyse geldim' = I'm almost there. 'Az kaldı bitireceğim' = I'm almost done. Very useful when someone is waiting.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Neredesin? Seni bekliyoruz.",
+        "english": "Where are you? We're waiting for you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Neredeyse geldim. İki dakika kaldı.",
+        "english": "I'm almost there. Two minutes left."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İşi bitirdin mi?",
+        "english": "Did you finish the work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Az kaldı bitireceğim. Biraz daha var.",
+        "english": "I'm almost done. Just a little more."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tamam, acele etme.",
+        "english": "Okay, don't rush."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "neredeyse geldim",
+        "english": "I'm almost there"
+      },
+      {
+        "turkish": "az kaldı bitireceğim",
+        "english": "I'm almost done"
+      },
+      {
+        "turkish": "az kaldı",
+        "english": "just a little left"
+      },
+      {
+        "turkish": "acele etme",
+        "english": "don't rush"
+      }
+    ]
+  }
+]

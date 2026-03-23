@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lesson 1:\nEnjoy Your Meal",
+    "description": "'Afiyet olsun' = Bon appétit / Enjoy your meal (literally: may it be healthy). Used before or during a meal, or when you see someone eating. A polite response is 'Teşekkürler' or 'Sağ olun'.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yemek hazır. Herkese afiyet olsun!",
+        "english": "The food is ready. Enjoy your meal, everyone!"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Teşekkürler! Her şey çok güzel kokuyor.",
+        "english": "Thank you! Everything smells so good."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Rahatsız ediyor muyum?",
+        "english": "Am I interrupting?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yemek yiyoruz. Afiyet olsun, buyur?",
+        "english": "We're eating. Enjoy — would you like some?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hayır teşekkürler. Afiyet olsun.",
+        "english": "No thanks. Enjoy your meal."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "afiyet olsun", "english": "bon appétit / enjoy your meal" },
+      { "turkish": "sağ olun", "english": "thank you (response to afiyet olsun)" },
+      { "turkish": "buyur", "english": "please / here you go / come in" }
+    ]
+  }
+]

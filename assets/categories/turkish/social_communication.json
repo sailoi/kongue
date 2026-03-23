@@ -328,5 +328,58 @@
         "english": "I have to study. Maybe another day."
       }
     ]
+  },
+  {
+    "title": "Lesson 12:\nReactions & What Happened",
+    "description": "'Gerçekten mi?' = Really? 'Ciddi misin?' = Are you serious? 'Ne oldu?' = What happened? 'Şaka mı yapıyorsun?' = Are you joking? Use these to react to surprising news.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Dinle, bana iş teklif ettiler.", "english": "Listen, they offered me the job." },
+      { "speaker": "B", "gender": "male", "turkish": "Gerçekten mi? Harika haber!", "english": "Really? Great news!" },
+      { "speaker": "A", "gender": "female", "turkish": "Evet ama bir sorun da var.", "english": "Yes but there's also a problem." },
+      { "speaker": "B", "gender": "male", "turkish": "Ne oldu?", "english": "What happened?" },
+      { "speaker": "A", "gender": "female", "turkish": "Maaş beklediğimin yarısı.", "english": "The salary is half of what I expected." },
+      { "speaker": "B", "gender": "male", "turkish": "Şaka mı yapıyorsun? Bu olmaz!", "english": "Are you joking? That can't be!" }
+    ],
+    "vocabulary": [
+      { "turkish": "gerçekten mi?", "english": "really?" },
+      { "turkish": "ciddi misin?", "english": "are you serious?" },
+      { "turkish": "ne oldu?", "english": "what happened?" },
+      { "turkish": "şaka mı yapıyorsun?", "english": "are you joking?" }
+    ]
+  },
+  {
+    "title": "Lesson 13:\nWhat Are You Doing / Saying",
+    "description": "'Ne yapıyorsun?' = What are you doing? 'Ne yapıyordun?' = What were you doing? 'Ne dedin?' = What did you say? These are essential for everyday conversation.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Hey, ne yapıyorsun?", "english": "Hey, what are you doing?" },
+      { "speaker": "B", "gender": "male", "turkish": "Yemek pişiriyorum. Neden?", "english": "I'm cooking. Why?" },
+      { "speaker": "A", "gender": "female", "turkish": "Az önce tuhaf bir şey söyledin.", "english": "You said something weird just now." },
+      { "speaker": "B", "gender": "male", "turkish": "Ne dedin ki dedim?", "english": "What did you say I said?" },
+      { "speaker": "A", "gender": "female", "turkish": "Pazar günleri ne yapıyordun genellikle?", "english": "What were you usually doing on Sundays?" }
+    ],
+    "vocabulary": [
+      { "turkish": "ne yapıyorsun?", "english": "what are you doing?" },
+      { "turkish": "ne yapıyordun?", "english": "what were you doing?" },
+      { "turkish": "ne dedin?", "english": "what did you say?" }
+    ]
+  },
+  {
+    "title": "Lesson 14:\nWhich / How Are You / Since When",
+    "description": "'Hangisi?' = Which one? 'Hangisini seviyorsun?' = Which one do you like? 'Nasılsın?' = How are you? 'Nasıl geçiyor?' = How's it going? 'Ne zamandan beri?' = Since when?",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Merhaba! Nasılsın?", "english": "Hello! How are you?" },
+      { "speaker": "B", "gender": "male", "turkish": "İyiyim, teşekkürler. Sene nasıl geçiyor?", "english": "I'm good, thanks. How is the year going?" },
+      { "speaker": "A", "gender": "female", "turkish": "Çok iyi. Yeni arabam var.", "english": "Very well. I have a new car." },
+      { "speaker": "B", "gender": "male", "turkish": "Ne zamandan beri araban var?", "english": "Since when do you have a car?" },
+      { "speaker": "A", "gender": "female", "turkish": "Geçen aydan beri. Hangisini seviyorsun, kırmızı mı mavi mi?", "english": "Since last month. Which do you like, red or blue?" },
+      { "speaker": "B", "gender": "male", "turkish": "Hangisi sana göre?", "english": "Which one suits you?" }
+    ],
+    "vocabulary": [
+      { "turkish": "hangisi?", "english": "which one?" },
+      { "turkish": "hangisini seviyorsun?", "english": "which one do you like?" },
+      { "turkish": "nasılsın?", "english": "how are you?" },
+      { "turkish": "nasıl geçiyor?", "english": "how's it going?" },
+      { "turkish": "ne zamandan beri?", "english": "since when?" }
+    ]
   }
 ]

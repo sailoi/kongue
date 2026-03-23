@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lesson 1:\nI'll Pick You Up / Don't Go",
+    "description": "'Seni almaya geliyorum' = I'm coming to pick you up. 'Beni almaya gel' = Come pick me up. 'Gitme' = Don't go (to someone about to leave or go somewhere).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Havalimanına nasıl gideceksin?",
+        "english": "How are you going to get to the airport?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bilmiyorum. Beni almaya gelebilir misin?",
+        "english": "I don't know. Can you come pick me up?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tabii. Seni almaya geliyorum, saat beşte.",
+        "english": "Of course. I'm coming to pick you up at five."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Harika. Haber vermeden gitme.",
+        "english": "Great. Don't leave without letting me know."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Eğer gelebilirsem, yalnız gitme havalimanına.",
+        "english": "If I can make it, don't go to the airport alone."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "seni almaya geliyorum", "english": "I'm coming to pick you up" },
+      { "turkish": "beni almaya gel", "english": "come pick me up" },
+      { "turkish": "gitme", "english": "don't go / don't leave" }
+    ]
+  }
+]

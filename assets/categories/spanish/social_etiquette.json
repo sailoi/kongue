@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lesson 1:\nBon Appétit",
+    "description": "'Buen provecho' = Bon appétit / Enjoy your meal. Used before or during a meal, or when you see someone eating. A polite response is '¡Gracias!' or 'Igualmente' (same to you).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "La comida está lista. ¡Buen provecho a todos!",
+        "english": "The food is ready. Enjoy your meal, everyone!"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¡Gracias! Todo huele delicioso.",
+        "english": "Thank you! Everything smells delicious."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Perdona, ¿interrumpo?",
+        "english": "Sorry, am I interrupting?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estamos comiendo. Buen provecho, ¿gustas?",
+        "english": "We're eating. Enjoy — would you like some?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No gracias. Buen provecho.",
+        "english": "No thanks. Enjoy your meal."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "buen provecho", "english": "bon appétit / enjoy your meal" },
+      { "spanish": "igualmente", "english": "same to you" },
+      { "spanish": "¿gustas?", "english": "would you like some?" }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nI Can't Hear You / There's Noise",
+    "description": "'Duymadım' = I didn't hear (past). 'Seni duymuyorum' = I can't hear you (present). 'Çok gürültü var' = There's a lot of noise. 'Bir ses duydum' = I heard a sound.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tekrar edebilir misin? Seni duymuyorum.",
+        "english": "Can you repeat? I can't hear you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Burada çok gürültü var. Sonra arayabilir miyim?",
+        "english": "There's a lot of noise here. Can I call you later?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tamam. Az önce bir ses duydun mu?",
+        "english": "Okay. Did you hear a sound just now?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Duymadım. Ne sesti?",
+        "english": "I didn't hear. What was the sound?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dışarıdan bir ses duydum. Ne olduğunu bilmiyorum.",
+        "english": "I heard a sound from outside. I don't know what it was."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "duymadım", "english": "I didn't hear (past)" },
+      { "turkish": "seni duymuyorum", "english": "I can't hear you (present)" },
+      { "turkish": "çok gürültü var", "english": "there's a lot of noise" },
+      { "turkish": "bir ses duydum", "english": "I heard a sound" }
+    ]
+  }
+]

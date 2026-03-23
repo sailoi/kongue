@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lesson 1:\nDon't Forget / I Forgot",
+    "description": "'Que no se te olvide' = Don't forget (literally: may it not slip your mind). 'Lo olvidé' = I forgot. 'Lo olvidé por completo' = I completely forgot. Very useful in daily life.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Que no se te olvide traer el documento mañana.",
+        "english": "Don't forget to bring the document tomorrow."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro, lo anoto ahora mismo.",
+        "english": "Of course, I'll write it down right now."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Llamaste al médico hoy?",
+        "english": "Did you call the doctor today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ay, lo olvidé por completo. Lo llamo ahora.",
+        "english": "Oh, I completely forgot. I'll call now."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Y la reunión del lunes, ¿la anotaste?",
+        "english": "And the Monday meeting, did you write it down?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ese también lo olvidé. Necesito un calendario.",
+        "english": "I forgot that one too. I need a calendar."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "que no se te olvide", "english": "don't forget" },
+      { "spanish": "lo olvidé", "english": "I forgot (it)" },
+      { "spanish": "lo olvidé por completo", "english": "I completely forgot" },
+      { "spanish": "lo anoto", "english": "I'll write it down" }
+    ]
+  }
+]

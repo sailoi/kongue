@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Lesson 1:\nNo Idea / Not Sure",
+    "description": "'Ni idea' = No idea (very casual). 'No tengo idea' = I have no idea. 'No estoy seguro/segura' = I'm not sure. Use 'seguro' if you're male, 'segura' if female.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Sabes a qué hora llega el tren?",
+        "english": "Do you know what time the train arrives?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ni idea. No lo revise.",
+        "english": "No idea. I didn't check."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y tú? ¿Sabes algo?",
+        "english": "And you? Do you know anything?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No estoy seguro. Creo que a las tres.",
+        "english": "I'm not sure. I think at three."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No tengo idea tampoco. Voy a buscar en mi teléfono.",
+        "english": "I have no idea either. I'll look it up on my phone."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "ni idea", "english": "no idea (casual)" },
+      { "spanish": "no tengo idea", "english": "I have no idea" },
+      { "spanish": "no estoy seguro", "english": "I'm not sure (male)" },
+      { "spanish": "no estoy segura", "english": "I'm not sure (female)" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nDoubt & I Knew It",
+    "description": "'Lo sabía' = I knew it. 'Lo dudo' = I doubt it. 'No creo' = I don't think so. These express confidence or skepticism about information.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Dicen que va a llover mañana.",
+        "english": "They say it's going to rain tomorrow."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Lo dudo. Hoy está muy soleado.",
+        "english": "I doubt it. Today it's very sunny."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿No crees en el pronóstico?",
+        "english": "You don't believe the forecast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No creo. Generalmente se equivocan.",
+        "english": "I don't think so. They're usually wrong."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Llovió. ¡Lo sabía!",
+        "english": "It rained. I knew it!"
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "lo sabía", "english": "I knew it" },
+      { "spanish": "lo dudo", "english": "I doubt it" },
+      { "spanish": "no creo", "english": "I don't think so" }
+    ]
+  }
+]

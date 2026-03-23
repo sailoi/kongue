@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Lesson 1:\nI Love It / I Like It",
+    "description": "'Me encanta' = I love it (stronger than me gusta). 'Me gusta' = I like it. 'Me gusta mucho' = I like it a lot. These use indirect object pronouns — the subject is the thing, not you.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Probaste el nuevo restaurante?",
+        "english": "Did you try the new restaurant?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, me encanta. La comida es increíble.",
+        "english": "Yes, I love it. The food is incredible."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Te gustó el postre también?",
+        "english": "Did you like the dessert too?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Me gustó mucho. Voy a volver esta semana.",
+        "english": "I liked it a lot. I'm going back this week."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Yo también quiero ir! Me gusta probar lugares nuevos.",
+        "english": "I want to go too! I like trying new places."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "me encanta", "english": "I love it" },
+      { "spanish": "me gusta", "english": "I like it" },
+      { "spanish": "me gusta mucho", "english": "I like it a lot" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nIt Bothers Me / My Mood",
+    "description": "'Me molesta' = It bothers me. 'Me molesta mucho' = It really bothers me. 'Estoy de buen humor' = I'm in a good mood. 'Estoy de mal humor' = I'm in a bad mood.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Estás bien? Pareces molesta.",
+        "english": "Are you okay? You seem bothered."
+      },
+      {
+        "speaker": "B",
+        "gender": "female",
+        "spanish": "Estoy de mal humor. Me molesta mucho el ruido.",
+        "english": "I'm in a bad mood. The noise really bothers me."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Entiendo. ¿Puedo hacer algo?",
+        "english": "I understand. Can I do anything?"
+      },
+      {
+        "speaker": "B",
+        "gender": "female",
+        "spanish": "No, tranquila. Mañana estaré de buen humor.",
+        "english": "No, it's okay. Tomorrow I'll be in a good mood."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "me molesta", "english": "it bothers me" },
+      { "spanish": "me molesta mucho", "english": "it really bothers me" },
+      { "spanish": "estoy de buen humor", "english": "I'm in a good mood" },
+      { "spanish": "estoy de mal humor", "english": "I'm in a bad mood" }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Lesson 1:\nIt Doesn't Matter",
+    "description": "'Önemli değil' = It's not important / It doesn't matter. 'Fark etmez' = It makes no difference / Doesn't matter. 'Fark etmez' is more casual; 'önemli değil' is more explanatory.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Geç kaldım. Çok özür dilerim.",
+        "english": "I'm late. I'm very sorry."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Fark etmez. Diğerlerini bekliyoruz hâlâ.",
+        "english": "It doesn't matter. We're still waiting for the others."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Belgeleri de getirmeyi unuttum.",
+        "english": "I also forgot to bring the documents."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Bugün için önemli değil. Bir dahaki sefere getirirsin.",
+        "english": "It's not important for today. You can bring them next time."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Anlayışın için teşekkürler.",
+        "english": "Thank you for your understanding."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "önemli değil", "english": "it's not important / it doesn't matter" },
+      { "turkish": "fark etmez", "english": "it makes no difference / doesn't matter" }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nBetter / Better Not",
+    "description": "'Daha iyi' = better. 'Çok daha iyi' = much better. 'Daha iyi olur' = it would be better / that's better. 'Daha iyi olmaz' = better not / it would be better not to. Use these to express preferences and weigh options.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu gece mi çıkıyoruz yoksa yarın mı?",
+        "english": "Are we going out tonight or tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Yarın daha iyi. Bugün yorgunum.",
+        "english": "Tomorrow is better. I'm tired today."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Akşam yemeğine çıksak? Ne dersin?",
+        "english": "What if we go out for dinner? What do you say?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Daha iyi olmaz. Evde yemek çok daha iyi.",
+        "english": "Better not. Food at home is much better."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Haklısın. Evde kalmak daha iyi olur.",
+        "english": "You're right. It would be better to stay home."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "daha iyi", "english": "better" },
+      { "turkish": "çok daha iyi", "english": "much better" },
+      { "turkish": "daha iyi olur", "english": "it would be better / that's better" },
+      { "turkish": "daha iyi olmaz", "english": "better not" }
+    ]
+  }
+]

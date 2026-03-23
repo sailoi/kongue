@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Lesson 1:\nIt's Hot",
+    "description": "'Hace calor' = It's hot (weather). '¡Qué calor!' = How hot! / It's so hot! (exclamation). 'Está caliente' = It's hot (for objects or food, not weather). Note this key difference.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Qué calor! No puedo salir así.",
+        "english": "How hot! I can't go out like this."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, hace mucho calor hoy. Son cuarenta grados.",
+        "english": "Yes, it's very hot today. It's forty degrees."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Quieres un café?",
+        "english": "Do you want a coffee?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No gracias, está muy caliente. Prefiero agua fría.",
+        "english": "No thanks, it's too hot. I prefer cold water."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "hace calor", "english": "it's hot (weather)" },
+      { "spanish": "¡qué calor!", "english": "how hot! / it's so hot!" },
+      { "spanish": "está caliente", "english": "it's hot (object/food)" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nIt's Cold / I'm Cold",
+    "description": "'Hace frío' = It's cold (weather). '¡Qué frío!' = How cold! / It's so cold! 'Tengo frío' = I'm cold (literally: I have cold). Use 'tengo frío' for your own feeling, 'hace frío' for the weather.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Qué frío está afuera!",
+        "english": "How cold it is outside!"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, hace mucho frío. ¿Tienes frío?",
+        "english": "Yes, it's very cold. Are you cold?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tengo frío. Olvidé mi abrigo.",
+        "english": "I'm cold. I forgot my jacket."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Toma el mío. No me importa.",
+        "english": "Take mine. I don't mind."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "hace frío", "english": "it's cold (weather)" },
+      { "spanish": "¡qué frío!", "english": "how cold! / it's so cold!" },
+      { "spanish": "tengo frío", "english": "I'm cold" },
+      { "spanish": "el abrigo", "english": "the jacket / coat" }
+    ]
+  }
+]

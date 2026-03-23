@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Lesson 1:\nMore or Less / Almost / Nothing",
+    "description": "'Más o menos' = more or less / so-so. 'Nada' = nothing / not at all. 'Casi' = almost. 'Tienes que probarlo' = you have to try it. These useful words fill many everyday situations.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo estuvo el viaje?",
+        "english": "How was the trip?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Más o menos. Hubo tráfico.",
+        "english": "So-so. There was traffic."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Llegaste a tiempo?",
+        "english": "Did you arrive on time?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Casi. Llegué cinco minutos tarde.",
+        "english": "Almost. I arrived five minutes late."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y comiste algo?",
+        "english": "And did you eat anything?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Nada. Pero encontré un restaurante nuevo. ¡Tienes que probarlo!",
+        "english": "Nothing. But I found a new restaurant. You have to try it!"
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "más o menos", "english": "more or less / so-so" },
+      { "spanish": "nada", "english": "nothing / not at all" },
+      { "spanish": "casi", "english": "almost" },
+      { "spanish": "tienes que probarlo", "english": "you have to try it" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFor / Against / Think About It",
+    "description": "'Estoy a favor' = I'm in favor / I support it. 'Estoy en contra' = I'm against it. 'Piénsalo' = Think about it / Consider it. 'Todavía tienes tiempo' = You still have time.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué piensas del nuevo proyecto?",
+        "english": "What do you think about the new project?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estoy a favor. Creo que puede funcionar.",
+        "english": "I'm in favor. I think it can work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo estoy en contra. Es muy caro.",
+        "english": "I'm against it. It's too expensive."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Piénsalo bien antes de decidir.",
+        "english": "Think about it carefully before deciding."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Todavía tienes tiempo para cambiar de opinión.",
+        "english": "You still have time to change your mind."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "estoy a favor", "english": "I'm in favor / I support it" },
+      { "spanish": "estoy en contra", "english": "I'm against it" },
+      { "spanish": "piénsalo", "english": "think about it / consider it" },
+      { "spanish": "todavía tienes tiempo", "english": "you still have time" }
+    ]
+  }
+]

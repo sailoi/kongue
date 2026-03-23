@@ -25,7 +25,8 @@ export interface Conversation {
 
 const useDailyConversations = (
   language: keyof typeof conversationData,
-  category: keyof typeof conversationData[typeof language]
+  category: keyof typeof conversationData[typeof language],
+  onProgressUpdate?: (maxIndex: number) => void,
 ) => {
   const [conversationIndex, setConversationIndex] = useState(0);
   const [maxIndex, setMaxIndex] = useState(0);
@@ -63,6 +64,7 @@ const useDailyConversations = (
       if (conversationIndex > maxIndex) {
         setMaxIndex(conversationIndex);
         AsyncStorage.setItem(MAX_INDEX_KEY, conversationIndex.toString());
+        onProgressUpdate?.(conversationIndex);
       }
     }
   }, [conversationIndex, isLoading, LESSON_INDEX_KEY, MAX_INDEX_KEY]);

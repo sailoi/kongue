@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Lesson 1:\nIt Doesn't Matter",
+    "description": "'No importa' = It doesn't matter / Never mind (casual, dismissing something). 'No es importante' = It's not important (more explanatory). Use 'no importa' to wave something off quickly.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Llegué tarde. Lo siento mucho.",
+        "english": "I arrived late. I'm very sorry."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No importa. Todavía estamos esperando al resto.",
+        "english": "It doesn't matter. We're still waiting for the others."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Olvidé traer los documentos también.",
+        "english": "I also forgot to bring the documents."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No es importante para hoy. Los traes la próxima vez.",
+        "english": "It's not important for today. Bring them next time."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Gracias por entender.",
+        "english": "Thanks for understanding."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "no importa", "english": "it doesn't matter / never mind" },
+      { "spanish": "no es importante", "english": "it's not important" }
+    ]
+  }
+]

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { documentDirectory, getInfoAsync, makeDirectoryAsync, downloadAsync } from 'expo-file-system/legacy';
 import { Audio } from 'expo-av';
-import { API_KEY, API_URL } from '@/constants/api';
+import { API_URL } from '@/constants/api';
+import { getAuthToken } from '@/utils/firebase';
 
 // Custom hook for text-to-speech
 const useTextToSpeech = () => {
@@ -61,11 +62,12 @@ const useTextToSpeech = () => {
       } else {
         // Fetch from API - show loading
         setIsLoading(true);
+        const token = await getAuthToken();
         const response = await fetch(API_URL, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-Api-Key': API_KEY,
+            'Authorization': `Bearer ${token}`,
           },
           body: JSON.stringify({ text, gender, language }),
         });

@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Lesson 1:\nThis Way / That Way",
+    "description": "'Por aquí' = this way / through here. 'Por ahí' = that way / through there. 'A la derecha' = to the right. 'A la izquierda' = to the left.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Perdona, ¿cómo llego al banco?",
+        "english": "Excuse me, how do I get to the bank?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Por aquí. Sigue recto.",
+        "english": "This way. Go straight."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y luego?",
+        "english": "And then?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Luego a la derecha, y el banco está a la izquierda.",
+        "english": "Then to the right, and the bank is on the left."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿No es por ahí?",
+        "english": "Isn't it that way?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No, no. Por aquí es más rápido.",
+        "english": "No, no. This way is faster."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "por aquí", "english": "this way" },
+      { "spanish": "por ahí", "english": "that way" },
+      { "spanish": "a la derecha", "english": "to the right" },
+      { "spanish": "a la izquierda", "english": "to the left" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nTurn Right / Turn Left",
+    "description": "'Voltea a la derecha' = Turn right. 'Voltea a la izquierda' = Turn left. 'Voltear' is commonly used in Latin America. In Spain you might hear 'gira'.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estoy perdida. ¿Me puedes guiar?",
+        "english": "I'm lost. Can you guide me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Claro. En la próxima calle, voltea a la derecha.",
+        "english": "Of course. At the next street, turn right."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿A la derecha?",
+        "english": "To the right?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, y luego voltea a la izquierda al llegar al semáforo.",
+        "english": "Yes, and then turn left when you reach the traffic light."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Perfecto. ¡Muchas gracias!",
+        "english": "Perfect. Thank you very much!"
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "voltea a la derecha", "english": "turn right" },
+      { "spanish": "voltea a la izquierda", "english": "turn left" },
+      { "spanish": "el semáforo", "english": "the traffic light" },
+      { "spanish": "estoy perdida/perdido", "english": "I'm lost" }
+    ]
+  }
+]

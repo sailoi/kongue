@@ -328,5 +328,57 @@
         "english": "I have to study. Maybe another day."
       }
     ]
+  },
+  {
+    "title": "Lesson 12:\nReactions & What Happened",
+    "description": "'¿En serio?' = Really? / Seriously? '¿Qué pasó?' = What happened? '¿Estás bromeando?' = Are you joking? These are common reactions when hearing surprising news.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "Escucha, me ofrecieron el trabajo.", "english": "Listen, they offered me the job." },
+      { "speaker": "B", "gender": "male", "spanish": "¿En serio? ¡Qué buena noticia!", "english": "Really? What great news!" },
+      { "speaker": "A", "gender": "female", "spanish": "Sí, pero también hubo un problema.", "english": "Yes, but there was also a problem." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Qué pasó?", "english": "What happened?" },
+      { "speaker": "A", "gender": "female", "spanish": "El sueldo es la mitad de lo que esperaba.", "english": "The salary is half of what I expected." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Estás bromeando? ¡Eso no puede ser!", "english": "Are you joking? That can't be!" }
+    ],
+    "vocabulary": [
+      { "spanish": "¿en serio?", "english": "really? / seriously?" },
+      { "spanish": "¿qué pasó?", "english": "what happened?" },
+      { "spanish": "¿estás bromeando?", "english": "are you joking?" }
+    ]
+  },
+  {
+    "title": "Lesson 13:\nWhat Are You Doing / Saying",
+    "description": "'¿Qué haces?' = What do you do? / What are you doing? '¿Qué estás haciendo?' = What are you doing right now? (more emphatic). '¿Qué dijiste?' = What did you say?",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "Oye, ¿qué estás haciendo?", "english": "Hey, what are you doing?" },
+      { "speaker": "B", "gender": "male", "spanish": "Estoy cocinando. ¿Por qué?", "english": "I'm cooking. Why?" },
+      { "speaker": "A", "gender": "female", "spanish": "Dijiste algo raro hace un momento.", "english": "You said something weird a moment ago." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Qué dijiste que dije?", "english": "What did you say I said?" },
+      { "speaker": "A", "gender": "female", "spanish": "¿Qué haces normalmente los domingos?", "english": "What do you normally do on Sundays?" }
+    ],
+    "vocabulary": [
+      { "spanish": "¿qué haces?", "english": "what are you doing? / what do you do?" },
+      { "spanish": "¿qué estás haciendo?", "english": "what are you doing (right now)?" },
+      { "spanish": "¿qué dijiste?", "english": "what did you say?" }
+    ]
+  },
+  {
+    "title": "Lesson 14:\nWhich / How Are You / Since When",
+    "description": "'¿Cuál?' = Which one? '¿Cuál te gusta?' = Which one do you like? '¿Cómo estás?' = How are you? '¿Cómo has estado?' = How have you been? '¿Desde cuándo?' = Since when?",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¡Hola! ¿Cómo estás?", "english": "Hi! How are you?" },
+      { "speaker": "B", "gender": "male", "spanish": "Bien, gracias. ¿Y tú? ¿Cómo has estado?", "english": "Good, thanks. And you? How have you been?" },
+      { "speaker": "A", "gender": "female", "spanish": "Muy bien. Tengo un carro nuevo.", "english": "Very well. I have a new car." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Desde cuándo tienes carro?", "english": "Since when do you have a car?" },
+      { "speaker": "A", "gender": "female", "spanish": "Desde el mes pasado. ¿Cuál prefieres, rojo o azul?", "english": "Since last month. Which do you prefer, red or blue?" },
+      { "speaker": "B", "gender": "male", "spanish": "¿Cuál te gusta más a ti?", "english": "Which one do you like more?" }
+    ],
+    "vocabulary": [
+      { "spanish": "¿cuál?", "english": "which one?" },
+      { "spanish": "¿cuál te gusta?", "english": "which one do you like?" },
+      { "spanish": "¿cómo estás?", "english": "how are you?" },
+      { "spanish": "¿cómo has estado?", "english": "how have you been?" },
+      { "spanish": "¿desde cuándo?", "english": "since when?" }
+    ]
   }
 ]

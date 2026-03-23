@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Lesson 1:\nMore or Less / Almost / Nothing",
+    "description": "'Şöyle böyle' = so-so / more or less. 'Hiçbir şey' = nothing. 'Boşver' = never mind / forget it / let it go. 'Neredeyse' = almost. 'Bunu denemelisin' = you have to try this.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yolculuk nasıldı?",
+        "english": "How was the journey?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Şöyle böyle. Trafik vardı.",
+        "english": "So-so. There was traffic."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Zamanında vardın mı?",
+        "english": "Did you arrive on time?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Neredeyse. Beş dakika geç kaldım.",
+        "english": "Almost. I was five minutes late."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bir şey yedin mi?",
+        "english": "Did you eat anything?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hiçbir şey. Ama yeni bir restoran buldum. Bunu denemelisin!",
+        "english": "Nothing. But I found a new restaurant. You have to try this!"
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "şöyle böyle", "english": "so-so / more or less" },
+      { "turkish": "hiçbir şey", "english": "nothing" },
+      { "turkish": "boşver", "english": "never mind / forget it" },
+      { "turkish": "neredeyse", "english": "almost" },
+      { "turkish": "bunu denemelisin", "english": "you have to try this" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFor / Against / Think About It",
+    "description": "'Destekliyorum' = I support it / I'm in favor. 'Karşıyım' = I'm against it. 'Düşün' = Think about it / Consider it. 'Hâlâ zamanın var' = You still have time.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yeni proje hakkında ne düşünüyorsun?",
+        "english": "What do you think about the new project?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Destekliyorum. İşe yarayabilir.",
+        "english": "I support it. It could work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben karşıyım. Çok pahalı.",
+        "english": "I'm against it. It's too expensive."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Karar vermeden önce iyi düşün.",
+        "english": "Think carefully before deciding."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hâlâ zamanın var, fikrini değiştirebilirsin.",
+        "english": "You still have time, you can change your mind."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "destekliyorum", "english": "I support it / I'm in favor" },
+      { "turkish": "karşıyım", "english": "I'm against it" },
+      { "turkish": "düşün", "english": "think about it / consider it" },
+      { "turkish": "hâlâ zamanın var", "english": "you still have time" }
+    ]
+  }
+]

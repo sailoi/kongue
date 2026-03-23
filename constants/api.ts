@@ -10,3 +10,4 @@ const BASE_URL = API_URL.replace(/\/api\/speech$/, "");
 export const VOICE_CHAT_URL = `${BASE_URL}/api/voice-chat`;
 export const VOICE_CHAT_INTRO_URL = `${BASE_URL}/api/voice-chat/intro`;
 export const TRANSLATE_URL = `${BASE_URL}/api/translate`;
+export const USER_URL = `${BASE_URL}/api/user`;

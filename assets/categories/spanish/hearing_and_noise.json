@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nI Can't Hear You / There's Noise",
+    "description": "'No escuché' = I didn't hear (past). 'No te escucho' = I can't hear you (present, ongoing). 'Hay mucho ruido' = There's a lot of noise. 'Escuché un ruido' = I heard a noise.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedes repetir? No te escucho bien.",
+        "english": "Can you repeat? I can't hear you well."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Hay mucho ruido aquí. ¿Puedo llamarte después?",
+        "english": "There's a lot of noise here. Can I call you later?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí. Oye, ¿escuchaste ese ruido antes?",
+        "english": "Yes. Hey, did you hear that noise earlier?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No escuché nada. ¿Qué fue?",
+        "english": "I didn't hear anything. What was it?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Escuché un ruido afuera. No sé qué fue.",
+        "english": "I heard a noise outside. I don't know what it was."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "no escuché", "english": "I didn't hear (past)" },
+      { "spanish": "no te escucho", "english": "I can't hear you (present)" },
+      { "spanish": "hay mucho ruido", "english": "there's a lot of noise" },
+      { "spanish": "escuché un ruido", "english": "I heard a noise" }
+    ]
+  }
+]

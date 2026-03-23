@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lesson 1:\nFun / Boring",
+    "description": "'Está divertido' = It's fun / It's entertaining. 'Está aburrido' = It's boring. Both use 'estar' because they describe temporary states. Note: 'Estoy aburrido/a' = I'm bored (about yourself).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo estuvo la fiesta?",
+        "english": "How was the party?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Estuvo muy divertida. Bailamos toda la noche.",
+        "english": "It was really fun. We danced all night."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y la película de antes?",
+        "english": "And the movie before?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Esa estuvo aburrida. Me quedé dormido.",
+        "english": "That one was boring. I fell asleep."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¡Ja! A mí también me pareció aburrida.",
+        "english": "Ha! I also found it boring."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "está divertido", "english": "it's fun / it's entertaining" },
+      { "spanish": "está aburrido", "english": "it's boring" },
+      { "spanish": "estoy aburrido/a", "english": "I'm bored" }
+    ]
+  }
+]

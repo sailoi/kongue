@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Lesson 1:\nFollowing & Waiting",
+    "description": "'Bana eşlik eder misin?' = Will you come with me? 'Beni takip et' = Follow me. 'Beni bekle' = Wait for me. These are common phrases for coordinating movement with someone.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Markete gidiyorum. Bana eşlik eder misin?",
+        "english": "I'm going to the market. Will you come with me?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tabii, seninle gelirim.",
+        "english": "Sure, I'll come with you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Beni takip et. Bir kısa yol biliyorum.",
+        "english": "Follow me. I know a shortcut."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Beni bekle, anahtarlarımı almam lazım.",
+        "english": "Wait for me, I need to grab my keys."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tamam, burada seni bekliyorum.",
+        "english": "Okay, I'll wait for you here."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "bana eşlik eder misin?", "english": "will you come with me?" },
+      { "turkish": "beni takip et", "english": "follow me" },
+      { "turkish": "beni bekle", "english": "wait for me" },
+      { "turkish": "kısa yol", "english": "shortcut" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nHurry Up / Take It Easy",
+    "description": "'Acele et' = Hurry up. 'Sakin ol' = Take it easy / Calm down. These opposites are very common in everyday Turkish speech.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Acele et! Otobüs geliyor.",
+        "english": "Hurry up! The bus is coming."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sakin ol, daha zaman var.",
+        "english": "Take it easy, there's still time."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hayır, beş dakika sonra kalkıyor.",
+        "english": "No, it leaves in five minutes."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tamam tamam, geliyorum!",
+        "english": "Okay okay, I'm coming!"
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "acele et", "english": "hurry up" },
+      { "turkish": "sakin ol", "english": "take it easy / calm down" },
+      { "turkish": "daha zaman var", "english": "there's still time" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nA Moment Please",
+    "description": "'Bir dakika izin ver' = Give me a moment / Excuse me a moment. 'Bir dakikanızı alabilir miyim?' = May I have a moment of your time? (formal). 'Bir dakika ver bana' = Give me a moment. 'Bir şey yap' = Do something.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bir dakika izin ver, bir telefon var.",
+        "english": "Excuse me a moment, I have a call."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tabii, acele etme.",
+        "english": "Of course, don't rush."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bir dakika daha ver bana lütfen.",
+        "english": "Give me one more moment please."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tamam. Bu arada bir şey yap, boş durma.",
+        "english": "Okay. In the meantime, do something, don't just stand there."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "bir dakika izin ver", "english": "excuse me a moment" },
+      { "turkish": "bir dakikanızı alabilir miyim?", "english": "may I have a moment? (formal)" },
+      { "turkish": "bir dakika ver bana", "english": "give me a moment" },
+      { "turkish": "bir şey yap", "english": "do something" }
+    ]
+  }
+]

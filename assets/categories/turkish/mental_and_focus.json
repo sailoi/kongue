@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nI'm Distracted / I Need to Focus",
+    "description": "'Dalgınım' = I'm distracted / spaced out. 'Odaklanmam gerekiyor' = I need to focus. 'Dikkat etmem gerekiyor' = I need to pay attention. 'Başka bir şey düşünüyordum' = I was thinking about something else.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Seni üç kez çağırdım. Duymadın mı?",
+        "english": "I called you three times. Didn't you hear?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Özür dilerim, başka bir şey düşünüyordum.",
+        "english": "Sorry, I was thinking about something else."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Son zamanlarda hep dalgınsın.",
+        "english": "You're always distracted lately."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Haklısın. Daha fazla odaklanmam gerekiyor.",
+        "english": "You're right. I need to focus more."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Özellikle işte. Dikkat etmen gerekiyor.",
+        "english": "Especially at work. You need to pay attention."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "dalgınım", "english": "I'm distracted / spaced out" },
+      { "turkish": "odaklanmam gerekiyor", "english": "I need to focus" },
+      { "turkish": "dikkat etmem gerekiyor", "english": "I need to pay attention" },
+      { "turkish": "başka bir şey düşünüyordum", "english": "I was thinking about something else" }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Lesson 1:\nNot Yet / On My Way",
+    "description": "'Todavía no' = not yet (something hasn't happened). 'Ya voy' = I'm coming / on my way. 'Ya' can mean 'already', 'now', or 'right away' depending on context.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Ya estás listo?",
+        "english": "Are you ready yet?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Todavía no. Un momento.",
+        "english": "Not yet. One moment."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Vamos, te estamos esperando.",
+        "english": "Come on, we're waiting for you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ya voy, ya voy. Dame dos minutos.",
+        "english": "I'm coming, I'm coming. Give me two minutes."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "todavía no",
+        "english": "not yet"
+      },
+      {
+        "spanish": "ya voy",
+        "english": "I'm coming / on my way"
+      },
+      {
+        "spanish": "un momento",
+        "english": "one moment"
+      },
+      {
+        "spanish": "esperar",
+        "english": "to wait"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nLeaving & Coming Back",
+    "description": "'Ya me voy' = I'm leaving now. 'Ya regresé' = I'm back (I already returned, speaker). 'Ya regresó' = he/she is back (third person). 'Ya' signals the action just happened.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Ya me voy. Hasta luego.",
+        "english": "I'm leaving now. See you later."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Está bien. ¿A qué hora regresas?",
+        "english": "Okay. What time are you coming back?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No sé. Te aviso.",
+        "english": "I don't know. I'll let you know."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Ya regresó Carlos?",
+        "english": "Is Carlos back yet?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sí, ya regresó. Y yo ya regresé también.",
+        "english": "Yes, he's back. And I'm already back too."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "ya me voy",
+        "english": "I'm leaving now"
+      },
+      {
+        "spanish": "ya regresé",
+        "english": "I'm back / I already returned"
+      },
+      {
+        "spanish": "ya regresó",
+        "english": "he/she is back"
+      },
+      {
+        "spanish": "avisar",
+        "english": "to let someone know"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nAlmost Done / Almost There",
+    "description": "'Ya casi' means 'almost' or 'just about'. 'Ya casi termino' = I'm almost done. 'Ya casi llego' = I'm almost there. Very useful when someone is waiting for you.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Dónde estás? Te estamos esperando.",
+        "english": "Where are you? We're waiting for you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ya casi llego. Estoy a dos minutos.",
+        "english": "I'm almost there. I'm two minutes away."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y terminaste el trabajo?",
+        "english": "And did you finish the work?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ya casi termino. Solo me falta un poco.",
+        "english": "I'm almost done. I just have a little left."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Está bien, no hay prisa.",
+        "english": "Okay, there's no rush."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "ya casi termino",
+        "english": "I'm almost done"
+      },
+      {
+        "spanish": "ya casi llego",
+        "english": "I'm almost there"
+      },
+      {
+        "spanish": "solo me falta",
+        "english": "I just have left"
+      },
+      {
+        "spanish": "no hay prisa",
+        "english": "there's no rush"
+      }
+    ]
+  }
+]

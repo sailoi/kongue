@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lesson 1:\nFun / Boring",
+    "description": "'Eğlenceli' = It's fun / entertaining. 'Sıkıcı' = It's boring. These adjectives describe experiences and places. 'Sıkıldım' = I got bored (personal feeling).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Parti nasıldı?",
+        "english": "How was the party?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çok eğlenceliydi. Bütün gece dans ettik.",
+        "english": "It was really fun. We danced all night."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Film de eğlenceli miydi?",
+        "english": "Was the movie fun too?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hayır, çok sıkıcıydı. Uyuyakaldım.",
+        "english": "No, it was very boring. I fell asleep."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ha! Bana da sıkıcı geldi.",
+        "english": "Ha! It seemed boring to me too."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "eğlenceli", "english": "fun / entertaining" },
+      { "turkish": "sıkıcı", "english": "boring" },
+      { "turkish": "sıkıldım", "english": "I got bored" }
+    ]
+  }
+]

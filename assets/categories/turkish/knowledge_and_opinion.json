@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Lesson 1:\nNo Idea / Not Sure",
+    "description": "'Hiçbir fikrim yok' = I have no idea at all (emphatic). 'Fikrim yok' = I have no idea. 'Emin değilim' = I'm not sure. These express varying degrees of uncertainty.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tren saat kaçta geliyor biliyor musun?",
+        "english": "Do you know what time the train arrives?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hiçbir fikrim yok. Bakmadım.",
+        "english": "No idea at all. I didn't check."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sen ne düşünüyorsun?",
+        "english": "What do you think?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Emin değilim. Üçte gelir sanırım.",
+        "english": "I'm not sure. I think it comes at three."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de fikrim yok. Telefondan bakayım.",
+        "english": "I have no idea either. Let me check on my phone."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "hiçbir fikrim yok", "english": "I have no idea (emphatic)" },
+      { "turkish": "fikrim yok", "english": "I have no idea" },
+      { "turkish": "emin değilim", "english": "I'm not sure" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nDoubt & I Knew It",
+    "description": "'Biliyordum' = I knew it. 'Şüpheliyim' = I'm doubtful / I have doubts. 'Sanmıyorum' = I don't think so. These express confidence or skepticism.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın yağmur yağacakmış.",
+        "english": "They say it's going to rain tomorrow."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Şüpheliyim. Bugün çok güneşli.",
+        "english": "I'm doubtful. Today is very sunny."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hava tahminine inanmıyor musun?",
+        "english": "Don't you believe the weather forecast?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Sanmıyorum. Genellikle yanılıyorlar.",
+        "english": "I don't think so. They're usually wrong."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yağmur yağdı. Biliyordum!",
+        "english": "It rained. I knew it!"
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "biliyordum", "english": "I knew it" },
+      { "turkish": "şüpheliyim", "english": "I'm doubtful / I doubt it" },
+      { "turkish": "sanmıyorum", "english": "I don't think so" }
+    ]
+  }
+]

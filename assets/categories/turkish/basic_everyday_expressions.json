@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Lesson 1:\nHello & Good Morning",
+    "description": "'Merhaba' is the universal Turkish greeting used any time of day. 'Günaydın' is specifically for the morning. 'İyi öğlenler' = good afternoon, 'iyi akşamlar' = good evening.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Günaydın. Nasılsın?",
+        "english": "Good morning. How are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Günaydın. İyiyim, teşekkürler.",
+        "english": "Good morning. I am well, thank you."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Merhaba, kahve içtin mi?",
+        "english": "Hello, did you have coffee?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, içtim. Ya sen?",
+        "english": "Yes, I did. And you?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "merhaba",
+        "english": "hello"
+      },
+      {
+        "turkish": "günaydın",
+        "english": "good morning"
+      },
+      {
+        "turkish": "kahve",
+        "english": "coffee"
+      },
+      {
+        "turkish": "içtim",
+        "english": "I drank / I had"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFor Example",
+    "description": "'Mesela' and 'örneğin' both mean 'for example'. 'Mesela' is casual and very common in spoken Turkish. 'Örneğin' is slightly more formal.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Hangi sporları seviyorsun?",
+        "english": "What sports do you like?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çok spor severim. Mesela, futbol ve tenis.",
+        "english": "I like many sports. For example, football and tennis."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Başka neler? Mesela, yüzme?",
+        "english": "What else? For example, swimming?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, mesela yüzme de severim.",
+        "english": "Yes, for example I like swimming too."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "mesela",
+        "english": "for example"
+      },
+      {
+        "turkish": "örneğin",
+        "english": "for example (formal)"
+      },
+      {
+        "turkish": "spor",
+        "english": "sport"
+      },
+      {
+        "turkish": "başka neler?",
+        "english": "what else?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nI Hope So / I Hope Not",
+    "description": "'Umarım öyledir' = I hope so. 'Umarım değildir' = I hope not. 'Umarım yağmur yağmaz' = I hope it doesn't rain. 'Umarım' (I hope) starts the sentence in Turkish.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün yağmur yağar mı?",
+        "english": "Will it rain today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Umarım yağmaz. Planlarım var.",
+        "english": "I hope not. I have plans."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de. Umarım yağmur yağmaz.",
+        "english": "Me too. I hope it doesn't rain."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Hava düzelir mi sence?",
+        "english": "Do you think the weather will get better?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Umarım öyledir. Göreceğiz.",
+        "english": "I hope so. We'll see."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "umarım öyledir",
+        "english": "I hope so"
+      },
+      {
+        "turkish": "umarım değildir",
+        "english": "I hope not"
+      },
+      {
+        "turkish": "umarım yağmur yağmaz",
+        "english": "I hope it doesn't rain"
+      },
+      {
+        "turkish": "yağmur",
+        "english": "rain"
+      },
+      {
+        "turkish": "göreceğiz",
+        "english": "we'll see"
+      }
+    ]
+  }
+]

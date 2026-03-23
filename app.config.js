@@ -11,10 +11,12 @@ module.exports = {
     newArchEnabled: true,
     ios: {
       supportsTablet: true,
-      bundleIdentifier: "com.sailoilabs.kongue"
+      bundleIdentifier: "com.sailoi.kongue",
+      googleServicesFile: "./GoogleService-Info.plist"
     },
     android: {
-      package: "com.sailoilabs.kongue",
+      package: "com.sailoi.kongue",
+      googleServicesFile: "./google-services.json",
       adaptiveIcon: {
         backgroundColor: "#E6F4FE",
         foregroundImage: "./assets/images/android-icon-foreground.png",
@@ -30,6 +32,7 @@ module.exports = {
     },
     plugins: [
       "expo-router",
+      "expo-apple-authentication",
       [
         "expo-splash-screen",
         {

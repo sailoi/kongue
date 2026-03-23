@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Lesson 1:\nDon't Worry / Everything Will Be Fine",
+    "description": "'Endişelenme' = Don't worry / Don't be anxious. 'Her şey yoluna girecek' = Everything will be fine. 'Umarım iyisindir' = I hope you're well. These are warm, comforting phrases.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Sınav için çok endişeleniyorum.",
+        "english": "I'm very worried about the exam."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Endişelenme. Çok çalıştın.",
+        "english": "Don't worry. You've worked hard."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ya geçemezsem...",
+        "english": "What if I don't pass..."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Her şey yoluna girecek. Kendine güven.",
+        "english": "Everything will be fine. Trust yourself."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Teşekkürler. Umarım sen de iyisindir.",
+        "english": "Thank you. I hope you're well too."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "endişelenme", "english": "don't worry" },
+      { "turkish": "her şey yoluna girecek", "english": "everything will be fine" },
+      { "turkish": "umarım iyisindir", "english": "I hope you're well" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nGet Well Soon",
+    "description": "'Umarım iyileşirsin' = I hope you get better. 'Geçmiş olsun' = Get well soon / I hope it passes. 'Geçmiş olsun' is also used after any misfortune, not just illness.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün çıkamam. Hastayım.",
+        "english": "I can't go out today. I'm sick."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Geçmiş olsun. Ne var?",
+        "english": "Get well soon. What's wrong?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Grip. Her yerim ağrıyor.",
+        "english": "The flu. Everything aches."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Umarım çok çabuk iyileşirsin. Dinlen.",
+        "english": "I hope you get better very soon. Rest up."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Teşekkürler.",
+        "english": "Thank you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Geçmiş olsun. Bir şey lazım olursa söyle.",
+        "english": "Get well soon. Let me know if you need anything."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "umarım iyileşirsin", "english": "I hope you get better" },
+      { "turkish": "geçmiş olsun", "english": "get well soon / I hope it passes" },
+      { "turkish": "dinlen", "english": "rest up" }
+    ]
+  }
+]

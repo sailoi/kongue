@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nI'm Distracted / I Need to Focus",
+    "description": "'Estoy distraído/distraída' = I'm distracted (use -o if male, -a if female). 'Necesito enfocarme' = I need to focus. 'Necesito poner atención' = I need to pay attention. 'Estaba pensando en otra cosa' = I was thinking about something else.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Me escuchaste? Dije tu nombre tres veces.",
+        "english": "Did you hear me? I said your name three times."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Perdón, estaba pensando en otra cosa.",
+        "english": "Sorry, I was thinking about something else."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Siempre estás distraído últimamente.",
+        "english": "You're always distracted lately."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Tienes razón. Necesito enfocarme más.",
+        "english": "You're right. I need to focus more."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Sobre todo en el trabajo. Necesitas poner atención.",
+        "english": "Especially at work. You need to pay attention."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "estoy distraído / distraída", "english": "I'm distracted (m/f)" },
+      { "spanish": "necesito enfocarme", "english": "I need to focus" },
+      { "spanish": "necesito poner atención", "english": "I need to pay attention" },
+      { "spanish": "estaba pensando en otra cosa", "english": "I was thinking about something else" }
+    ]
+  }
+]

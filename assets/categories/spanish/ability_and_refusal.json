@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Lesson 1:\nI Can't",
+    "description": "'No puedo' = I can't / I'm not able to. 'Poder' is one of the most useful verbs in Spanish — it expresses ability, possibility, and permission.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Puedes venir esta noche?",
+        "english": "Can you come tonight?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Lo siento, no puedo.",
+        "english": "I'm sorry, I can't."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Por qué no puedes?",
+        "english": "Why can't you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No puedo, tengo que trabajar.",
+        "english": "I can't, I have to work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Está bien, no hay problema.",
+        "english": "That's okay, no problem."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "no puedo",
+        "english": "I can't"
+      },
+      {
+        "spanish": "¿puedes?",
+        "english": "can you?"
+      },
+      {
+        "spanish": "tengo que",
+        "english": "I have to"
+      },
+      {
+        "spanish": "no hay problema",
+        "english": "no problem"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nI'm Busy",
+    "description": "'Estoy ocupado' (male) / 'Estoy ocupada' (female) = I'm busy. Uses 'estar' for a temporary state. Paired naturally with 'no puedo' when declining something.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Tienes un momento?",
+        "english": "Do you have a moment?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ahora no, estoy ocupado.",
+        "english": "Not right now, I'm busy."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y en diez minutos?",
+        "english": "What about in ten minutes?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "En diez minutos sí puedo.",
+        "english": "In ten minutes I can."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Perfecto, gracias.",
+        "english": "Perfect, thanks."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "estoy ocupado",
+        "english": "I'm busy (male)"
+      },
+      {
+        "spanish": "estoy ocupada",
+        "english": "I'm busy (female)"
+      },
+      {
+        "spanish": "ahora no",
+        "english": "not right now"
+      },
+      {
+        "spanish": "en diez minutos",
+        "english": "in ten minutes"
+      }
+    ]
+  }
+]

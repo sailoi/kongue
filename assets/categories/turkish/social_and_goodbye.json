@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Lesson 1:\nSee You / See You There",
+    "description": "'Görüşürüz' = See you (literally: we will see each other). Add a location: 'Evde görüşürüz' = See you at home, 'Köşede görüşürüz' = See you at the corner.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Gitmem lazım. Görüşürüz.", "english": "I need to go. See you." },
+      { "speaker": "B", "gender": "male", "turkish": "Eve ne zaman geliyorsun?", "english": "When are you coming home?" },
+      { "speaker": "A", "gender": "female", "turkish": "Altıda. Evde görüşürüz.", "english": "At six. See you at home." },
+      { "speaker": "B", "gender": "male", "turkish": "Ben daha erken varırım. Köşede görüşürüz mü?", "english": "I'll arrive earlier. Should we meet at the corner?" },
+      { "speaker": "A", "gender": "female", "turkish": "Tamam. Altıda köşede görüşürüz.", "english": "Okay. See you at the corner at six." }
+    ],
+    "vocabulary": [
+      { "turkish": "görüşürüz", "english": "see you" },
+      { "turkish": "evde görüşürüz", "english": "see you at home" },
+      { "turkish": "köşede görüşürüz", "english": "see you at the corner" },
+      { "turkish": "köşe", "english": "corner" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nUntil Tomorrow / Take Care",
+    "description": "'Durakta görüşürüz' = See you at the bus stop. 'İstasyonda görüşürüz' = See you at the station. 'Yarın görüşürüz' = See you tomorrow. 'Kendine iyi bak' = Take care of yourself.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Bugün metroya binecek misin?", "english": "Are you taking the subway today?" },
+      { "speaker": "B", "gender": "male", "turkish": "Evet. Sekizde istasyonda görüşürüz.", "english": "Yes. See you at the station at eight." },
+      { "speaker": "A", "gender": "female", "turkish": "Otobüs durağında görüşsek daha yakın olur.", "english": "If we meet at the bus stop it'll be closer." },
+      { "speaker": "B", "gender": "male", "turkish": "Tamam. O zaman yarın görüşürüz.", "english": "Okay. Then see you tomorrow." },
+      { "speaker": "A", "gender": "female", "turkish": "Kendine iyi bak. Yarın görüşürüz!", "english": "Take care of yourself. See you tomorrow!" }
+    ],
+    "vocabulary": [
+      { "turkish": "durakta görüşürüz", "english": "see you at the bus stop" },
+      { "turkish": "istasyonda görüşürüz", "english": "see you at the station" },
+      { "turkish": "yarın görüşürüz", "english": "see you tomorrow" },
+      { "turkish": "kendine iyi bak", "english": "take care of yourself" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nEnjoy Your Meal",
+    "description": "'Afiyet olsun' = Bon appétit / Enjoy your meal (literally: may it be healthy). Used before or during a meal, or when you see someone eating. A polite response is 'Teşekkürler' or 'Sağ olun'.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Yemek hazır. Herkese afiyet olsun!", "english": "The food is ready. Enjoy your meal, everyone!" },
+      { "speaker": "B", "gender": "male", "turkish": "Teşekkürler! Her şey çok güzel kokuyor.", "english": "Thank you! Everything smells so good." },
+      { "speaker": "A", "gender": "female", "turkish": "Rahatsız ediyor muyum?", "english": "Am I interrupting?" },
+      { "speaker": "B", "gender": "male", "turkish": "Yemek yiyoruz. Afiyet olsun, buyur?", "english": "We're eating. Enjoy — would you like some?" },
+      { "speaker": "A", "gender": "female", "turkish": "Hayır teşekkürler. Afiyet olsun.", "english": "No thanks. Enjoy your meal." }
+    ],
+    "vocabulary": [
+      { "turkish": "afiyet olsun", "english": "bon appétit / enjoy your meal" },
+      { "turkish": "sağ olun", "english": "thank you (response to afiyet olsun)" },
+      { "turkish": "buyur", "english": "please / here you go / come in" }
+    ]
+  }
+]

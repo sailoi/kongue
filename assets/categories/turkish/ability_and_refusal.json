@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Lesson 1:\nI Can't",
+    "description": "'Yapamam' = I can't do it. 'Gidemem' = I can't go. In Turkish, 'can't' is formed by adding '-ama/-eme' to the verb stem. Very common in everyday refusals.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bu gece gelebilir misin?",
+        "english": "Can you come tonight?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Üzgünüm, gidemem.",
+        "english": "I'm sorry, I can't come."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Neden gelemiyorsun?",
+        "english": "Why can't you come?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Gidemem, çalışmam gerekiyor.",
+        "english": "I can't go, I have to work."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tamam, sorun değil.",
+        "english": "Okay, no problem."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "gidemem",
+        "english": "I can't go"
+      },
+      {
+        "turkish": "yapamam",
+        "english": "I can't do it"
+      },
+      {
+        "turkish": "gerekiyor",
+        "english": "it is necessary / I have to"
+      },
+      {
+        "turkish": "sorun değil",
+        "english": "no problem"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nI'm Busy",
+    "description": "'Meşgulüm' = I'm busy. 'Yoğunum' = I'm busy / swamped (more intense). Both use the 'olmak' verb pattern. Very common for politely declining or delaying.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bir dakikan var mı?",
+        "english": "Do you have a minute?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Şu an değil, meşgulüm.",
+        "english": "Not right now, I'm busy."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "On dakika sonra?",
+        "english": "In ten minutes?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "On dakika sonra olur.",
+        "english": "In ten minutes is fine."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Harika, teşekkürler.",
+        "english": "Great, thank you."
+      }
+    ],
+    "vocabulary": [
+      {
+        "turkish": "meşgulüm",
+        "english": "I'm busy"
+      },
+      {
+        "turkish": "yoğunum",
+        "english": "I'm very busy / swamped"
+      },
+      {
+        "turkish": "şu an değil",
+        "english": "not right now"
+      },
+      {
+        "turkish": "on dakika sonra",
+        "english": "in ten minutes"
+      }
+    ]
+  }
+]

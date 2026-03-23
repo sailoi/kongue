@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Lesson 1:\nSee You / See You There",
+    "description": "'Nos vemos' = See you (literally: we see each other). Add a location to say where you'll meet: 'Nos vemos en la casa' = See you at home, 'Nos vemos en la esquina' = See you at the corner.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "Tengo que irme. Nos vemos.", "english": "I have to go. See you." },
+      { "speaker": "B", "gender": "male", "spanish": "¿A qué hora llegas a casa?", "english": "What time do you get home?" },
+      { "speaker": "A", "gender": "female", "spanish": "A las seis. Nos vemos en la casa.", "english": "At six. See you at home." },
+      { "speaker": "B", "gender": "male", "spanish": "Yo llego antes. ¿Nos vemos en la esquina mejor?", "english": "I arrive earlier. Should we meet at the corner instead?" },
+      { "speaker": "A", "gender": "female", "spanish": "Perfecto. Nos vemos en la esquina a las seis.", "english": "Perfect. See you at the corner at six." }
+    ],
+    "vocabulary": [
+      { "spanish": "nos vemos", "english": "see you" },
+      { "spanish": "nos vemos en la casa", "english": "see you at home" },
+      { "spanish": "nos vemos en la esquina", "english": "see you at the corner" },
+      { "spanish": "la esquina", "english": "the corner" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nUntil Tomorrow / Take Care",
+    "description": "'Nos vemos en la parada' = See you at the bus stop. 'Nos vemos en la estación' = See you at the station. 'Hasta mañana' = Until tomorrow / See you tomorrow. 'Que te vaya bien' = Take care / I hope things go well for you.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Tomas el metro hoy?", "english": "Are you taking the subway today?" },
+      { "speaker": "B", "gender": "male", "spanish": "Sí. Nos vemos en la estación a las ocho.", "english": "Yes. See you at the station at eight." },
+      { "speaker": "A", "gender": "female", "spanish": "Mejor nos vemos en la parada del autobús. Está más cerca.", "english": "Better we meet at the bus stop. It's closer." },
+      { "speaker": "B", "gender": "male", "spanish": "De acuerdo. Hasta mañana entonces.", "english": "Agreed. Until tomorrow then." },
+      { "speaker": "A", "gender": "female", "spanish": "Que te vaya bien. ¡Hasta mañana!", "english": "Take care. See you tomorrow!" }
+    ],
+    "vocabulary": [
+      { "spanish": "nos vemos en la parada", "english": "see you at the bus stop" },
+      { "spanish": "nos vemos en la estación", "english": "see you at the station" },
+      { "spanish": "hasta mañana", "english": "until tomorrow / see you tomorrow" },
+      { "spanish": "que te vaya bien", "english": "take care / hope things go well" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nBon Appétit",
+    "description": "'Buen provecho' = Bon appétit / Enjoy your meal. Used before or during a meal, or when you see someone eating. A polite response is '¡Gracias!' or 'Igualmente' (same to you).",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "La comida está lista. ¡Buen provecho a todos!", "english": "The food is ready. Enjoy your meal, everyone!" },
+      { "speaker": "B", "gender": "male", "spanish": "¡Gracias! Todo huele delicioso.", "english": "Thank you! Everything smells delicious." },
+      { "speaker": "A", "gender": "female", "spanish": "Perdona, ¿interrumpo?", "english": "Sorry, am I interrupting?" },
+      { "speaker": "B", "gender": "male", "spanish": "Estamos comiendo. Buen provecho, ¿gustas?", "english": "We're eating. Enjoy — would you like some?" },
+      { "speaker": "A", "gender": "female", "spanish": "No gracias. Buen provecho.", "english": "No thanks. Enjoy your meal." }
+    ],
+    "vocabulary": [
+      { "spanish": "buen provecho", "english": "bon appétit / enjoy your meal" },
+      { "spanish": "igualmente", "english": "same to you" },
+      { "spanish": "¿gustas?", "english": "would you like some?" }
+    ]
+  }
+]

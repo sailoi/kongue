@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -7,6 +7,7 @@ import { Gesture, GestureDetector, GestureHandlerRootView } from 'react-native-g
 import { ConversationCard } from '@/components/ConversationCard';
 import { SettingsModal } from '@/components/SettingsModal';
 import { VoiceChatModal, ChatMode } from '@/components/VoiceChatModal';
+import { OnboardingModal } from '@/components/OnboardingModal';
 import { Ionicons } from '@expo/vector-icons';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
@@ -15,10 +16,38 @@ import { CATEGORIES } from '@/constants/categories';
 import { conversationData } from '@/constants/conversations';
 import { DEFAULT_LANGUAGE } from '@/constants/languages';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useAuth } from '@/hooks/useAuth';
+import { syncUserProfile, syncLessonProgress, loadUserFromCloud } from '@/utils/userSync';
 
 export default function HomeScreen() {
   const [currentLanguage, setCurrentLanguage] = useState(DEFAULT_LANGUAGE);
+  const [userName, setUserName] = useState<string | null>(null);
+  const [onboardingDone, setOnboardingDone] = useState(false);
   const [currentCategory, setCurrentCategory] = useState<string>(CATEGORIES[0].id);
+  const { user } = useAuth();
+  const userId = user?.uid ?? null;
+
+  const [freeformContext, setFreeformContext] = React.useState<{ categoryName: string; dialogueLines: string[] } | undefined>();
+
+  const handleStartFreeformChat = useCallback((categoryId: string) => {
+    const categoryData = (conversationData as any)[currentLanguage]?.[categoryId] ?? [];
+    const dialogueLines = categoryData.flatMap((lesson: any) =>
+      lesson.dialogue.map((line: any) => line[currentLanguage] || line.spanish || line.turkish || '')
+    ).filter(Boolean);
+    setFreeformContext({
+      categoryName: CATEGORIES.find(c => c.id === categoryId)?.name ?? categoryId,
+      dialogueLines,
+    });
+    setModalVisible(false);
+    setVoiceChatMode('freeform');
+  }, [currentLanguage]);
+
+  const handleProgressUpdate = useCallback((maxIndex: number) => {
+    if (userId) {
+      syncLessonProgress(userId, currentLanguage, currentCategory, maxIndex);
+    }
+  }, [userId, currentLanguage, currentCategory]);
+
   const {
     conversation,
     nextConversation,
@@ -28,7 +57,7 @@ export default function HomeScreen() {
     isLoading,
     totalLessons,
     completedLessons,
-  } = useDailyConversations(currentLanguage as any, currentCategory as any);
+  } = useDailyConversations(currentLanguage as any, currentCategory as any, handleProgressUpdate);
   const [showTranslation, setShowTranslation] = useState(false);
   const [showVocabulary, setShowVocabulary] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
@@ -51,10 +80,49 @@ export default function HomeScreen() {
     loadLanguage();
   }, []);
 
-  // Save language when it changes
+  // Save language when it changes and sync to cloud
   useEffect(() => {
     AsyncStorage.setItem('selectedLanguage', currentLanguage);
-  }, [currentLanguage]);
+    if (userId && userName) {
+      syncUserProfile(userId, userName, currentLanguage);
+    }
+  }, [currentLanguage, userId, userName]);
+
+  // Load user name on mount; restore cloud progress if this is a fresh install
+  useEffect(() => {
+    AsyncStorage.getItem('userName').then(async (stored) => {
+      if (stored) {
+        setUserName(stored);
+      }
+      setOnboardingDone(true);
+    });
+  }, []);
+
+  // When userId is first available, restore progress from cloud (new device / reinstall)
+  useEffect(() => {
+    if (!userId) return;
+    const restoreFromCloud = async () => {
+      const hasLocal = await AsyncStorage.getItem('cloudSynced');
+      if (hasLocal) return; // already restored once
+      const data = await loadUserFromCloud(userId);
+      if (!data?.exists || !data.progress) return;
+      const writes: Promise<void>[] = [];
+      for (const [key, val] of Object.entries(data.progress)) {
+        writes.push(AsyncStorage.setItem(`maxLessonIndex_${key}`, val.maxIndex.toString()));
+      }
+      await Promise.all(writes);
+      await AsyncStorage.setItem('cloudSynced', '1');
+    };
+    restoreFromCloud();
+  }, [userId]);
+
+  const handleOnboardingDone = (name: string) => {
+    setUserName(name);
+    AsyncStorage.setItem('userName', name);
+    if (userId) {
+      syncUserProfile(userId, name, currentLanguage);
+    }
+  };
 
   useEffect(() => {
     navigation.setOptions({
@@ -128,21 +196,14 @@ export default function HomeScreen() {
               )}
             </View>
             <View style={styles.aiButtonRow}>
-            <TouchableOpacity
-              style={styles.aiButton}
-              onPress={() => setVoiceChatMode('lesson')}
-            >
-              <Ionicons name="chatbubble-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
-              <ThemedText style={styles.aiButtonText}>Lesson Chat</ThemedText>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.aiButton}
-              onPress={() => setVoiceChatMode('progress')}
-            >
-              <Ionicons name="chatbubbles-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
-              <ThemedText style={styles.aiButtonText}>My Progress Chat</ThemedText>
-            </TouchableOpacity>
-          </View>
+              <TouchableOpacity
+                style={styles.aiButton}
+                onPress={() => setVoiceChatMode('lesson')}
+              >
+                <Ionicons name="chatbubble-outline" size={16} color={Colors[colorScheme ?? 'light'].tint} />
+                <ThemedText style={styles.aiButtonText}>AI Tutor</ThemedText>
+              </TouchableOpacity>
+            </View>
           <View style={styles.navigationContainer}>
               <TouchableOpacity onPress={handlePrevious} style={styles.navButton}>
                 <Ionicons name="arrow-back" size={24} color={Colors[colorScheme ?? 'light'].text} />
@@ -161,19 +222,20 @@ export default function HomeScreen() {
           mode={voiceChatMode}
           onClose={() => setVoiceChatMode(null)}
           language={currentLanguage}
+          userName={userName ?? undefined}
           lessonContext={{
             lessonTitle: conversation.title,
             lessonLines: conversation.dialogue.map(
               (line: any) => `${line.speaker}: ${line[currentLanguage] || line.spanish || line.turkish || ''}`
             ),
           }}
-          progressContext={{
-            completedLessons,
-            totalLessons,
-            currentCategory,
-          }}
+          freeformContext={freeformContext}
         />
       )}
+      <OnboardingModal
+        visible={onboardingDone && !userName}
+        onDone={handleOnboardingDone}
+      />
       <SettingsModal
         visible={modalVisible}
         onClose={() => setModalVisible(false)}
@@ -184,6 +246,7 @@ export default function HomeScreen() {
         currentCategory={currentCategory}
         onSelectLanguage={setCurrentLanguage}
         currentLanguage={currentLanguage}
+        onStartFreeformChat={handleStartFreeformChat}
       />
     </GestureHandlerRootView>
   );

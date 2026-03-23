@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Lesson 1:\nHello & Good Morning",
+    "description": "'Hola' is the universal Spanish greeting used any time of day. 'Buenos días' is specifically for the morning. 'Buenas tardes' = good afternoon, 'buenas noches' = good evening/night.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Buenos días. ¿Cómo estás?",
+        "english": "Good morning. How are you?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Buenos días. Estoy bien, gracias.",
+        "english": "Good morning. I am well, thanks."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Hola, ¿ya tomaste café?",
+        "english": "Hello, have you had coffee yet?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, ya tomé. ¿Y tú?",
+        "english": "Yes, I already did. And you?"
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "hola",
+        "english": "hello"
+      },
+      {
+        "spanish": "buenos días",
+        "english": "good morning"
+      },
+      {
+        "spanish": "ya",
+        "english": "already"
+      },
+      {
+        "spanish": "café",
+        "english": "coffee"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nFor Example",
+    "description": "'Por ejemplo' means 'for example' and is used to introduce examples in conversation. Very common and useful in everyday Spanish.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Qué deportes te gustan?",
+        "english": "What sports do you like?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Muchos. Por ejemplo, el fútbol y el tenis.",
+        "english": "Many. For example, football and tennis."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y qué más? Por ejemplo, ¿la natación?",
+        "english": "And what else? For example, swimming?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Sí, por ejemplo la natación también.",
+        "english": "Yes, for example swimming too."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "por ejemplo",
+        "english": "for example"
+      },
+      {
+        "spanish": "deporte",
+        "english": "sport"
+      },
+      {
+        "spanish": "también",
+        "english": "also / too"
+      },
+      {
+        "spanish": "¿qué más?",
+        "english": "what else?"
+      }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nI Hope So / I Hope Not",
+    "description": "'Eso espero' = I hope so. 'Espero que no' = I hope not. 'Espero que no llueva' = I hope it doesn't rain. 'Esperar que' expresses hope and is followed by the subjunctive.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Crees que va a llover hoy?",
+        "english": "Do you think it's going to rain today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Espero que no. Tengo planes.",
+        "english": "I hope not. I have plans."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Yo también. Espero que no llueva.",
+        "english": "Me too. I hope it doesn't rain."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "¿Crees que el clima va a mejorar?",
+        "english": "Do you think the weather will get better?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Eso espero. Veremos.",
+        "english": "I hope so. We'll see."
+      }
+    ],
+    "vocabulary": [
+      {
+        "spanish": "eso espero",
+        "english": "I hope so"
+      },
+      {
+        "spanish": "espero que no",
+        "english": "I hope not"
+      },
+      {
+        "spanish": "espero que no llueva",
+        "english": "I hope it doesn't rain"
+      },
+      {
+        "spanish": "llover",
+        "english": "to rain"
+      },
+      {
+        "spanish": "veremos",
+        "english": "we'll see"
+      }
+    ]
+  }
+]

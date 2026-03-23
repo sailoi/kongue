@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Lesson 1:\nSure / Of Course / With Pleasure",
+    "description": "'Tabii' = sure / of course. 'Tabii ki' = of course (stronger). 'Memnuniyetle' = with pleasure. 'Seve seve' = gladly. These express willingness from casual to formal.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Bana bu konuda yardım edebilir misin?", "english": "Can you help me with this?" },
+      { "speaker": "B", "gender": "male", "turkish": "Tabii, memnuniyetle.", "english": "Sure, with pleasure." },
+      { "speaker": "A", "gender": "female", "turkish": "Emin misin? Seni rahatsız etmek istemiyorum.", "english": "Are you sure? I don't want to bother you." },
+      { "speaker": "B", "gender": "male", "turkish": "Tabii ki. Hiç sorun değil.", "english": "Of course. No problem at all." }
+    ],
+    "vocabulary": [
+      { "turkish": "tabii", "english": "sure / of course" },
+      { "turkish": "tabii ki", "english": "of course (emphatic)" },
+      { "turkish": "memnuniyetle", "english": "with pleasure" },
+      { "turkish": "seve seve", "english": "gladly" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nPlease / Excuse Me / I'm Sorry",
+    "description": "'Lütfen' = please. 'Affedersiniz' = excuse me (formal, getting attention). 'Üzgünüm' = I'm sorry (expressing regret). Each has a specific role in polite conversation.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Affedersiniz, tuvalet nerede?", "english": "Excuse me, where is the bathroom?" },
+      { "speaker": "B", "gender": "male", "turkish": "Üzgünüm, bilmiyorum. Buradan değilim.", "english": "I'm sorry, I don't know. I'm not from here." },
+      { "speaker": "A", "gender": "female", "turkish": "Sorun değil. Lütfen, başka biri yardım edebilir mi?", "english": "No problem. Please, can someone else help?" },
+      { "speaker": "B", "gender": "male", "turkish": "Çok üzgünüm. Umarım bulursunuz.", "english": "I'm very sorry. I hope you find it." }
+    ],
+    "vocabulary": [
+      { "turkish": "lütfen", "english": "please" },
+      { "turkish": "affedersiniz", "english": "excuse me (formal)" },
+      { "turkish": "üzgünüm", "english": "I'm sorry" },
+      { "turkish": "buradan değilim", "english": "I'm not from here" }
+    ]
+  },
+  {
+    "title": "Lesson 3:\nIt Doesn't Matter",
+    "description": "'Önemli değil' = It's not important / It doesn't matter. 'Fark etmez' = It makes no difference / Doesn't matter. 'Fark etmez' is more casual; 'önemli değil' is more explanatory.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Geç kaldım. Çok özür dilerim.", "english": "I'm late. I'm very sorry." },
+      { "speaker": "B", "gender": "male", "turkish": "Fark etmez. Diğerlerini bekliyoruz hâlâ.", "english": "It doesn't matter. We're still waiting for the others." },
+      { "speaker": "A", "gender": "female", "turkish": "Belgeleri de getirmeyi unuttum.", "english": "I also forgot to bring the documents." },
+      { "speaker": "B", "gender": "male", "turkish": "Bugün için önemli değil. Bir dahaki sefere getirirsin.", "english": "It's not important for today. You can bring them next time." },
+      { "speaker": "A", "gender": "female", "turkish": "Anlayışın için teşekkürler.", "english": "Thank you for your understanding." }
+    ],
+    "vocabulary": [
+      { "turkish": "önemli değil", "english": "it's not important / it doesn't matter" },
+      { "turkish": "fark etmez", "english": "it makes no difference / doesn't matter" }
+    ]
+  }
+]

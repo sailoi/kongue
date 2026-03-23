@@ -3,186 +3,126 @@
     "title": "Lesson 1:\nAt the doctor",
     "description": "Medical vocabulary: enfermo/enferma (sick), dolor (pain), medicina (medicine), doctor/doctora, hospital.",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "No me siento bien.",
-        "english": "I don't feel well."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "¿Qué te duele?",
-        "english": "What hurts?"
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Me duele el estómago.",
-        "english": "My stomach hurts."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Debes ir al doctor.",
-        "english": "You should go to the doctor."
-      }
+      { "speaker": "A", "gender": "female", "spanish": "No me siento bien.", "english": "I don't feel well." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Qué te duele?", "english": "What hurts?" },
+      { "speaker": "A", "gender": "female", "spanish": "Me duele el estómago.", "english": "My stomach hurts." },
+      { "speaker": "B", "gender": "male", "spanish": "Debes ir al doctor.", "english": "You should go to the doctor." }
     ]
   },
   {
     "title": "Lesson 2:\nFeeling words",
     "description": "Emotions with estar: cansado (tired), feliz (happy), triste (sad), enojado (angry), nervioso (nervous).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¿Cómo te sientes?",
-        "english": "How do you feel?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Estoy muy feliz hoy.",
-        "english": "I am very happy today."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Yo estoy un poco cansado.",
-        "english": "I am a little tired."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "¿Por qué estás cansado?",
-        "english": "Why are you tired?"
-      }
+      { "speaker": "A", "gender": "female", "spanish": "¿Cómo te sientes?", "english": "How do you feel?" },
+      { "speaker": "B", "gender": "male", "spanish": "Estoy muy feliz hoy.", "english": "I am very happy today." },
+      { "speaker": "A", "gender": "female", "spanish": "Yo estoy un poco cansado.", "english": "I am a little tired." },
+      { "speaker": "B", "gender": "male", "spanish": "¿Por qué estás cansado?", "english": "Why are you tired?" }
     ]
   },
   {
     "title": "Lesson 3:\nDescribing things",
     "description": "Adjectives for things: grande (big), pequeño (small), nuevo (new), viejo (old), bonito (pretty), feo (ugly).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Tu casa es muy grande.",
-        "english": "Your house is very big."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Sí, es grande y nueva.",
-        "english": "Yes, it's big and new."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Mi apartamento es pequeño.",
-        "english": "My apartment is small."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Pero es bonito.",
-        "english": "But it's pretty."
-      }
+      { "speaker": "A", "gender": "female", "spanish": "Tu casa es muy grande.", "english": "Your house is very big." },
+      { "speaker": "B", "gender": "male", "spanish": "Sí, es grande y nueva.", "english": "Yes, it's big and new." },
+      { "speaker": "A", "gender": "female", "spanish": "Mi apartamento es pequeño.", "english": "My apartment is small." },
+      { "speaker": "B", "gender": "male", "spanish": "Pero es bonito.", "english": "But it's pretty." }
     ]
   },
   {
     "title": "Lesson 4:\nExpressing necessity",
     "description": "'Tener que' + infinitive = to have to do something. 'Necesitar' = to need. Expressing obligations.",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¿Qué tienes que hacer hoy?",
-        "english": "What do you have to do today?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Tengo que trabajar.",
-        "english": "I have to work."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Yo tengo que estudiar.",
-        "english": "I have to study."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Necesito terminar un proyecto.",
-        "english": "I need to finish a project."
-      }
+      { "speaker": "A", "gender": "female", "spanish": "¿Qué tienes que hacer hoy?", "english": "What do you have to do today?" },
+      { "speaker": "B", "gender": "male", "spanish": "Tengo que trabajar.", "english": "I have to work." },
+      { "speaker": "A", "gender": "female", "spanish": "Yo tengo que estudiar.", "english": "I have to study." },
+      { "speaker": "B", "gender": "male", "spanish": "Necesito terminar un proyecto.", "english": "I need to finish a project." }
     ]
   },
   {
     "title": "Lesson 5:\nExpressing doubt",
     "description": "Expressing uncertainty: 'No estoy seguro' (I'm not sure), 'Tal vez' (Maybe), 'Quizás' (Perhaps), 'Probablemente' (Probably).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¿Va a llover mañana?",
-        "english": "Is it going to rain tomorrow?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "No estoy seguro. Tal vez.",
-        "english": "I'm not sure. Maybe."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¿Vas a ir a la fiesta?",
-        "english": "Are you going to the party?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Probablemente sí.",
-        "english": "Probably yes."
-      }
+      { "speaker": "A", "gender": "female", "spanish": "¿Va a llover mañana?", "english": "Is it going to rain tomorrow?" },
+      { "speaker": "B", "gender": "male", "spanish": "No estoy seguro. Tal vez.", "english": "I'm not sure. Maybe." },
+      { "speaker": "A", "gender": "female", "spanish": "¿Vas a ir a la fiesta?", "english": "Are you going to the party?" },
+      { "speaker": "B", "gender": "male", "spanish": "Probablemente sí.", "english": "Probably yes." }
     ]
   },
   {
     "title": "Lesson 6:\nReview and celebration",
     "description": "Congratulations on reaching lesson 100! Review key concepts: greetings, verbs, time, daily life, past tense. Keep practicing!",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¡Lo logramos! Terminamos cien lecciones.",
-        "english": "We did it! We finished one hundred lessons."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Sí, ahora hablo más español.",
-        "english": "Yes, now I speak more Spanish."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "Aprendimos mucho.",
-        "english": "We learned a lot."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "spanish": "Es verdad. Estoy muy contento.",
-        "english": "It's true. I am very happy."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "spanish": "¡Felicitaciones! ¡Sigue practicando!",
-        "english": "Congratulations! Keep practicing!"
-      }
+      { "speaker": "A", "gender": "female", "spanish": "¡Lo logramos! Terminamos cien lecciones.", "english": "We did it! We finished one hundred lessons." },
+      { "speaker": "B", "gender": "male", "spanish": "Sí, ahora hablo más español.", "english": "Yes, now I speak more Spanish." },
+      { "speaker": "A", "gender": "female", "spanish": "Aprendimos mucho.", "english": "We learned a lot." },
+      { "speaker": "B", "gender": "male", "spanish": "Es verdad. Estoy muy contento.", "english": "It's true. I am very happy." },
+      { "speaker": "A", "gender": "female", "spanish": "¡Felicitaciones! ¡Sigue practicando!", "english": "Congratulations! Keep practicing!" }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nI Love It / I Like It",
+    "description": "'Me encanta' = I love it (stronger than me gusta). 'Me gusta' = I like it. 'Me gusta mucho' = I like it a lot. These use indirect object pronouns — the subject is the thing, not you.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Probaste el nuevo restaurante?", "english": "Did you try the new restaurant?" },
+      { "speaker": "B", "gender": "male", "spanish": "Sí, me encanta. La comida es increíble.", "english": "Yes, I love it. The food is incredible." },
+      { "speaker": "A", "gender": "female", "spanish": "¿Te gustó el postre también?", "english": "Did you like the dessert too?" },
+      { "speaker": "B", "gender": "male", "spanish": "Me gustó mucho. Voy a volver esta semana.", "english": "I liked it a lot. I'm going back this week." },
+      { "speaker": "A", "gender": "female", "spanish": "¡Yo también quiero ir! Me gusta probar lugares nuevos.", "english": "I want to go too! I like trying new places." }
+    ],
+    "vocabulary": [
+      { "spanish": "me encanta", "english": "I love it" },
+      { "spanish": "me gusta", "english": "I like it" },
+      { "spanish": "me gusta mucho", "english": "I like it a lot" }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nIt Bothers Me / My Mood",
+    "description": "'Me molesta' = It bothers me. 'Me molesta mucho' = It really bothers me. 'Estoy de buen humor' = I'm in a good mood. 'Estoy de mal humor' = I'm in a bad mood.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Estás bien? Pareces molesta.", "english": "Are you okay? You seem bothered." },
+      { "speaker": "B", "gender": "female", "spanish": "Estoy de mal humor. Me molesta mucho el ruido.", "english": "I'm in a bad mood. The noise really bothers me." },
+      { "speaker": "A", "gender": "female", "spanish": "Entiendo. ¿Puedo hacer algo?", "english": "I understand. Can I do anything?" },
+      { "speaker": "B", "gender": "female", "spanish": "No, tranquila. Mañana estaré de buen humor.", "english": "No, it's okay. Tomorrow I'll be in a good mood." }
+    ],
+    "vocabulary": [
+      { "spanish": "me molesta", "english": "it bothers me" },
+      { "spanish": "me molesta mucho", "english": "it really bothers me" },
+      { "spanish": "estoy de buen humor", "english": "I'm in a good mood" },
+      { "spanish": "estoy de mal humor", "english": "I'm in a bad mood" }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nFun / Boring",
+    "description": "'Está divertido' = It's fun / It's entertaining. 'Está aburrido' = It's boring. Both use 'estar' because they describe temporary states. Note: 'Estoy aburrido/a' = I'm bored (about yourself).",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Cómo estuvo la fiesta?", "english": "How was the party?" },
+      { "speaker": "B", "gender": "male", "spanish": "Estuvo muy divertida. Bailamos toda la noche.", "english": "It was really fun. We danced all night." },
+      { "speaker": "A", "gender": "female", "spanish": "¿Y la película de antes?", "english": "And the movie before?" },
+      { "speaker": "B", "gender": "male", "spanish": "Esa estuvo aburrida. Me quedé dormido.", "english": "That one was boring. I fell asleep." },
+      { "speaker": "A", "gender": "female", "spanish": "¡Ja! A mí también me pareció aburrida.", "english": "Ha! I also found it boring." }
+    ],
+    "vocabulary": [
+      { "spanish": "está divertido", "english": "it's fun / it's entertaining" },
+      { "spanish": "está aburrido", "english": "it's boring" },
+      { "spanish": "estoy aburrido/a", "english": "I'm bored" }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nI'm Distracted / I Need to Focus",
+    "description": "'Estoy distraído/distraída' = I'm distracted (use -o if male, -a if female). 'Necesito enfocarme' = I need to focus. 'Necesito poner atención' = I need to pay attention. 'Estaba pensando en otra cosa' = I was thinking about something else.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "spanish": "¿Me escuchaste? Dije tu nombre tres veces.", "english": "Did you hear me? I said your name three times." },
+      { "speaker": "B", "gender": "male", "spanish": "Perdón, estaba pensando en otra cosa.", "english": "Sorry, I was thinking about something else." },
+      { "speaker": "A", "gender": "female", "spanish": "Siempre estás distraído últimamente.", "english": "You're always distracted lately." },
+      { "speaker": "B", "gender": "male", "spanish": "Tienes razón. Necesito enfocarme más.", "english": "You're right. I need to focus more." },
+      { "speaker": "A", "gender": "female", "spanish": "Sobre todo en el trabajo. Necesitas poner atención.", "english": "Especially at work. You need to pay attention." }
+    ],
+    "vocabulary": [
+      { "spanish": "estoy distraído / distraída", "english": "I'm distracted (m/f)" },
+      { "spanish": "necesito enfocarme", "english": "I need to focus" },
+      { "spanish": "necesito poner atención", "english": "I need to pay attention" },
+      { "spanish": "estaba pensando en otra cosa", "english": "I was thinking about something else" }
     ]
   }
 ]

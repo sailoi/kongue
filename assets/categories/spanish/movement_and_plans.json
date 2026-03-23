@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nI'll Pick You Up / Don't Go",
+    "description": "'Voy por ti' = I'm coming to pick you up / I'll go get you. 'Ven por mí' = Come pick me up / Come get me. 'No te vayas' = Don't go (to someone who is about to leave). 'No vayas' = Don't go (telling someone not to go somewhere).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Cómo vas a llegar al aeropuerto?",
+        "english": "How are you going to get to the airport?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No sé. ¿Puedes venir por mí?",
+        "english": "I don't know. Can you come pick me up?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Claro. Voy por ti a las cinco.",
+        "english": "Of course. I'll pick you up at five."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Perfecto. No te vayas sin avisarme.",
+        "english": "Perfect. Don't leave without letting me know."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Y no vayas al aeropuerto solo si puedo ir.",
+        "english": "And don't go to the airport alone if I can go."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "voy por ti", "english": "I'll pick you up / I'm going to get you" },
+      { "spanish": "ven por mí", "english": "come pick me up / come get me" },
+      { "spanish": "no te vayas", "english": "don't go / don't leave (you're about to)" },
+      { "spanish": "no vayas", "english": "don't go (to a place)" }
+    ]
+  }
+]

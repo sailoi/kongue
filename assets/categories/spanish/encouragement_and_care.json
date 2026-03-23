@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Lesson 1:\nDon't Worry / Everything Will Be Fine",
+    "description": "'No te preocupes' = Don't worry. 'Todo va a estar bien' = Everything will be fine. 'Espero que estés bien' = I hope you're doing well. These are comforting phrases for a friend in need.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Estoy muy preocupada por el examen.",
+        "english": "I'm very worried about the exam."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "No te preocupes. Has estudiado mucho.",
+        "english": "Don't worry. You've studied a lot."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Pero y si no lo paso...",
+        "english": "But what if I don't pass..."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Todo va a estar bien. Confía en ti.",
+        "english": "Everything will be fine. Trust yourself."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Gracias. Espero que estés bien tú también.",
+        "english": "Thank you. I hope you're doing well too."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "no te preocupes", "english": "don't worry" },
+      { "spanish": "todo va a estar bien", "english": "everything will be fine" },
+      { "spanish": "espero que estés bien", "english": "I hope you're doing well" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nGet Well Soon",
+    "description": "'Espero que te mejores' = I hope you get better. 'Que te mejores' = Get well soon (shorter, warmer form). Both are used when someone is sick. You can also say these after bad news.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "No puedo salir hoy. Estoy enferma.",
+        "english": "I can't go out today. I'm sick."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Ay, lo siento mucho. ¿Qué tienes?",
+        "english": "Oh, I'm so sorry. What's wrong?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Gripe. Me duele todo.",
+        "english": "The flu. Everything hurts."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Espero que te mejores pronto. Descansa.",
+        "english": "I hope you get better soon. Rest up."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Gracias.",
+        "english": "Thank you."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Que te mejores. Avísame si necesitas algo.",
+        "english": "Get well soon. Let me know if you need anything."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "espero que te mejores", "english": "I hope you get better" },
+      { "spanish": "que te mejores", "english": "get well soon" },
+      { "spanish": "descansa", "english": "rest up" }
+    ]
+  }
+]

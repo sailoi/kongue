@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Lesson 1:\nBetter / Better Not",
+    "description": "'Mejor' = better. 'Mucho mejor' = much better. 'Mejor sí' = it's better to do it / yes, let's. 'Mejor no' = better not / let's not. Very useful for expressing preferences and changing plans.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Salimos esta noche o mañana?",
+        "english": "Do we go out tonight or tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mejor mañana. Hoy estoy cansado.",
+        "english": "Better tomorrow. I'm tired today."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "¿Y si vamos a cenar? ¿Mejor sí o mejor no?",
+        "english": "What if we go for dinner? Better yes or better no?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "spanish": "Mejor sí. La comida en casa está mucho mejor hoy.",
+        "english": "Better yes. The food at home is much better today."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "spanish": "Tienes razón. Mucho mejor quedarnos.",
+        "english": "You're right. Much better to stay home."
+      }
+    ],
+    "vocabulary": [
+      { "spanish": "mejor", "english": "better" },
+      { "spanish": "mucho mejor", "english": "much better" },
+      { "spanish": "mejor sí", "english": "better to do it / let's" },
+      { "spanish": "mejor no", "english": "better not / let's not" }
+    ]
+  }
+]

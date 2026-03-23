@@ -7,7 +7,6 @@ import {
   ScrollView,
   Animated,
   Pressable,
-  Platform,
 } from 'react-native';
 import { Audio } from 'expo-av';
 import { Ionicons } from '@expo/vector-icons';
@@ -15,15 +14,17 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useColorScheme } from '@/hooks/use-color-scheme';
 import { Colors } from '@/constants/theme';
-import { API_KEY, VOICE_CHAT_URL, VOICE_CHAT_INTRO_URL, TRANSLATE_URL } from '@/constants/api';
+import { VOICE_CHAT_URL, VOICE_CHAT_INTRO_URL, TRANSLATE_URL } from '@/constants/api';
+import { getAuthToken } from '@/utils/firebase';
 
-export type ChatMode = 'lesson' | 'progress';
+export type ChatMode = 'lesson' | 'freeform';
 type Status = 'idle' | 'listening' | 'thinking' | 'speaking';
 
 interface Message {
   role: 'user' | 'ai';
   text: string;
   translation?: string;
+  audio?: string; // base64 mp3, cached for replay
 }
 
 interface LessonContext {
@@ -31,10 +32,9 @@ interface LessonContext {
   lessonLines: string[];
 }
 
-interface ProgressContext {
-  completedLessons: number;
-  totalLessons: number;
-  currentCategory: string;
+interface FreeformContext {
+  categoryName: string;
+  dialogueLines: string[];
 }
 
 interface VoiceChatModalProps {
@@ -42,40 +42,15 @@ interface VoiceChatModalProps {
   mode: ChatMode;
   onClose: () => void;
   language: string;
+  userName?: string;
   lessonContext?: LessonContext;
-  progressContext?: ProgressContext;
+  freeformContext?: FreeformContext;
 }
 
 const MAX_DURATION = 15; // seconds
-const MAX_TURNS = 5;
+const MAX_TURNS_LESSON = 5;
+const MAX_TURNS_FREEFORM = 10;
 
-// Use formats Google STT supports natively:
-// iOS → WAV (LINEAR16), Android → WEBM (WEBM_OPUS)
-const RECORDING_OPTIONS: Audio.RecordingOptions = {
-  android: {
-    extension: '.webm',
-    outputFormat: Audio.AndroidOutputFormat.WEBM,
-    audioEncoder: Audio.AndroidAudioEncoder.DEFAULT,
-    sampleRate: 16000,
-    numberOfChannels: 1,
-    bitRate: 64000,
-  },
-  ios: {
-    extension: '.wav',
-    outputFormat: Audio.IOSOutputFormat.LINEARPCM,
-    audioQuality: Audio.IOSAudioQuality.HIGH,
-    sampleRate: 16000,
-    numberOfChannels: 1,
-    bitRate: 256000,
-    linearPCMBitDepth: 16,
-    linearPCMIsBigEndian: false,
-    linearPCMIsFloat: false,
-  },
-  web: {
-    mimeType: 'audio/webm;codecs=opus',
-    bitsPerSecond: 64000,
-  },
-};
 
 const STATUS_LABEL: Record<Status, string> = {
   idle: 'Hold to speak',
@@ -88,8 +63,8 @@ const PLACEHOLDER_MESSAGES: Record<ChatMode, Message[]> = {
   lesson: [
     { role: 'ai', text: "Hola! I'm here to help you practice this lesson. What would you like to work on?" },
   ],
-  progress: [
-    { role: 'ai', text: "Hi! I've reviewed your learning journey. What would you like to know about your progress?" },
+  freeform: [
+    { role: 'ai', text: "Hola! Let's have a real conversation using everything you've learned." },
   ],
 };
 
@@ -98,17 +73,28 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
   mode,
   onClose,
   language,
+  userName,
   lessonContext,
-  progressContext,
+  freeformContext,
 }) => {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'];
+  const maxTurns = mode === 'freeform' ? MAX_TURNS_FREEFORM : MAX_TURNS_LESSON;
 
   const [status, setStatus] = React.useState<Status>('idle');
   const [messages, setMessages] = React.useState<Message[]>(PLACEHOLDER_MESSAGES[mode]);
   const [timeLeft, setTimeLeft] = React.useState(MAX_DURATION);
   const [turnCount, setTurnCount] = React.useState(0);
   const [expandedIndex, setExpandedIndex] = React.useState<number | null>(null);
+  const [playbackRate, setPlaybackRate] = React.useState(1.0);
+
+  const SPEED_STEPS = [0.8, 0.9, 1.0];
+  const cycleSpeed = () => {
+    setPlaybackRate(prev => {
+      const idx = SPEED_STEPS.indexOf(prev);
+      return SPEED_STEPS[(idx + 1) % SPEED_STEPS.length];
+    });
+  };
   const [translatingIndex, setTranslatingIndex] = React.useState<number | null>(null);
   const [showHint, setShowHint] = React.useState(false);
   const hintOpacity = useRef(new Animated.Value(0)).current;
@@ -131,6 +117,7 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
       setShowHint(false);
       hintOpacity.setValue(0);
       progressAnim.setValue(0);
+      Audio.requestPermissionsAsync();
       fetchIntro();
     } else {
       // Cleanup on close
@@ -169,10 +156,10 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
 
   const fetchIntro = async () => {
     try {
-      const ctx = mode === 'lesson'
-        ? JSON.stringify(lessonContext ?? {})
-        : JSON.stringify(progressContext ?? {});
+      const baseCtx = mode === 'lesson' ? (lessonContext ?? {}) : (freeformContext ?? {});
+      const ctx = JSON.stringify({ ...baseCtx, userName });
 
+      const token = await getAuthToken();
       const formData = new FormData();
       formData.append('language', language);
       formData.append('mode', mode);
@@ -180,14 +167,14 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
 
       const response = await fetch(VOICE_CHAT_INTRO_URL, {
         method: 'POST',
-        headers: { 'X-Api-Key': API_KEY },
+        headers: { 'Authorization': `Bearer ${token}` },
         body: formData,
       });
 
       if (!response.ok) throw new Error(`Server error: ${response.status}`);
 
       const data = await response.json();
-      setMessages([{ role: 'ai', text: data.response }]);
+      setMessages([{ role: 'ai', text: data.response, audio: data.audio }]);
       setStatus('speaking');
       await playBase64Audio(data.audio);
       setStatus('idle');
@@ -198,17 +185,18 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
         Animated.timing(hintOpacity, { toValue: 0, duration: 600, useNativeDriver: true }),
       ]).start(() => setShowHint(false));
     } catch (err) {
-      console.error('Intro fetch error:', err);
-      setMessages([{ role: 'ai', text: PLACEHOLDER_MESSAGES[mode][0].text }]);
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error('Intro fetch error:', msg);
+      setMessages([{ role: 'ai', text: `Error starting conversation: ${msg}` }]);
       setStatus('idle');
     }
   };
 
   const startRecording = async () => {
     try {
-      const { granted } = await Audio.requestPermissionsAsync();
+      const { granted } = await Audio.getPermissionsAsync();
       if (!granted) {
-        setMessages(prev => [...prev, { role: 'ai', text: 'Microphone permission is required.' }]);
+        setMessages(prev => [...prev, { role: 'ai', text: 'Microphone permission is required. Please enable it in your device settings.' }]);
         return;
       }
 
@@ -217,7 +205,9 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
         playsInSilentModeIOS: true,
       });
 
-      const { recording } = await Audio.Recording.createAsync(RECORDING_OPTIONS);
+      const { recording } = await Audio.Recording.createAsync(
+        Audio.RecordingOptionsPresets.HIGH_QUALITY
+      );
       recordingRef.current = recording;
 
       setTimeLeft(MAX_DURATION);
@@ -269,29 +259,41 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
 
   const callVoiceChatAPI = async (audioUri: string) => {
     try {
-      const ctx = mode === 'lesson'
-        ? JSON.stringify(lessonContext ?? {})
-        : JSON.stringify(progressContext ?? {});
+      const baseCtx = mode === 'lesson' ? (lessonContext ?? {}) : (freeformContext ?? {});
+      const history = messages
+        .filter(m => m.text && !m.text.startsWith("That's our"))
+        .map(m => ({ role: m.role, text: m.text }));
+      const ctx = JSON.stringify({ ...baseCtx, userName, history });
 
+      console.log('[VoiceChat] audioUri:', audioUri);
+      console.log('[VoiceChat] language:', language, 'mode:', mode);
+
+      // Log file info
+      const { getInfoAsync } = await import('expo-file-system/legacy');
+      const fileInfo = await getInfoAsync(audioUri);
+      console.log('[VoiceChat] fileInfo:', JSON.stringify(fileInfo));
+
+      const token = await getAuthToken();
       const formData = new FormData();
-      const isAndroid = Platform.OS === 'android';
       formData.append('audio', {
         uri: audioUri,
-        type: isAndroid ? 'audio/webm' : 'audio/wav',
-        name: isAndroid ? 'recording.webm' : 'recording.wav',
+        type: 'audio/m4a',
+        name: 'recording.m4a',
       } as any);
       formData.append('language', language);
       formData.append('mode', mode);
       formData.append('context', ctx);
+      console.log('[VoiceChat] sending request to', VOICE_CHAT_URL);
 
       const response = await fetch(VOICE_CHAT_URL, {
         method: 'POST',
-        headers: { 'X-Api-Key': API_KEY },
+        headers: { 'Authorization': `Bearer ${token}` },
         body: formData,
       });
 
       if (!response.ok) {
-        throw new Error(`Server error: ${response.status}`);
+        const errData = await response.json().catch(() => ({}));
+        throw new Error(errData.detail || `Server error: ${response.status}`);
       }
 
       const data = await response.json();
@@ -303,17 +305,18 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
       setTurnCount(nextTurn);
       setMessages(prev => [
         ...prev,
-        { role: 'ai' as const, text: aiText },
-        ...(nextTurn >= MAX_TURNS
-          ? [{ role: 'ai' as const, text: `That's our ${MAX_TURNS} exchanges for this session! Close and reopen to start a new conversation.` }]
+        { role: 'ai' as const, text: aiText, audio: audioBase64 },
+        ...(nextTurn >= maxTurns
+          ? [{ role: 'ai' as const, text: `That's our ${maxTurns} exchanges for this session! Close and reopen to start a new conversation.` }]
           : []),
       ]);
       setStatus('speaking');
       await playBase64Audio(audioBase64);
       setStatus('idle');
     } catch (err) {
-      console.error('Voice chat API error:', err);
-      setMessages(prev => [...prev, { role: 'ai', text: 'Sorry, something went wrong. Please try again.' }]);
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error('Voice chat API error:', msg);
+      setMessages(prev => [...prev, { role: 'ai', text: `Error: ${msg}` }]);
       setStatus('idle');
     }
   };
@@ -325,6 +328,7 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
         { uri: `data:audio/mp3;base64,${base64}` }
       );
       soundRef.current = sound;
+      await sound.setRateAsync(playbackRate, true);
       await sound.playAsync();
       await new Promise<void>((resolve) => {
         sound.setOnPlaybackStatusUpdate((s) => {
@@ -350,9 +354,10 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
     // Fetch translation
     setTranslatingIndex(i);
     try {
+      const token = await getAuthToken();
       const response = await fetch(TRANSLATE_URL, {
         method: 'POST',
-        headers: { 'X-Api-Key': API_KEY, 'Content-Type': 'application/json' },
+        headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: messages[i].text }),
       });
       if (!response.ok) throw new Error();
@@ -379,7 +384,7 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
     stopRecording();
   };
 
-  const isLimitReached = turnCount >= MAX_TURNS;
+  const isLimitReached = turnCount >= maxTurns;
   const isDisabled = status === 'thinking' || status === 'speaking' || isLimitReached;
   const isWarning = timeLeft <= 5 && status === 'listening';
   const micColor = status === 'listening'
@@ -396,9 +401,11 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
             <Ionicons name="close" size={28} color={colors.text} />
           </TouchableOpacity>
           <ThemedText style={styles.headerTitle}>
-            {mode === 'lesson' ? 'Lesson Chat' : 'My Progress Chat'}
+            {mode === 'lesson' ? 'AI Tutor' : 'Real World Chat'}
           </ThemedText>
-          <View style={styles.closeButton} />
+          <TouchableOpacity onPress={cycleSpeed} style={styles.speedButton}>
+            <ThemedText style={styles.speedButtonText}>{playbackRate}x</ThemedText>
+          </TouchableOpacity>
         </View>
 
         {/* Transcript */}
@@ -412,19 +419,30 @@ export const VoiceChatModal: React.FC<VoiceChatModalProps> = ({
             <TouchableOpacity
               key={i}
               activeOpacity={0.7}
-              onLongPress={() => handleLongPress(i)}
+              onLongPress={msg.role === 'ai' ? () => handleLongPress(i) : undefined}
               style={[
                 styles.bubble,
                 msg.role === 'user' ? styles.userBubble : styles.aiBubble,
                 { backgroundColor: msg.role === 'user' ? colors.tint : colorScheme === 'dark' ? '#2D2D2D' : '#F0F0F0' },
               ]}
             >
-              <ThemedText style={[
-                styles.bubbleText,
-                msg.role === 'user' && styles.userBubbleText,
-              ]}>
-                {msg.text}
-              </ThemedText>
+              <View style={styles.bubbleRow}>
+                <ThemedText style={[
+                  styles.bubbleText,
+                  msg.role === 'user' && styles.userBubbleText,
+                ]}>
+                  {msg.text}
+                </ThemedText>
+                {msg.role === 'ai' && msg.audio && (
+                  <TouchableOpacity
+                    onPress={() => playBase64Audio(msg.audio!)}
+                    style={styles.replayButton}
+                    hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                  >
+                    <Ionicons name="volume-medium-outline" size={16} color="#888" />
+                  </TouchableOpacity>
+                )}
+              </View>
               {expandedIndex === i && (
                 translatingIndex === i
                   ? <ThemedText style={[styles.translationText, msg.role === 'user' && styles.userTranslationText]}>Translating...</ThemedText>
@@ -513,6 +531,15 @@ const styles = StyleSheet.create({
     width: 44,
     alignItems: 'flex-start',
   },
+  speedButton: {
+    width: 44,
+    alignItems: 'flex-end',
+  },
+  speedButtonText: {
+    fontSize: 15,
+    fontWeight: '600',
+    opacity: 0.6,
+  },
   headerTitle: {
     fontSize: 18,
     fontWeight: '600',
@@ -546,6 +573,14 @@ const styles = StyleSheet.create({
   userBubbleText: {
     color: '#fff',
   },
+  bubbleRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 6,
+  },
+  replayButton: {
+    marginTop: 2,
+  },
   translationText: {
     fontSize: 13,
     fontStyle: 'italic',
@@ -554,17 +589,6 @@ const styles = StyleSheet.create({
   },
   userTranslationText: {
     color: '#fff',
-  },
-  hintBanner: {
-    alignItems: 'center',
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-  },
-  hintText: {
-    fontSize: 12,
-    opacity: 0.5,
-    fontStyle: 'italic',
-    textAlign: 'center',
   },
   controls: {
     alignItems: 'center',
@@ -611,5 +635,20 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  hintBanner: {
+    marginHorizontal: 24,
+    marginBottom: 8,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 12,
+    backgroundColor: 'rgba(0,0,0,0.08)',
+    alignItems: 'center',
+  },
+  hintText: {
+    fontSize: 13,
+    fontStyle: 'italic',
+    textAlign: 'center',
+    opacity: 0.7,
   },
 });

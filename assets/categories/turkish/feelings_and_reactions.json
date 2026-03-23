@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Lesson 1:\nI Love It / I Like It",
+    "description": "'Bayılıyorum' = I love it / I'm crazy about it (stronger). 'Seviyorum' = I love/like it. 'Çok seviyorum' = I like it a lot. 'Hoşuma gidiyor' = I like it (it pleases me).",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yeni restoranı denedin mi?",
+        "english": "Did you try the new restaurant?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, bayılıyorum! Yemekler muhteşem.",
+        "english": "Yes, I love it! The food is amazing."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Tatlıyı da sevdin mi?",
+        "english": "Did you like the dessert too?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Çok sevdim. Bu hafta tekrar gideceğim.",
+        "english": "I liked it a lot. I'm going back this week."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ben de gelmek istiyorum! Yeni yerler denemek hoşuma gidiyor.",
+        "english": "I want to come too! I like trying new places."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "bayılıyorum", "english": "I love it / I'm crazy about it" },
+      { "turkish": "seviyorum", "english": "I like it / I love it" },
+      { "turkish": "çok seviyorum", "english": "I like it a lot" },
+      { "turkish": "hoşuma gidiyor", "english": "I like it / it pleases me" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nIt Bothers Me / My Mood",
+    "description": "'Rahatsız ediyor beni' = It bothers me. 'Çok rahatsız ediyor' = It really bothers me. 'Keyfim yerinde' = I'm in a good mood. 'Keyifim yok' or 'Moralim bozuk' = I'm in a bad mood.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "İyi misin? Rahatsız görünüyorsun.",
+        "english": "Are you okay? You look bothered."
+      },
+      {
+        "speaker": "B",
+        "gender": "female",
+        "turkish": "Moralim bozuk. Gürültü çok rahatsız ediyor beni.",
+        "english": "I'm in a bad mood. The noise really bothers me."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Anlıyorum. Bir şey yapabilir miyim?",
+        "english": "I understand. Can I do anything?"
+      },
+      {
+        "speaker": "B",
+        "gender": "female",
+        "turkish": "Hayır, olsun. Yarın keyfim yerinde olur.",
+        "english": "No, it's okay. Tomorrow I'll be in a good mood."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "rahatsız ediyor beni", "english": "it bothers me" },
+      { "turkish": "çok rahatsız ediyor", "english": "it really bothers me" },
+      { "turkish": "keyfim yerinde", "english": "I'm in a good mood" },
+      { "turkish": "moralim bozuk", "english": "I'm in a bad mood" }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lesson 1:\nDon't Forget / I Forgot",
+    "description": "'Unutma' = Don't forget. 'Unuttum' = I forgot. 'Tamamen unuttum' = I completely forgot. The verb 'unutmak' = to forget. Very useful in daily reminders and apologies.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Yarın belgeyi getirmeyi unutma.",
+        "english": "Don't forget to bring the document tomorrow."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Tamam, hemen not alıyorum.",
+        "english": "Okay, I'm writing it down right now."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Bugün doktoru aradın mı?",
+        "english": "Did you call the doctor today?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Ay, tamamen unuttum. Şimdi arıyorum.",
+        "english": "Oh, I completely forgot. I'm calling now."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Pazartesi toplantısını da unuttun mu?",
+        "english": "Did you also forget the Monday meeting?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Onu da unuttum. Bir takvime ihtiyacım var.",
+        "english": "I forgot that too. I need a calendar."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "unutma", "english": "don't forget" },
+      { "turkish": "unuttum", "english": "I forgot" },
+      { "turkish": "tamamen unuttum", "english": "I completely forgot" },
+      { "turkish": "not almak", "english": "to write something down" }
+    ]
+  }
+]

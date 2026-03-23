@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Lesson 1:\nIt's Hot",
+    "description": "'Hava sıcak' = It's hot (weather). 'Ne sıcak!' = How hot! / So hot! 'Sıcak' = It's hot (for objects/food). Note: use 'hava sıcak' for weather, just 'sıcak' for things.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Ne sıcak! Böyle çıkamam.",
+        "english": "How hot! I can't go out like this."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, hava çok sıcak bugün. Kırk derece.",
+        "english": "Yes, the weather is very hot today. Forty degrees."
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Kahve ister misin?",
+        "english": "Do you want coffee?"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Teşekkürler ama çok sıcak. Soğuk su tercih ederim.",
+        "english": "Thanks but it's too hot. I prefer cold water."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "hava sıcak", "english": "it's hot (weather)" },
+      { "turkish": "ne sıcak!", "english": "how hot! / so hot!" },
+      { "turkish": "sıcak", "english": "it's hot (object/drink)" }
+    ]
+  },
+  {
+    "title": "Lesson 2:\nIt's Cold / I'm Cold",
+    "description": "'Hava soğuk' = It's cold (weather). 'Ne soğuk!' = How cold! / So cold! 'Üşüyorum' = I'm cold / I feel cold. Use 'hava soğuk' for the weather, 'üşüyorum' for your own feeling.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Dışarısı ne soğuk!",
+        "english": "It's so cold outside!"
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Evet, hava çok soğuk. Üşüyor musun?",
+        "english": "Yes, the weather is very cold. Are you cold?"
+      },
+      {
+        "speaker": "A",
+        "gender": "female",
+        "turkish": "Üşüyorum. Mont almayı unuttum.",
+        "english": "I'm cold. I forgot to bring my coat."
+      },
+      {
+        "speaker": "B",
+        "gender": "male",
+        "turkish": "Benimkini al. Sorun değil.",
+        "english": "Take mine. No problem."
+      }
+    ],
+    "vocabulary": [
+      { "turkish": "hava soğuk", "english": "it's cold (weather)" },
+      { "turkish": "ne soğuk!", "english": "how cold! / so cold!" },
+      { "turkish": "üşüyorum", "english": "I'm cold / I feel cold" },
+      { "turkish": "mont", "english": "coat / jacket" }
+    ]
+  }
+]

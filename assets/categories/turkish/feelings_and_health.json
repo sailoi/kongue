@@ -3,186 +3,127 @@
     "title": "Lesson 1:\nAt the doctor",
     "description": "Medical vocabulary: hasta (sick), ağrı (pain), ilaç (medicine), doktor (doctor), hastane (hospital).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "İyi hissetmiyorum.",
-        "english": "I don't feel well."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Neren ağrıyor?",
-        "english": "What hurts?"
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Midem ağrıyor.",
-        "english": "My stomach hurts."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Doktora gitmelisin.",
-        "english": "You should go to the doctor."
-      }
+      { "speaker": "A", "gender": "female", "turkish": "İyi hissetmiyorum.", "english": "I don't feel well." },
+      { "speaker": "B", "gender": "male", "turkish": "Neren ağrıyor?", "english": "What hurts?" },
+      { "speaker": "A", "gender": "female", "turkish": "Midem ağrıyor.", "english": "My stomach hurts." },
+      { "speaker": "B", "gender": "male", "turkish": "Doktora gitmelisin.", "english": "You should go to the doctor." }
     ]
   },
   {
     "title": "Lesson 2:\nFeeling words",
     "description": "Emotions: yorgun (tired), mutlu (happy), üzgün (sad), kızgın (angry), sinirli (nervous).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Nasıl hissediyorsun?",
-        "english": "How do you feel?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Bugün çok mutluyum.",
-        "english": "I am very happy today."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Ben biraz yorgunum.",
-        "english": "I am a little tired."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Neden yorgunsun?",
-        "english": "Why are you tired?"
-      }
+      { "speaker": "A", "gender": "female", "turkish": "Nasıl hissediyorsun?", "english": "How do you feel?" },
+      { "speaker": "B", "gender": "male", "turkish": "Bugün çok mutluyum.", "english": "I am very happy today." },
+      { "speaker": "A", "gender": "female", "turkish": "Ben biraz yorgunum.", "english": "I am a little tired." },
+      { "speaker": "B", "gender": "male", "turkish": "Neden yorgunsun?", "english": "Why are you tired?" }
     ]
   },
   {
     "title": "Lesson 3:\nDescribing things",
     "description": "Adjectives for things: büyük (big), küçük (small), yeni (new), eski (old), güzel (pretty), çirkin (ugly).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Evin çok büyük.",
-        "english": "Your house is very big."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Evet, büyük ve yeni.",
-        "english": "Yes, it's big and new."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Benim dairem küçük.",
-        "english": "My apartment is small."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Ama güzel.",
-        "english": "But it's pretty."
-      }
+      { "speaker": "A", "gender": "female", "turkish": "Evin çok büyük.", "english": "Your house is very big." },
+      { "speaker": "B", "gender": "male", "turkish": "Evet, büyük ve yeni.", "english": "Yes, it's big and new." },
+      { "speaker": "A", "gender": "female", "turkish": "Benim dairem küçük.", "english": "My apartment is small." },
+      { "speaker": "B", "gender": "male", "turkish": "Ama güzel.", "english": "But it's pretty." }
     ]
   },
   {
     "title": "Lesson 4:\nExpressing necessity",
     "description": "'-meli/-malı' = have to/must. 'Gitmeliyim' = I have to go. Expressing obligations.",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Bugün ne yapmalısın?",
-        "english": "What do you have to do today?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Çalışmalıyım.",
-        "english": "I have to work."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Ben ders çalışmalıyım.",
-        "english": "I have to study."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Bir projeyi bitirmeliyim.",
-        "english": "I need to finish a project."
-      }
+      { "speaker": "A", "gender": "female", "turkish": "Bugün ne yapmalısın?", "english": "What do you have to do today?" },
+      { "speaker": "B", "gender": "male", "turkish": "Çalışmalıyım.", "english": "I have to work." },
+      { "speaker": "A", "gender": "female", "turkish": "Ben ders çalışmalıyım.", "english": "I have to study." },
+      { "speaker": "B", "gender": "male", "turkish": "Bir projeyi bitirmeliyim.", "english": "I need to finish a project." }
     ]
   },
   {
     "title": "Lesson 5:\nExpressing doubt",
     "description": "Expressing uncertainty: 'Emin değilim' (I'm not sure), 'Belki' (Maybe), 'Muhtemelen' (Probably).",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Yarın yağmur yağacak mı?",
-        "english": "Is it going to rain tomorrow?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Emin değilim. Belki.",
-        "english": "I'm not sure. Maybe."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Partiye gidecek misin?",
-        "english": "Are you going to the party?"
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Muhtemelen evet.",
-        "english": "Probably yes."
-      }
+      { "speaker": "A", "gender": "female", "turkish": "Yarın yağmur yağacak mı?", "english": "Is it going to rain tomorrow?" },
+      { "speaker": "B", "gender": "male", "turkish": "Emin değilim. Belki.", "english": "I'm not sure. Maybe." },
+      { "speaker": "A", "gender": "female", "turkish": "Partiye gidecek misin?", "english": "Are you going to the party?" },
+      { "speaker": "B", "gender": "male", "turkish": "Muhtemelen evet.", "english": "Probably yes." }
     ]
   },
   {
     "title": "Lesson 6:\nReview and celebration",
     "description": "Congratulations on reaching lesson 73! Review key concepts: greetings, verbs, time, daily life, past tense. Keep practicing!",
     "dialogue": [
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Başardık! Yetmiş üç dersi bitirdik.",
-        "english": "We did it! We finished seventy-three lessons."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Evet, artık daha fazla Türkçe konuşuyorum.",
-        "english": "Yes, now I speak more Turkish."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Çok şey öğrendik.",
-        "english": "We learned a lot."
-      },
-      {
-        "speaker": "B",
-        "gender": "male",
-        "turkish": "Doğru. Çok mutluyum.",
-        "english": "It's true. I am very happy."
-      },
-      {
-        "speaker": "A",
-        "gender": "female",
-        "turkish": "Tebrikler! Pratik yapmaya devam et!",
-        "english": "Congratulations! Keep practicing!"
-      }
+      { "speaker": "A", "gender": "female", "turkish": "Başardık! Yetmiş üç dersi bitirdik.", "english": "We did it! We finished seventy-three lessons." },
+      { "speaker": "B", "gender": "male", "turkish": "Evet, artık daha fazla Türkçe konuşuyorum.", "english": "Yes, now I speak more Turkish." },
+      { "speaker": "A", "gender": "female", "turkish": "Çok şey öğrendik.", "english": "We learned a lot." },
+      { "speaker": "B", "gender": "male", "turkish": "Doğru. Çok mutluyum.", "english": "It's true. I am very happy." },
+      { "speaker": "A", "gender": "female", "turkish": "Tebrikler! Pratik yapmaya devam et!", "english": "Congratulations! Keep practicing!" }
+    ]
+  },
+  {
+    "title": "Lesson 7:\nI Love It / I Like It",
+    "description": "'Bayılıyorum' = I love it / I'm crazy about it (stronger). 'Seviyorum' = I love/like it. 'Çok seviyorum' = I like it a lot. 'Hoşuma gidiyor' = I like it (it pleases me).",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Yeni restoranı denedin mi?", "english": "Did you try the new restaurant?" },
+      { "speaker": "B", "gender": "male", "turkish": "Evet, bayılıyorum! Yemekler muhteşem.", "english": "Yes, I love it! The food is amazing." },
+      { "speaker": "A", "gender": "female", "turkish": "Tatlıyı da sevdin mi?", "english": "Did you like the dessert too?" },
+      { "speaker": "B", "gender": "male", "turkish": "Çok sevdim. Bu hafta tekrar gideceğim.", "english": "I liked it a lot. I'm going back this week." },
+      { "speaker": "A", "gender": "female", "turkish": "Ben de gelmek istiyorum! Yeni yerler denemek hoşuma gidiyor.", "english": "I want to come too! I like trying new places." }
+    ],
+    "vocabulary": [
+      { "turkish": "bayılıyorum", "english": "I love it / I'm crazy about it" },
+      { "turkish": "seviyorum", "english": "I like it / I love it" },
+      { "turkish": "çok seviyorum", "english": "I like it a lot" },
+      { "turkish": "hoşuma gidiyor", "english": "I like it / it pleases me" }
+    ]
+  },
+  {
+    "title": "Lesson 8:\nIt Bothers Me / My Mood",
+    "description": "'Rahatsız ediyor beni' = It bothers me. 'Çok rahatsız ediyor' = It really bothers me. 'Keyfim yerinde' = I'm in a good mood. 'Keyifim yok' or 'Moralim bozuk' = I'm in a bad mood.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "İyi misin? Rahatsız görünüyorsun.", "english": "Are you okay? You look bothered." },
+      { "speaker": "B", "gender": "female", "turkish": "Moralim bozuk. Gürültü çok rahatsız ediyor beni.", "english": "I'm in a bad mood. The noise really bothers me." },
+      { "speaker": "A", "gender": "female", "turkish": "Anlıyorum. Bir şey yapabilir miyim?", "english": "I understand. Can I do anything?" },
+      { "speaker": "B", "gender": "female", "turkish": "Hayır, olsun. Yarın keyfim yerinde olur.", "english": "No, it's okay. Tomorrow I'll be in a good mood." }
+    ],
+    "vocabulary": [
+      { "turkish": "rahatsız ediyor beni", "english": "it bothers me" },
+      { "turkish": "çok rahatsız ediyor", "english": "it really bothers me" },
+      { "turkish": "keyfim yerinde", "english": "I'm in a good mood" },
+      { "turkish": "moralim bozuk", "english": "I'm in a bad mood" }
+    ]
+  },
+  {
+    "title": "Lesson 9:\nFun / Boring",
+    "description": "'Eğlenceli' = It's fun / entertaining. 'Sıkıcı' = It's boring. These adjectives describe experiences and places. 'Sıkıldım' = I got bored (personal feeling).",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Parti nasıldı?", "english": "How was the party?" },
+      { "speaker": "B", "gender": "male", "turkish": "Çok eğlenceliydi. Bütün gece dans ettik.", "english": "It was really fun. We danced all night." },
+      { "speaker": "A", "gender": "female", "turkish": "Film de eğlenceli miydi?", "english": "Was the movie fun too?" },
+      { "speaker": "B", "gender": "male", "turkish": "Hayır, çok sıkıcıydı. Uyuyakaldım.", "english": "No, it was very boring. I fell asleep." },
+      { "speaker": "A", "gender": "female", "turkish": "Ha! Bana da sıkıcı geldi.", "english": "Ha! It seemed boring to me too." }
+    ],
+    "vocabulary": [
+      { "turkish": "eğlenceli", "english": "fun / entertaining" },
+      { "turkish": "sıkıcı", "english": "boring" },
+      { "turkish": "sıkıldım", "english": "I got bored" }
+    ]
+  },
+  {
+    "title": "Lesson 10:\nI'm Distracted / I Need to Focus",
+    "description": "'Dalgınım' = I'm distracted / spaced out. 'Odaklanmam gerekiyor' = I need to focus. 'Dikkat etmem gerekiyor' = I need to pay attention. 'Başka bir şey düşünüyordum' = I was thinking about something else.",
+    "dialogue": [
+      { "speaker": "A", "gender": "female", "turkish": "Seni üç kez çağırdım. Duymadın mı?", "english": "I called you three times. Didn't you hear?" },
+      { "speaker": "B", "gender": "male", "turkish": "Özür dilerim, başka bir şey düşünüyordum.", "english": "Sorry, I was thinking about something else." },
+      { "speaker": "A", "gender": "female", "turkish": "Son zamanlarda hep dalgınsın.", "english": "You're always distracted lately." },
+      { "speaker": "B", "gender": "male", "turkish": "Haklısın. Daha fazla odaklanmam gerekiyor.", "english": "You're right. I need to focus more." },
+      { "speaker": "A", "gender": "female", "turkish": "Özellikle işte. Dikkat etmen gerekiyor.", "english": "Especially at work. You need to pay attention." }
+    ],
+    "vocabulary": [
+      { "turkish": "dalgınım", "english": "I'm distracted / spaced out" },
+      { "turkish": "odaklanmam gerekiyor", "english": "I need to focus" },
+      { "turkish": "dikkat etmem gerekiyor", "english": "I need to pay attention" },
+      { "turkish": "başka bir şey düşünüyordum", "english": "I was thinking about something else" }
     ]
   }
 ]
